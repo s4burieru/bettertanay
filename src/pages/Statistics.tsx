@@ -18,21 +18,21 @@ import SEO from '../components/SEO';
 const STATS = [
   {
     icon: Users,
-    value: '70,092',
+    value: '139,420',
     label: 'Population',
-    desc: 'DTI CMCI 2024 data',
+    desc: '2020 PSA Census data',
   },
   {
     icon: MapPin,
-    value: '36',
+    value: '20',
     label: 'Barangays',
-    desc: 'Administrative villages',
+    desc: 'Political subdivisions',
   },
   {
     icon: Map,
-    value: '74.90 km²',
+    value: '200.00 km²',
     label: 'Total Land Area',
-    desc: '4.91% of Cavite province',
+    desc: 'Municipal land area',
   },
   {
     icon: Building2,
@@ -42,22 +42,27 @@ const STATS = [
   },
   {
     icon: TrendingUp,
-    value: '0.98%',
+    value: '3.60%',
     label: 'Annual Growth Rate',
     desc: '2015–2020 census period',
   },
   {
     icon: Users,
-    value: '46,884',
+    value: '69,466',
     label: 'Registered Voters',
     desc: '2019 COMELEC data',
   },
-  { icon: Map, value: '299.5 m', label: 'Elevation', desc: 'Above sea level' },
+  {
+    icon: Map,
+    value: '10.5 m',
+    label: 'Elevation',
+    desc: 'Above sea level',
+  },
   {
     icon: Trophy,
-    value: '149th',
+    value: '76th',
     label: 'CMCI Overall Rank',
-    desc: 'Out of 509 municipalities (2024)',
+    desc: '2024 CMCI municipal ranking',
   },
 ];
 
@@ -65,66 +70,70 @@ const CMCI_PILLARS = [
   {
     icon: Zap,
     label: 'Economic Dynamism',
-    rank: '231st',
-    score: '3.3996',
+    rank: '—',
+    score: '—',
     color: 'text-yellow-700 bg-yellow-50 border-yellow-200',
     iconColor: 'text-yellow-600 bg-yellow-100',
     highlights: [
-      'Cost of Living: 44th',
-      'Local Economy Growth: 64th',
-      'Active Establishments: 61st',
+      'Growing tourism and local enterprises',
+      'Agriculture and eco-tourism contribute to the local economy',
+      'Gateway municipality to eastern Rizal destinations',
     ],
   },
+
   {
     icon: Building2,
     label: 'Government Efficiency',
-    rank: '428th',
-    score: '7.1508',
+    rank: '—',
+    score: '—',
     color: 'text-blue-700 bg-blue-50 border-blue-200',
     iconColor: 'text-blue-600 bg-blue-100',
     highlights: [
-      'ARTA Citizens Charter: 1st',
-      'Getting Business Permits: 2nd',
-      'Compliance to National Directives: 3rd',
+      'Public services and municipal governance initiatives',
+      'Business permit and licensing operations modernization',
+      'Compliance with national government directives',
     ],
   },
+
   {
     icon: Globe,
     label: 'Infrastructure',
-    rank: '156th',
-    score: '2.5910',
+    rank: '—',
+    score: '—',
     color: 'text-purple-700 bg-purple-50 border-purple-200',
     iconColor: 'text-purple-600 bg-purple-100',
     highlights: [
-      'Road Network: 46th',
-      'IT Capacity: 32nd',
-      'Basic Utilities: 39th',
+      'Road connectivity to Metro Manila and Rizal towns',
+      'Tourism-support infrastructure development',
+      'Ongoing improvements in utilities and transport access',
     ],
   },
+
   {
     icon: Shield,
     label: 'Resiliency',
-    rank: '122nd',
-    score: '11.5077',
+    rank: '—',
+    score: '—',
     color: 'text-green-700 bg-green-50 border-green-200',
     iconColor: 'text-green-600 bg-green-100',
     highlights: [
-      'Local Risk Assessments: 1st',
-      'Disaster Risk Reduction Plan: 2nd',
-      'Land Use Plan: 3rd',
+      'Disaster preparedness and DRRM programs',
+      'Flood and landslide risk management initiatives',
+      'Environmental protection and watershed conservation',
     ],
   },
+
   {
     icon: Lightbulb,
     label: 'Innovation',
-    rank: '15th',
-    score: '7.9986',
+    rank: '—',
+    score: '—',
     color: 'text-orange-700 bg-orange-50 border-orange-200',
     iconColor: 'text-orange-600 bg-orange-100',
     highlights: [
-      'ICT Plan: 1st',
-      'E-BPLS Software: 1st',
-      'Online Payment Facilities: 1st',
+      'Digitalization and online public information services',
+      'Tourism promotion through digital platforms',
+      'Community-based innovation and sustainability initiatives',
     ],
   },
 ];
@@ -136,13 +145,13 @@ const RESOURCES = [
     desc: 'Census & population data',
   },
   {
-    label: 'PhilAtlas – Indang',
-    href: 'https://www.philatlas.com/luzon/r04a/cavite/indang.html',
+    label: 'PhilAtlas – Tanay',
+    href: 'https://www.philatlas.com/luzon/r04a/rizal/tanay.html',
     desc: 'Geographic & demographic data',
   },
   {
-    label: 'DTI CMCI Profile – Indang',
-    href: 'https://cmci.dti.gov.ph/lgu-profile.php?lgu=Indang',
+    label: 'DTI CMCI Profile – Tanay',
+    href: 'https://cmci.dti.gov.ph/lgu-profile.php?lgu=Tanay',
     desc: 'City/municipality competitiveness index',
   },
   {
@@ -162,8 +171,8 @@ export default function Statistics() {
     <>
       <SEO
         title="Statistics"
-        description="Key statistics and demographic data for the Municipality of Indang, Cavite."
-        keywords="Indang statistics, Cavite demographics, population data, municipality profile, CMCI"
+        description="Key statistics and demographic data for the Municipality of Tanay, Rizal."
+        keywords="Tanay statistics, Rizal demographics, population data, municipality profile, CMCI"
       />
       <main className="grow">
         {/* Page Header */}
@@ -203,12 +212,12 @@ export default function Statistics() {
                   Municipal Profile
                 </h2>
                 <p className="text-sm text-gray-500 mt-0.5">
-                  Mayor Virgilio Fidel · A. Mojica St. Poblacion 3 · Tel: (213)
-                  460-4708
+                  Mayor Rex Manuel C. Tanjuatco · M.H. Del Pilar Street, Plaza
+                  Aldea, Tanay, Rizal 1980 · Tel: (02) 8924-7174
                 </p>
               </div>
               <a
-                href="https://cmci.dti.gov.ph/lgu-profile.php?lgu=Indang"
+                href="https://cmci.dti.gov.ph/lgu-profile.php?lgu=Tanay"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden sm:flex items-center gap-1.5 text-sm font-semibold text-primary-700 hover:text-primary-800 transition-colors"
@@ -248,12 +257,13 @@ export default function Statistics() {
                   DTI CMCI 2024 — 5 Pillars
                 </h2>
                 <p className="text-sm text-gray-500 mt-0.5">
-                  Cities &amp; Municipalities Competitiveness Index · 149th
-                  overall out of 509 municipalities (1st–2nd Class)
+                  Cities &amp; Municipalities Competitiveness Index · Tanay,
+                  Rizal
                 </p>
               </div>
+
               <a
-                href="https://cmci.dti.gov.ph/lgu-profile.php?lgu=Indang"
+                href="https://cmci.dti.gov.ph/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="shrink-0 hidden sm:flex items-center gap-1.5 text-sm font-semibold text-primary-700 hover:text-primary-800 transition-colors"
@@ -263,32 +273,27 @@ export default function Statistics() {
               </a>
             </div>
 
-            {/* Innovation callout */}
-            <div className="bg-orange-50 border border-orange-200 rounded-xl px-5 py-4 mb-6 flex items-start gap-3">
-              <Lightbulb className="h-5 w-5 text-orange-500 shrink-0 mt-0.5" />
+            {/* Rizal Province callout */}
+            <div className="bg-blue-50 border border-blue-200 rounded-xl px-5 py-4 mb-6 flex items-start gap-3">
+              <Trophy className="h-5 w-5 text-blue-500 shrink-0 mt-0.5" />
+
               <div>
-                <p className="text-sm font-bold text-orange-800">
-                  Indang ranked 15th in Innovation nationwide
+                <p className="text-sm font-bold text-blue-800">
+                  Rizal Province ranked as the Most Competitive Province in the
+                  Philippines
                 </p>
-                <p className="text-xs text-orange-700 mt-0.5">
-                  Ranked 1st in ICT Plan, E-BPLS Software, and Online Payment
-                  Facilities — top digital governance among Philippine
-                  municipalities.
+
+                <p className="text-xs text-blue-700 mt-0.5">
+                  Based on the 2024 DTI Cities and Municipalities
+                  Competitiveness Index (CMCI), Rizal ranked 1st nationwide in
+                  overall provincial competitiveness.
                 </p>
               </div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {CMCI_PILLARS.map(
-                ({
-                  icon: Icon,
-                  label,
-                  rank,
-                  score,
-                  color,
-                  iconColor,
-                  highlights,
-                }) => (
+                ({ icon: Icon, label, color, iconColor, highlights }) => (
                   <div key={label} className={`rounded-xl border p-5 ${color}`}>
                     <div className="flex items-center gap-3 mb-3">
                       <div
@@ -296,21 +301,18 @@ export default function Statistics() {
                       >
                         <Icon className="h-4 w-4" />
                       </div>
+
                       <div>
                         <div className="font-black text-sm leading-tight">
                           {label}
                         </div>
+
                         <div className="text-xs opacity-70 font-medium">
-                          Score: {score}
+                          DTI CMCI Pillar
                         </div>
-                      </div>
-                      <div className="ml-auto text-right">
-                        <div className="text-lg font-black leading-none">
-                          {rank}
-                        </div>
-                        <div className="text-xs opacity-60">rank</div>
                       </div>
                     </div>
+
                     <ul className="space-y-1">
                       {highlights.map(h => (
                         <li
@@ -333,58 +335,46 @@ export default function Statistics() {
         <section className="bg-white py-12 border-b border-gray-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <h2 className="text-xl font-black text-gray-900 mb-2">
-              36 Barangays of Indang
+              20 Barangays of Tanay, Rizal
             </h2>
+
             <p className="text-sm text-gray-500 mb-6">
-              Population figures from 2020 PSA Census
+              Population figures from the 2020 Philippine Statistics Authority
+              (PSA) Census
             </p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
+
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {[
-                ['Agus-us', '1,468'],
-                ['Alulod', '5,055'],
-                ['Banaba Cerca', '3,356'],
-                ['Banaba Lejos', '1,680'],
-                ['Bancod', '2,630'],
-                ['Barangay 1', '1,342'],
-                ['Barangay 2', '914'],
-                ['Barangay 3', '1,057'],
-                ['Barangay 4', '2,371'],
-                ['Buna Cerca', '4,065'],
-                ['Buna Lejos I', '1,948'],
-                ['Buna Lejos II', '2,314'],
-                ['Calumpang Cerca', '3,035'],
-                ['Calumpang Lejos I', '2,762'],
-                ['Carasuchi', '1,435'],
-                ['Daine I', '1,809'],
-                ['Daine II', '2,326'],
-                ['Guyam Malaki', '2,087'],
-                ['Guyam Munti', '749'],
-                ['Harasan', '1,101'],
-                ['Kayquit I', '1,559'],
-                ['Kayquit II', '1,894'],
-                ['Kayquit III', '2,605'],
-                ['Kaytambog', '1,457'],
-                ['Kaytapos', '1,558'],
-                ['Limbon', '600'],
-                ['Lumampong Balagbag', '1,274'],
-                ['Lumampong Halayhay', '1,433'],
-                ['Mahabangkahoy Cerca', '1,925'],
-                ['Mahabangkahoy Lejos', '1,210'],
-                ['Mataas na Lupa', '3,468'],
-                ['Pulo', '1,053'],
-                ['Tambo Balagbag', '765'],
-                ['Tambo Ilaya', '970'],
-                ['Tambo Kulit', '1,518'],
-                ['Tambo Malaki', '1,906'],
+                ['Cayabu', '1,013'],
+                ['Cuyambay', '4,112'],
+                ['Daraitan', '5,743'],
+                ['Katipunan-Bayan (Poblacion)', '6,100'],
+                ['Kaybuto (Poblacion)', '9,166'],
+                ['Laiban', '2,425'],
+                ['Mag-Ampon (Poblacion)', '1,989'],
+                ['Mamuyao', '919'],
+                ['Pinagkamaligan (Poblacion)', '3,629'],
+                ['Plaza Aldea (Poblacion)', '33,322'],
+                ['Sampaloc', '31,000'],
+                ['San Andres', '1,477'],
+                ['San Isidro (Poblacion)', '3,288'],
+                ['Santa Inez', '2,460'],
+                ['Santo Niño', '1,549'],
+                ['Tabing Ilog (Poblacion)', '1,891'],
+                ['Tandang Kutyo (Poblacion)', '21,243'],
+                ['Tinucan', '1,230'],
+                ['Wawa (Poblacion)', '8,394'],
+                ['Madilay-dilay', '2,842'],
               ].map(([name, pop]) => (
                 <div
                   key={name}
-                  className="bg-gray-50 rounded-lg border border-gray-100 p-3 hover:border-primary-200 transition-colors"
+                  className="bg-gray-50 rounded-lg border border-gray-100 p-5 hover:border-primary-200 transition-colors"
                 >
-                  <div className="text-xs font-semibold text-gray-800 leading-tight">
+                  <div className="text-sm font-semibold text-gray-800 leading-tight">
                     {name}
                   </div>
-                  <div className="text-xs text-primary-600 font-bold mt-0.5">
+
+                  <div className="text-sm text-primary-600 font-bold mt-1">
                     {pop}
                   </div>
                 </div>
