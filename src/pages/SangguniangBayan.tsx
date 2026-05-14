@@ -53,7 +53,7 @@ export default function SangguniangBayan() {
       <SEO
         title="Sangguniang Bayan"
         description={`Members of the Sangguniang Bayan (Municipal Council) of the ${data.GOVERNMENT_NAME} for the ${data.TERM} term.`}
-        keywords="Indang Sangguniang Bayan, municipal council, councilors, legislative, committees"
+        keywords="Tanay Sangguniang Bayan, municipal council, councilors, legislative, committees"
       />
       <main className="grow">
         {/* Page Header */}

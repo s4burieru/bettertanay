@@ -118,15 +118,15 @@ export default function Sitemap() {
     <>
       <SEO
         title="Sitemap"
-        description="Full sitemap of the BetterIndang community portal — browse all pages and sections."
-        keywords="sitemap, Indang, portal, navigation"
+        description="Full sitemap of the Tanay, Rizal community portal — browse all pages, sections, and local information including tourism, governance, barangays, and services."
+        keywords="sitemap, Tanay Rizal, Tanay portal, navigation, LGU Tanay, Rizal municipality, local government"
       />
 
       {/* Header */}
       <div className="bg-primary-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <p className="text-primary-300 text-xs font-bold uppercase tracking-widest mb-2">
-            BetterIndang
+            BetterTanay
           </p>
           <h1 className="text-4xl font-black mb-2">Sitemap</h1>
           <p className="text-primary-200 text-sm max-w-xl">

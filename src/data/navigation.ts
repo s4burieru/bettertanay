@@ -93,6 +93,6 @@ export const footerNavigation = {
     },
   ],
   socialLinks: [
-    { label: 'Facebook', href: 'https://www.facebook.com/LGUIndangCavite' },
+    { label: 'Facebook', href: 'https://www.facebook.com/tanayrizalgov' },
   ],
 };

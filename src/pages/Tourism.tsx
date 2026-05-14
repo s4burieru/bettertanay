@@ -159,8 +159,8 @@ function TourismIndex() {
     <>
       <SEO
         title="Tourism"
-        description="Discover the Town of Many Springs — heritage, spring resorts, farms, and cultural landmarks in Indang, Cavite."
-        keywords="Indang tourism, Cavite tourism, spring resorts, Bonifacio Shrine, Irok Festival, CvSU, agri-tourism"
+        description="Discover Tanay, Rizal — a gateway to the Sierra Madre featuring breathtaking nature destinations, waterfalls, mountain views, pilgrimage sites, and vibrant eco-cultural tourism experiences."
+        keywords="Tanay Rizal tourism, Tanay waterfalls, Daraitan River, Sierra Madre hiking, Tanay mountains, Rizal eco tourism, Regina Rica, Batlag Falls, Calinawan Cave, Tinipak River, Tanay adventure"
       />
 
       {/* Hero */}
@@ -355,8 +355,8 @@ function TourismCategory() {
     <>
       <SEO
         title={`${cat.label} — Tourism`}
-        description={`${cat.label} listings in Indang, Cavite. Official 2026 tourism establishments.`}
-        keywords={`Indang ${cat.label.toLowerCase()}, Cavite tourism, ${cat.id}`}
+        description={`${cat.label} listings in Tanay, Rizal. Official 2026 tourism establishments.`}
+        keywords={`Tanay ${cat.label.toLowerCase()}, Rizal tourism, ${cat.id}`}
       />
       <main className="grow">
         {/* Breadcrumb + Header */}

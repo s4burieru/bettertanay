@@ -1,16 +1,16 @@
-# Local Government Data — Municipality of Indang, Cavite
+# Local Government Data — Municipality of Tanay, Rizal
 # Edit categories, slugs, icons, and descriptions below.
 # Icon must be a valid Lucide React icon name.
 
 categories:
   - category: 'Legislative'
     slug: 'legislative'
-    description: 'The Sangguniang Bayan (Municipal Council) of Indang — the legislative body responsible for passing ordinances and resolutions for the benefit of the municipality.'
+    description: 'The Sangguniang Bayan (Municipal Council) of Tanay — the legislative body responsible for passing ordinances and resolutions for the development and governance of the municipality.'
     icon: 'Landmark'
 
   - category: 'Departments & Offices'
     slug: 'departments'
-    description: 'Explore local government departments, agencies, and offices with their mandates, services, and contact details.'
+    description: 'Explore local government departments, offices, and agencies of Tanay, Rizal, including their services, mandates, and contact information.'
     icon: 'Building2'
     subcategories:
       - name: 'Executive'
@@ -20,7 +20,7 @@ categories:
 
   - category: 'News & Announcements'
     slug: 'news'
-    description: 'Stay informed with the latest local government news, announcements, and policy updates from the Municipality of Indang.'
+    description: 'Stay updated with the latest news, announcements, programs, and initiatives from the Municipality of Tanay, Rizal.'
     icon: 'Newspaper'
     subcategories:
       - name: 'News'
@@ -30,7 +30,7 @@ categories:
 
   - category: 'Guides & Regulations'
     slug: 'guides-and-regulations'
-    description: 'Access guidelines, rules, regulations, and step-by-step instructions for local government processes in Indang.'
+    description: 'Access step-by-step guides, municipal procedures, rules, and local regulations in Tanay, Rizal.'
     icon: 'BookOpen'
     subcategories:
       - name: 'Guides'
@@ -40,7 +40,7 @@ categories:
 
   - category: 'Reports & Statistics'
     slug: 'reports-and-statistics'
-    description: 'Access local government reports, statistical data, and performance metrics for the Municipality of Indang.'
+    description: 'Access official reports, demographic data, and statistical information about Tanay, Rizal.'
     icon: 'BarChart3'
     subcategories:
       - name: 'Reports'
@@ -50,7 +50,7 @@ categories:
 
   - category: 'Public Consultations'
     slug: 'public-consultations'
-    description: 'Participate in public consultations and provide feedback on local government decisions and ordinances.'
+    description: 'Participate in public consultations and community feedback initiatives in Tanay, Rizal.'
     icon: 'MessagesSquare'
     subcategories:
       - name: 'Public Consultations'
@@ -58,7 +58,7 @@ categories:
 
   - category: 'Transparency Documents'
     slug: 'transparency-documents'
-    description: 'Access Freedom of Information releases and transparency documents for local government accountability in Indang.'
+    description: 'Access transparency reports, FOI releases, and public accountability documents of the Municipality of Tanay, Rizal.'
     icon: 'FileText'
     subcategories:
       - name: 'Transparency Documents'

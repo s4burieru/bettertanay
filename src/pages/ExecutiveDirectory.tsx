@@ -74,8 +74,8 @@ export default function ExecutiveDirectory() {
     <>
       <SEO
         title="Office Directory — Executive"
-        description={`Office directory for the ${h.municipality} local government, including department contacts and officials.`}
-        keywords="Indang offices, departments, directory, contacts, local government"
+        description={`Office directory for the Municipality of Tanay, Rizal local government, including executive offices, department contacts, and municipal officials.`}
+        keywords="Tanay offices, Tanay Rizal directory, LGU Tanay contacts, municipal departments, local government Tanay, executive offices Tanay"
       />
       <main className="grow">
         {/* Breadcrumb */}

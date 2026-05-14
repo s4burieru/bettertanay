@@ -14,8 +14,8 @@ const Home: React.FC = () => {
     <>
       <SEO
         title="Home"
-        description="Official community portal of the Municipality of Indang, Cavite. Access government services, information, officials, and public resources."
-        keywords="Indang, Cavite, government, local government, services, municipality of indang"
+        description="Official community portal of the Municipality of Tanay, Rizal. Access local government information, public services, tourism destinations, barangays, and community resources."
+        keywords="Tanay Rizal, Tanay, local government, LGU Tanay, municipal services, tourism Tanay, Rizal province, public information"
       />
       <main className="grow">
         <Hero />
