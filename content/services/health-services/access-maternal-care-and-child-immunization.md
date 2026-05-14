@@ -1,49 +1,50 @@
-# Access Maternal Care & Child Immunization — Lapu-Lapu City
+# Access Maternal Care & Child Immunization — Municipality of Tanay
 
-The City Health Office (CHO) and barangay health centers provide **prenatal care**, **family planning**, and **free routine child immunization** for residents.
+The Municipal Health Office (MHO) and barangay health centers in Tanay provide **prenatal care**, **family planning services**, and **free routine child immunization** under national health programs.
 
 ---
 
 ## Maternal Care (Prenatal & Related Services)
 
-| Service                                                             | Where                       | Schedule                                                               | Requirements                                    | Cost                                                       |
-| ------------------------------------------------------------------- | --------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------- |
-| Prenatal check-ups (by midwife/nurse; physician referral as needed) | **Barangay Health Centers** | Mon–Fri (typical clinic hours; varies by center)                       | Prenatal record (issued/updated at first visit) | **Free**                                                   |
-| Family Planning counseling & methods                                | **Barangay Health Centers** | Mon–Fri **8:00 AM–4:00 PM**; Sat **8:00 AM–1:00 PM** (except holidays) | Personal appearance for counseling              | **Free** counseling (methods per DOH program availability) |
+| Service                                                | Where                                                   | Schedule                                           | Requirements                                    | Cost                                      |
+| ------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------- | ----------------------------------------- |
+| Prenatal check-ups (midwife/nurse; referral if needed) | Barangay Health Centers / Municipal Health Office (MHO) | Monday–Friday (clinic hours vary per barangay)     | Prenatal record (issued on first visit if none) | Free                                      |
+| Family planning counseling & services                  | Barangay Health Centers / MHO                           | Monday–Friday, 8:00 AM–5:00 PM (varies per center) | Personal appearance for counseling              | Free (methods depend on DOH availability) |
 
-**Tip:** Bring any previous prenatal card/records and a valid ID. If you’re new, staff will register you and issue the needed record at the health center.
+**Tip:** Bring a valid ID and any previous prenatal records. First-time patients will be registered and issued a maternal health record.
 
 ---
 
 ## Child Immunization (EPI)
 
-Routine childhood vaccines are provided **free** under the Expanded Program on Immunization (EPI).
+Free childhood vaccines are provided under the Expanded Program on Immunization (EPI) through barangay health centers in Tanay
 
-| Age/Visit                          | Vaccines (examples)                                                        | Where                       | Regular Day/Time                                  | Requirements                          | Cost     |
-| ---------------------------------- | -------------------------------------------------------------------------- | --------------------------- | ------------------------------------------------- | ------------------------------------- | -------- |
-| Birth–12 months (per DOH schedule) | **BCG**, **Pentavalent**, **OPV/IPV**, **MMR**, **Hepatitis B**, **PCV13** | **Barangay Health Centers** | **Wednesdays, 8:00 AM–4:00 PM** (except holidays) | **ECCD card** (issued on first visit) | **Free** |
+| Age Group                                                | Vaccines (examples)                              | Where                   | Schedule                                                   | Requirements                                          | Cost |
+| -------------------------------------------------------- | ------------------------------------------------ | ----------------------- | ---------------------------------------------------------- | ----------------------------------------------------- | ---- |
+| Infants & children (0–12 months and beyond per schedule) | BCG, Pentavalent, OPV/IPV, Hepatitis B, PCV, MMR | Barangay Health Centers | Immunization days per barangay (commonly weekly schedules) | Child health card / ECCD card (issued if first visit) | Free |
 
-> First time? The health worker will **issue an ECCD card** and guide you on next-dose return dates.
+> If it’s your first visit, the health center will issue an **ECCD/child health card** and schedule the next vaccination dates.
 
 ---
 
 ## How to Avail (Quick Steps)
 
-1. **Go to your Barangay Health Center** during clinic hours (or the posted EPI day for vaccines).
-2. **Register/Update your record:** Prenatal record for mothers, **ECCD card** for children (issued if first time).
-3. **Receive service:** Prenatal assessment, counseling (and TT vaccine/supplements per program), or child vaccination per EPI schedule.
-4. **Book your return date** for follow-ups and next vaccine doses as advised by the health staff.
+1. **Visit your Barangay Health Center** during clinic hours or scheduled immunization day.
+2. **Register at the desk:** Mothers get a prenatal record; children get an ECCD/health card.
+3. **Receive services:** Prenatal check-ups, counseling, or scheduled immunization.
+4. **Follow return schedules** for next check-ups or vaccine doses.
 
 ---
 
-## Notes & Extras
+## Notes
 
-- **Medical consultations** at health centers are **free** (Mon–Fri, 8:00 AM–5:00 PM; center schedules apply). Useful if you need a doctor’s assessment alongside prenatal care.
-- The CHO and health centers also run **mother’s classes** and promote **facility-based delivery**; ask your midwife for schedules.
+- Basic consultations at barangay health centers and the MHO in Tanay are generally **free of charge**.
+- Health workers may also provide guidance on safe pregnancy, nutrition, and facility-based delivery.
+- Always follow your assigned schedule to ensure complete vaccination coverage.
 
 ---
 
 **References**
 
-- [Lapu-Lapu City Government – Services](https://lapulapucity.gov.ph)
+- [Municipal Government of Tanay](https://tanay.gov.ph)
 - [Department of Health – Expanded Program on Immunization](https://doh.gov.ph)

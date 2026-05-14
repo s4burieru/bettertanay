@@ -1,23 +1,187 @@
 {
-  "site_name": "Lapu Lapu City Portal",
-  "site_description": "A community-run portal for the Lapu Lapu City",
+  "site_name": "BetterTanay.org",
+  "site_description": "A community-run portal for the Municipality of Tanay",
   "hero": {
-    "title": "Welcome to BetterGov.ph",
-    "subtitle": "A community-run portal to find information of the Lapu Lapu City Government",
+    "title": "Welcome to BetterTanay.org",
+    "subtitle": "A community-run portal to find information and services of the Municipality of Tanay, Rizal.",
+    "welcome": "WELCOME TO",
+    "browseServices": "Browse Services",
+    "contactUs": "Contact Us",
+    "findService": "Search Services",
+    "searchPlaceholder": "Search for a service...",
+    "popular": "Popular Services",
     "nationalId": "National ID",
     "birthCertificate": "Birth Certificate",
     "businessRegistration": "Business Registration"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "government": "Government",
+    "transparency": "Transparency",
+    "statistics": "Statistics",
+    "contact": "Contact",
+    "departments": "Departments & Officials",
+    "legislative": "Legislative (City Council)",
+    "cityCouncil": "City Council",
+    "localOfficials": "Local Officials Directory",
+    "fullDisclosure": "Full Disclosure",
+    "annualBudget": "Annual Budget",
+    "saln": "SALN",
+    "foiReleases": "FOI Releases",
+    "cityProfile": "City Profile",
+    "annualReport": "Annual Report",
+    "infrastructureProjects": "Infrastructure Projects"
+  },
+  "hotlines": {
+    "coastGuard": "Philippine Coast Guard Tanay",
+    "pnp": "PNP Tanay",
+    "bfp": "BFP Tanay",
+    "mdrrmo": "MDRRMO Tanay",
+    "publicSafety": "Public Safety Office"
+  },
+  "emergencyHotlines": {
+    "title": "Tanay Emergency Hotlines",
+    "mdrrmo": {
+      "name": "MDRRMO Tanay",
+      "numbers": ["0963-473-3333", "0917-504-3344"]
+    },
+    "coastGuard": {
+      "name": "Philippine Coast Guard Tanay",
+      "numbers": ["0956-433-8281"]
+    },
+    "pnp": {
+      "name": "PNP Tanay",
+      "numbers": ["0907-827-9401", "0998-598-5729"]
+    },
+    "bfp": {
+      "name": "BFP Tanay",
+      "numbers": ["0976-467-8566", "02-8693-1717"]
+    },
+    "publicSafety": {
+      "name": "Public Safety Office",
+      "numbers": ["0963-164-0433"]
+    }
   },
   "services": {
     "title": "Services & Information",
     "governmentServices": "Government Services",
     "description": "Access official government services quickly and easily. Find what you need for citizenship, business, education, and more.",
     "viewAll": "View All Services",
-    "viewAllCategory": "View All"
+    "viewAllCategory": "View All",
+    "categories": {
+      "health-services": { "name": "Health Services" },
+      "education": { "name": "Education" },
+      "business": { "name": "Business" },
+      "social-welfare": { "name": "Social Welfare" },
+      "garbage-waste-disposal": { "name": "Waste" },
+      "environment": { "name": "Environment" },
+      "housing-land-use": { "name": "Housing" },
+      "disaster-preparedness": { "name": "Disaster" }
+    }
   },
   "governmentActivity": {
     "title": "Government Activity",
     "description": "Stay updated with the latest government activities and announcements."
+  },
+  "stats": {
+    "title": "Tanay at a Glance",
+    "viewProfile": "View Municipality Profile ->",
+    "population": {
+      "label": "Residents",
+      "desc": "2020 census population"
+    },
+    "barangays": {
+      "label": "Barangays",
+      "desc": "Administrative villages"
+    },
+    "classification": {
+      "label": "Municipality",
+      "desc": "Income classification"
+    },
+    "area": {
+      "label": "km²",
+      "desc": "Total land area"
+    }
+  },
+  "weatherMap": {
+    "title": "Weather & Location",
+    "location": "Tanay, Rizal",
+    "clear": "Clear sky",
+    "partlyCloudy": "Partly cloudy",
+    "foggy": "Foggy",
+    "rainy": "Rainy",
+    "showers": "Showers",
+    "thunderstorm": "Thunderstorm",
+    "defaultCondition": "Loading weather...",
+    "wind": "km/h wind",
+    "climate": "Tropical climate",
+    "loading": "Fetching live weather data...",
+    "mapTitle": "Map of Tanay, Rizal"
+  },
+  "history": {
+    "title": "History of Tanay",
+    "charteredYear": "Tanay Hane Festival",
+    "charteredDesc": "Every November, Tanay celebrates the Hane Festival, a vibrant cultural and eco-tourism event honoring the town’s founding anniversary. It showcases local traditions, agricultural products, and natural attractions, while reflecting the Tanay expression “hane,” symbolizing community pride and identity.",
+    "elevationLabel": "Adventure Capital of Rizal",
+    "elevationDesc": "Tanay is known as the Adventure Capital of Rizal due to its rich natural landscapes featuring mountains, rivers, waterfalls, and forests. It offers popular outdoor activities such as hiking, camping, trekking, and sightseeing, making it a top destination for nature lovers and adventure seekers near Metro Manila.",
+    "events": {
+      "precolonial": {
+        "year": "Pre-colonial Era",
+        "title": "Early Settlements",
+        "text": "Tanay was originally inhabited by indigenous groups like the Dumagat. Early communities lived near rivers and forests, relying on fishing, hunting, and simple farming."
+      },
+      "spanish": {
+        "year": "1600s",
+        "title": "Spanish Colonization",
+        "text": "Tanay was established as a settlement under Spanish missionaries and later became an independent town, influenced by Catholic traditions and colonial rule."
+      },
+      "relocation": {
+        "year": "17th Century",
+        "title": "Town Relocation",
+        "text": "Due to frequent flooding, the town was moved to its present location. During this time, the San Ildefonso de Toledo Parish Church was built, becoming a key landmark."
+      },
+      "revolution": {
+        "year": "1896–1898",
+        "title": "Philippine Revolution",
+        "text": "Tanay joined the fight against Spain during the Philippine Revolution, supporting the Katipunan movement for independence."
+      },
+      "american": {
+        "year": "1901",
+        "title": "American Administration",
+        "text": "Tanay became part of Rizal. Public education, roads, and governance systems were improved under American rule."
+      },
+      "ww2": {
+        "year": "1942–1945",
+        "title": "World War II",
+        "text": "During World War II, Tanay was occupied by Japanese forces. Guerrilla fighters operated in nearby mountains, resisting the occupation."
+      },
+      "present": {
+        "year": "Present Day",
+        "title": "Modern Tanay",
+        "text": "Today, Tanay is known for tourism and nature spots like Daranak Falls and Regina RICA, making it a popular destination."
+      }
+    }
+  },
+  "leadership": {
+    "title": "Municipal Leadership",
+    "cityMayor": "Municipal Mayor",
+    "cityViceMayor": "Municipal Vice Mayor",
+    "electedMayor": "Elected Mayor",
+    "electedViceMayor": "Elected Vice Mayor",
+    "viewAll": "View All Officials",
+    "viewProfile": "View Profile"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "phone": "Phone",
+    "phoneHours": "Mon–Fri, 8AM–5PM",
+    "email": "Email",
+    "emailResponse": "Response within 2 business days",
+    "address": "Address",
+    "addressLine1": "Municipal Hall, Tanay, Rizal",
+    "addressLine2": "M.H Del Pilar St., Brgy. Plaza Aldea, Tanay, Rizal",
+    "viewAll": "View All Departments"
   },
   "weather": {
     "title": "Weather Updates"
@@ -29,7 +193,16 @@
     "title": "Latest News & Updates"
   },
   "footer": {
-    "copyright": "© 2025 BetterGov. All content is public domain unless otherwise specified."
+    "mission": "Empowering the people of Tanay with transparent access to government services, programs, and public funds.",
+    "quickLinks": "Quick Links",
+    "resources": "Resources",
+    "cost": "Cost to the People of Tanay = ₱0",
+    "costLabel": "Cost to the People of Tanay =",
+    "volunteer": "Volunteer with us",
+    "contribute": "Contribute code with us",
+    "copyright": "© 2026 BetterTanay.org  MIT | CC BY 4.0  All public information sourced from official government portals.",
+    "attribution": "All public information sourced from official government portals.",
+    "builtBy": "Built by"
   },
   "navbar": {
     "government": "Government",

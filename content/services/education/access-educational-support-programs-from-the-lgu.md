@@ -1,116 +1,161 @@
-# Access Educational Support Programs from the LGU — Lapu-Lapu City
+# Access Educational Support Programs from the LGU — Tanay, Rizal
 
-Below are **city-led** or **LGU-facilitated** programs you can use for study support: free school supplies, e-library access, student employment (SPES) via PESO, scholarships, and cash/education assistance. Links point to official pages or recent announcements.
-
----
-
-## 1) Free School Supplies (SEF-funded)
-
-**What it is**
-
-- The City provides **free school supplies** to public school learners using the **Special Education Fund (SEF)**, announced each school year with distribution schedules.
-
-**How to access**
-
-1. Watch your school’s advisory and the **DepEd Lapu-Lapu** Division memos for **distribution schedules**.
-2. Learners (with parent/guardian) claim supplies at the school on the announced date.
-
-**Links**
-
-- DepEd Lapu-Lapu memo: **Distribution of School Supplies (SEF)** (2025 schedule) — depedlapulapu.net.ph
-- News: **City to distribute free school supplies** — SunStar Cebu (June 7, 2025)
-- City info posts often echo the distribution dates via DepEd/City channels.
+Below are municipal, provincial, and national educational support programs that students and residents of Tanay, Rizal may access for study assistance, skills training, scholarships, youth employment, and educational aid.
 
 ---
 
-## 2) City e-Library (Free Study Space, Wi-Fi, Computers & Printing)
+## 1) Free School Supplies & Educational Assistance
 
-**What it is**
+### What It Is
 
-- A **government-run e-Library** offering **free internet, computer use, and printing** for students; open **daily 8:00 a.m.–12:00 midnight** at **Hoops Dome, Brgy. Gun-ob**.
+- Public school students may receive free school supplies and educational assistance through LGU initiatives, school programs, or provincial support activities.
+- Distribution schedules and assistance programs are usually coordinated with public schools and barangays.
 
-**How to access**
+### How to Access
 
-1. Go to the **Lapu-Lapu City e-Library (Hoops Dome)** during operating hours.
-2. Sign the logbook; follow usage limits (to give everyone a turn).
+1. Watch announcements from your school, barangay, or the Municipality of Tanay.
+2. Coordinate with your school adviser, barangay officials, or parent-teacher associations regarding distribution schedules.
+3. Bring student identification or enrollment documents if required.
 
-**Links**
+### Helpful Links
 
-- SunStar: **E-Library reopens; open daily 8 a.m.–12 midnight** (July 26, 2025)
-- The POST: **City library reopens, free digital access & printing** (July 28, 2025)
-- Background: **City launched first gov’t e-Library** (2019) — Cebu Daily News
-
----
-
-## 3) Student Employment (SPES) via PESO Lapu-Lapu
-
-**What it is**
-
-- The **Special Program for the Employment of Students (SPES)** lets poor but deserving **students/OSYs (15–30)** work during breaks to earn and gain experience.
-- Implemented locally through the **Public Employment Service Office (PESO)** with DOLE.
-
-**How to access**
-
-1. Follow **PESO Lapu-Lapu City** on Facebook for **SPES application windows** and job fair advisories.
-2. Prepare IDs, school docs, and income/indigency proofs per announcement.
-3. Submit online or at the PESO office; attend orientation when shortlisted.
-
-**Links**
-
-- **PESO Lapu-Lapu City** Facebook page (official announcements)
-- DepEd/BLSS-YFD: **SPES 2025 guidelines & timelines**
-- City press: **PESO career fair / youth employment events** — City Information Office
+- [Municipality of Tanay Official Website](https://tanay.gov.ph/)
+- [Municipality of Tanay Official Facebook Page](https://www.facebook.com/tanayrizalgov/)
+- [DepEd Rizal Official Facebook Page](https://www.facebook.com/depedtayorizalprovince/)
 
 ---
 
-## 4) LGU-linked Scholarships & Incentives
+## 2) Public Libraries, Study Areas & Digital Learning Access
 
-**What it is**
+### What It Is
 
-- The City (and Congressional office) **periodically opens scholarship calls** or **educational incentives** for local students, separate from school-based grants.
+- Students may access municipal libraries, school libraries, and public learning spaces for studying and research.
+- Some schools and community facilities provide internet access, reading materials, and computer services during official hours.
 
-**How to access**
+### How to Access
 
-1. Monitor the **Lapu-Lapu City Government / City Information Office** and the **Office of the Mayor / Congresswoman** for official **calls**.
-2. Prepare residency and academic documents; submit by deadline; attend screening/orientation.
+1. Visit the municipal library, public schools, or designated study areas during operating hours.
+2. Register in visitor logbooks if required.
+3. Follow library and computer usage guidelines.
 
-**Links (examples & history)**
+### Typical Services
 
-- News: **Lapu-Lapu City offers college scholarship to poor residents** — The Freeman/Philstar (program history)
-- Sample: **Cindi “Skwela” Scholarship** highlights via official pages (video updates)
-- Also check school-based options in-city (e.g., **LCIC scholarships**, **UC scholarships**) which can complement LGU aid.
+- Reading and reference materials
+- Quiet study spaces
+- Internet or computer access (availability may vary)
+- Learning and literacy programs
 
 ---
 
-## 5) Educational / Cash Assistance (LGU-facilitated with DSWD)
+## 3) Student Employment Programs (SPES) via PESO
 
-**What it is**
+### What It Is
 
-- **Educational assistance pay-outs** (e.g., AICS) are nationally run by DSWD but are often **coordinated locally** with the **City** for venue and beneficiary management.
+- The **Special Program for Employment of Students (SPES)** is a youth employment program implemented through DOLE and the **Public Employment Service Office (PESO)**.
+- It allows qualified students and out-of-school youth to earn income during school breaks.
 
-**How to access**
+### Who Can Apply
 
-1. Watch announcements from **DSWD-7** and the **City Information Office** for **Lapu-Lapu payout schedules**.
-2. Bring student ID, enrollment proof, and required forms on your assigned date.
+- Students and out-of-school youth aged 15–30 years old
+- Applicants from low-income households
+- Residents who meet DOLE and PESO requirements
 
-**Links (context)**
+### How to Access
 
-- SunStar Cebu: **Education assistance payout in Lapu-Lapu** (local coverage)
-- Cebu Daily News: **DSWD-7 educational assistance** (program overview & amounts)
+1. Monitor announcements from **PESO Tanay** and DOLE.
+2. Prepare school records, IDs, and proof of income or indigency.
+3. Submit requirements during the application period.
+4. Attend orientation and screening if shortlisted.
+
+### Helpful Links
+
+- [DOLE SPES Program Information](https://www.dole.gov.ph/special-program-for-employment-of-students-spes/)
+- [DOLE Region IV-A](https://calabarzon.dole.gov.ph/)
+- [PESO Philippines](https://peso.dole.gov.ph/)
+
+---
+
+## 4) LGU, Provincial & School-Based Scholarships
+
+### What It Is
+
+- Students may apply for scholarships and educational assistance from:
+  - Municipality of Tanay
+  - Rizal Provincial Government
+  - Colleges and universities
+  - National government agencies
+
+### Possible Support
+
+- Tuition assistance
+- Allowances
+- Educational grants
+- School fee assistance
+- Academic incentive programs
+
+### How to Access
+
+1. Watch official announcements from LGU offices and schools.
+2. Prepare academic records and residency documents.
+3. Submit applications before the deadline.
+4. Attend interviews or orientation if required.
+
+### Helpful Links
+
+- [CHED Scholarship Programs](https://ched.gov.ph/scholarships/)
+- [DOST-SEI Scholarships](https://sei.dost.gov.ph/)
+- [Rizal Provincial Government](https://www.rizalprovince.ph/)
+- [University of Rizal System](https://www.urs.edu.ph/)
+
+---
+
+## 5) Educational & Cash Assistance Programs
+
+### What It Is
+
+- Students and families may receive educational or financial assistance through:
+  - DSWD Assistance to Individuals in Crisis Situation (AICS)
+  - Provincial educational aid
+  - Barangay assistance programs
+  - Special local assistance initiatives
+
+### How to Access
+
+1. Watch announcements from DSWD, LGU offices, or barangays.
+2. Visit the Municipal Social Welfare and Development Office (MSWDO) for inquiries.
+3. Submit required documents such as:
+   - School ID
+   - Certificate of Enrollment
+   - Barangay Certificate
+   - Valid IDs
+
+### Helpful Links
+
+- [DSWD Assistance Programs](https://www.dswd.gov.ph/)
+- [AICS Information](https://aics.dswd.gov.ph/)
+- [Municipality of Tanay](https://tanay.gov.ph/)
 
 ---
 
 ## Quick Directory
 
-- **City Information Office (Lapu-Lapu City)** — city-wide program announcements
-- **PESO Lapu-Lapu City** — SPES, job fairs, recruitment & youth work programs
-- **DepEd Lapu-Lapu Division** — school memos (SEF supplies, schedules)
-- **Lapu-Lapu City e-Library (Hoops Dome, Gun-ob)** — free study space & digital access
+- **Municipality of Tanay** — Local announcements and educational assistance updates
+- **Municipal Social Welfare and Development Office (MSWDO)** — Educational and financial assistance concerns
+- **PESO Tanay** — SPES, employment, and youth programs
+- **DepEd Rizal** — School advisories and public education announcements
+- **TESDA Rizal** — Skills training and scholarship programs
 
 ---
 
 ## Tips to Maximize Support
 
-- **Stack benefits** where allowed: e.g., SEF school supplies **+** SPES stipend **+** school-based scholarship.
-- Keep a folder with **PSA Birth Cert**, **Barangay Residency**, **School ID**, **Report Cards/COE**, and **2x2 photos** ready.
-- Turn on notifications for **PESO** and **City Information** pages so you don’t miss application windows.
+- Apply to multiple scholarship and assistance programs whenever allowed.
+- Keep digital and printed copies of important documents ready:
+  - PSA Birth Certificate
+  - School ID
+  - Certificate of Enrollment
+  - Barangay Residency
+  - Report Card or Grades
+  - 2×2 ID photos
+- Follow official LGU and government pages for announcements and deadlines.
+- Submit applications early to avoid missing limited slots or schedules.

@@ -1,0 +1,222 @@
+{
+  "site_name": "Munisipyo ng Tanay",
+  "site_description": "Isang portal para sa Munisipyo ng Tanay",
+  "hero": {
+    "title": "Maligayang pagdating sa BetterTanay.org",
+    "subtitle": "Isang portal ng komunidad para mahanap ang impormasyon at serbisyo ng Munisipyo ng Tanay, Rizal.",
+    "welcome": "MALIGAYANG PAGDATING SA",
+    "browseServices": "Tingnan ang mga Serbisyo",
+    "contactUs": "Makipag-ugnayan",
+    "findService": "Maghanap ng Serbisyo",
+    "searchPlaceholder": "Maghanap ng serbisyo...",
+    "popular": "Mga Sikat na Serbisyo",
+    "nationalId": "National ID",
+    "birthCertificate": "Sertipiko ng Kapanganakan",
+    "businessRegistration": "Rehistro ng Negosyo"
+  },
+  "nav": {
+    "home": "Tahanan",
+    "services": "Mga Serbisyo",
+    "government": "Pamahalaan",
+    "transparency": "Transparency",
+    "statistics": "Istatistika",
+    "contact": "Makipag-ugnayan",
+    "departments": "Mga Departamento at Opisyal",
+    "legislative": "Lehislatibo (Lupon ng Lungsod)",
+    "cityCouncil": "Lupon ng Lungsod",
+    "localOfficials": "Direktoryo ng mga Lokal na Opisyal",
+    "fullDisclosure": "Buong Pagbubunyag",
+    "annualBudget": "Taunang Badyet",
+    "saln": "SALN",
+    "foiReleases": "Mga Rekord ng FOI",
+    "cityProfile": "Profil ng Lungsod",
+    "annualReport": "Taunang Ulat",
+    "infrastructureProjects": "Mga Proyektong Imprastraktura"
+  },
+  "hotlines": {
+    "coastGuard": "Philippine Coast Guard Tanay",
+    "pnp": "PNP Tanay",
+    "bfp": "BFP Tanay",
+    "mdrrmo": "MDRRMO Tanay",
+    "publicSafety": "Public Safety Office"
+  },
+  "emergencyHotlines": {
+    "title": "Mga Emergency Hotline ng Tanay",
+    "mdrrmo": {
+      "name": "MDRRMO Tanay",
+      "numbers": ["0963-473-3333", "0917-504-3344"]
+    },
+    "coastGuard": {
+      "name": "Philippine Coast Guard Tanay",
+      "numbers": ["0956-433-8281"]
+    },
+    "pnp": {
+      "name": "PNP Tanay",
+      "numbers": ["0907-827-9401", "0998-598-5729"]
+    },
+    "bfp": {
+      "name": "BFP Tanay",
+      "numbers": ["0976-467-8566", "02-8693-1717"]
+    },
+    "publicSafety": {
+      "name": "Public Safety Office",
+      "numbers": ["0963-164-0433"]
+    }
+  },
+  "services": {
+    "title": "Mga Serbisyo at Impormasyon",
+    "governmentServices": "Mga Serbisyong Pambayan",
+    "description": "I-access ang opisyal na serbisyo ng pamahalaan nang mabilis at madali. Hanapin ang kailangan mo para sa pagkamamamayan, negosyo, edukasyon, at iba pa.",
+    "viewAll": "Tingnan ang Lahat ng Serbisyo",
+    "viewAllCategory": "Tingnan Lahat",
+    "categories": {
+      "health-services": { "name": "Mga Serbisyong Pangkalusugan" },
+      "education": { "name": "Edukasyon" },
+      "business": { "name": "Negosyo" },
+      "social-welfare": { "name": "Pangkalahatang Kapakanan" },
+      "garbage-waste-disposal": { "name": "Basura at Pagtatapon" },
+      "environment": { "name": "Kalikasan" },
+      "housing-land-use": { "name": "Pabahay" },
+      "disaster-preparedness": { "name": "Sakuna" }
+    }
+  },
+  "governmentActivity": {
+    "title": "Aktibidad ng Pamahalaan",
+    "description": "Manatiling updated sa pinakabagong mga aktibidad at anunsyo ng pamahalaan."
+  },
+  "stats": {
+    "title": "Tanay sa Isang Tingin",
+    "viewProfile": "Tingnan ang Profile ng Munisipyo",
+    "population": {
+      "label": "Mga Residente",
+      "desc": "Populasyon ayon sa senso ng 2020"
+    },
+    "barangays": {
+      "label": "Mga Barangay",
+      "desc": "Mga administratibong nayon"
+    },
+    "classification": {
+      "label": "Munisipyo",
+      "desc": "Klasipikasyon ng kita"
+    },
+    "area": {
+      "label": "km²",
+      "desc": "Kabuuang lawak ng lupa"
+    }
+  },
+  "weatherMap": {
+    "title": "Panahon at Lokasyon",
+    "location": "Tanay, Rizal",
+    "clear": "Maliwanag na langit",
+    "partlyCloudy": "Bahagyang maulap",
+    "foggy": "Makulimlim",
+    "rainy": "Maulan",
+    "showers": "Ulan-ulan",
+    "thunderstorm": "Bagyo",
+    "defaultCondition": "Kinukuha ang datos ng panahon...",
+    "wind": "km/h hangin",
+    "climate": "Tropikong klima",
+    "loading": "Kinukuha ang datos ng panahon...",
+    "mapTitle": "Mapa ng Tanay, Rizal"
+  },
+  "history": {
+    "title": "Kasaysayan ng Tanay",
+    "charteredYear": "Taon ng Pagtatag ng CvSU",
+    "charteredDesc": "Ang Cavite State University (CvSU), ang pinakamalaking state university sa Cavite, ay may pangunahing kampus sa Indang — isang pundasyon ng pagkakakilanlan ng munisipyo bilang sentro ng agrikultura at edukasyon.",
+    "elevationLabel": "299.5m Taas",
+    "elevationDesc": "Ang Indang ay nasa 299.5 metro ang taas mula sa antas ng dagat sa koordinasyon na 14°12'H, 120°53'S, na nagbibigay ng mas malamig na klima at maayos na lupain para sa agrikultura.",
+    "events": {
+      "precolonial": {
+        "year": "Panahong Pre-kolonyal",
+        "title": "Maagang Pamayanan",
+        "text": "Ang Tanay ay unang tinirhan ng mga katutubong grupo tulad ng Dumagat. Namuhay sila malapit sa mga ilog at kagubatan, umaasa sa pangingisda, pangangaso, at simpleng pagsasaka."
+      },
+      "spanish": {
+        "year": "1600s",
+        "title": "Panahon ng Espanyol",
+        "text": "Itinatag ang Tanay bilang isang pamayanan sa ilalim ng mga misyonerong Espanyol at kalaunan ay naging isang ganap na bayan na may impluwensya ng relihiyong Katoliko at pamahalaang kolonyal."
+      },
+      "relocation": {
+        "year": "Ika-17 Siglo",
+        "title": "Paglipat ng Bayan",
+        "text": "Dahil sa madalas na pagbaha, inilipat ang bayan sa kasalukuyang lokasyon nito. Sa panahong ito itinayo ang San Ildefonso de Toledo Parish Church bilang isang mahalagang simbolo ng bayan."
+      },
+      "revolution": {
+        "year": "1896–1898",
+        "title": "Himagsikang Pilipino",
+        "text": "Nakibahagi ang Tanay sa laban kontra Espanya noong Himagsikang Pilipino at sinuportahan ang kilusang Katipunan para sa kalayaan."
+      },
+      "american": {
+        "year": "1901",
+        "title": "Panahon ng Amerikano",
+        "text": "Naging bahagi ang Tanay ng lalawigan ng Rizal. Pinaunlad ang edukasyon, mga kalsada, at sistema ng pamahalaan sa panahong ito."
+      },
+      "ww2": {
+        "year": "1942–1945",
+        "title": "Ikalawang Digmaang Pandaigdig",
+        "text": "Sinakop ng mga Hapones ang Tanay noong Ikalawang Digmaang Pandaigdig. Lumaban ang mga gerilya sa mga kabundukan upang tutulan ang pananakop."
+      },
+      "present": {
+        "year": "Kasalukuyan",
+        "title": "Makabagong Tanay",
+        "text": "Sa kasalukuyan, kilala ang Tanay sa turismo at mga likas na tanawin tulad ng Daranak Falls at Regina RICA, na dinarayo ng maraming bisita."
+      }
+    }
+  },
+  "leadership": {
+    "title": "Pamunuan ng Munisipyo",
+    "cityMayor": "Alkalde ng Munisipyo",
+    "cityViceMayor": "Bise-Alkalde ng Munisipyo",
+    "electedMayor": "Inihalal na Alkalde",
+    "electedViceMayor": "Inihalal na Bise-Alkalde",
+    "viewAll": "Tingnan ang Lahat ng Opisyal",
+    "viewProfile": "Tingnan ang Profile"
+  },
+  "contact": {
+    "title": "Makipag-ugnayan",
+    "phone": "Telepono",
+    "phoneHours": "Lun–Biy, 8AM–5PM",
+    "email": "Email",
+    "emailResponse": "Sagot sa loob ng 2 araw na trabaho",
+    "address": "Address",
+    "addressLine1": "Munisipyo ng Tanay, Rizal",
+    "addressLine2": "M.H Del Pilar St., Brgy. Plaza Aldea, Tanay, Rizal",
+    "viewAll": "Tingnan ang Lahat ng Departamento"
+  },
+  "weather": {
+    "title": "Mga Update sa Panahon"
+  },
+  "forex": {
+    "title": "Mga Palitan ng Pera"
+  },
+  "news": {
+    "title": "Pinakabagong Balita at Mga Update"
+  },
+  "footer": {
+    "copyright": "© 2026 BetterTanay.org · CC0 1.0 Universal · v0.2.0"
+  },
+  "navbar": {
+    "government": "Pamahalaan",
+    "services": "Mga Serbisyo",
+    "hotlines": "Mga Hotline",
+    "holidays": "Mga Pista Opisyal",
+    "home": "Tahanan",
+    "statistics": "Estadistika",
+    "legislative": "Lehislatura",
+    "transparency": "Transparency",
+    "contact": "Makipag-ugnayan"
+  },
+  "joinUs": {
+    "stripTitle": "🚀 Sumali sa #CivicTech Revolution",
+    "stripSubtitle": "Tulungan kaming buuin ang kinabukasan ng Pilipinas sa pamamagitan ng teknolohiya",
+    "joinNow": "Sumali Na",
+    "discord": "Discord",
+    "bannerTitle": "Sumali sa #CivicTech Revolution",
+    "bannerSubtitle": "Tulungan kaming buuin ang kinabukasan ng pamamahala sa pamamagitan ng teknolohiya.",
+    "bannerHighlight": "Pinamumunuan ng mga boluntaryo. Open source. Pinapatakbo ng komunidad.",
+    "joinMovement": "Sumali sa Kilusan",
+    "or": "o",
+    "joinDiscord": "Sumali sa Discord",
+    "features": "🚀 Imprastraktura • 💡 Mentorship • 🤝 Komunidad • 🏢 Espasyo sa Opisina"
+  }
+}

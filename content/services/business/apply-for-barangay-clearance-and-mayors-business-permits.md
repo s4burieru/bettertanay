@@ -1,65 +1,178 @@
-# How to Set Up a Business Partnership
+# How to Set Up a Business Partnership — Tanay, Rizal
 
-## Step 1: Register with SEC
+## Step 1: Register Your Partnership with the SEC
 
-**Prepare documents:**
+All partnerships in the Philippines must be registered with the Securities and Exchange Commission (SEC).
 
-- Partnership name (check via [SEC eSPARC](https://espac.sec.gov.ph/))
+### Prepare the Following Documents
+
+- Proposed partnership name
 - Notarized Articles of Partnership
-- IDs/TINs of partners, office address, capital structure
+- Valid IDs and TINs of all partners
+- Principal office address
+- Capital contribution details
 
-**File online** through [SEC eSPARC](https://espac.sec.gov.ph/) and pay fees.
+### Check & Register Online
 
-**Output:** SEC Certificate of Recording + Approved Business Name
+- SEC Name Verification & Registration Portal  
+  https://esparc.sec.gov.ph/
 
-## Step 2: Apply for Business Permit
+### What You’ll Receive
 
-Go to **Lapu-Lapu City BPLO** (Business Permit and Licensing Office).
+- SEC Certificate of Registration
+- Approved Partnership Name
+- SEC Registration Documents
 
-**Requirements:**
+> Partnerships with capital of ₱3,000 or more are generally required to register with the SEC.
 
-- Unified Application Form
-- SEC Certificate of Registration + Articles of Partnership
-- Occupancy Permit (if owner) OR Lease Contract (if renting)
+---
+
+## Step 2: Secure Barangay Clearance
+
+Before applying for a Mayor’s/Business Permit, secure a Barangay Clearance from the barangay where the business will operate.
+
+### Requirements (Typical)
+
+- Valid IDs
+- SEC Registration Documents
+- Lease Contract or Proof of Ownership
+- Community Tax Certificate (Cedula)
+
+### Where to Apply
+
+- Barangay Hall where your business is located
+
+---
+
+## Step 3: Apply for a Business Permit (Mayor’s Permit)
+
+Apply at the **Business Permit and Licensing Office (BPLO)** of the Municipality of Tanay.
+
+### Requirements
+
+- SEC Certificate of Registration
+- Articles of Partnership
+- Barangay Clearance
+- Lease Contract or Tax Declaration/Property Documents
 - Community Tax Certificate (CTC)
+- Accomplished Business Permit Application Form
 
-Apply in person or online via [Lapu-Lapu Online Business Permit Portal](https://businesspermit.lapulapucity.gov.ph/).
+### Possible Additional Requirements
 
-> Note: Inspections may include zoning, sanitary, and fire safety checks.
+Depending on the business type, you may also need:
 
-## Step 3: Register with BIR
+- Fire Safety Inspection Certificate
+- Sanitary Permit
+- Zoning Clearance
+- Occupancy Permit
 
-File at the **BIR Revenue District Office (RDO)** where your office is located.
+### Where to Apply
 
-- Fill out [BIR Form 1903](https://www.bir.gov.ph/images/1903%20Jan%202024.pdf)
-- Submit SEC Certificate + Articles of Partnership + valid IDs
-- Pay registration fee + Documentary Stamp Tax (DST)
+- Municipality of Tanay BPLO
+- Municipal Hall of Tanay, Rizal
 
-**Within 30 days of receiving BIR Certificate:**
+### Official Website
 
-- Apply for Authority to Print Receipts (Form 1906) OR enroll in e-invoicing
-- Register your Books of Accounts
+- Municipality of Tanay  
+  https://tanay.gov.ph/
 
-## Step 4: Register as Employer (if hiring)
+> Business inspections may be conducted before permit approval.
 
-Enroll with:
+---
 
-- [SSS](https://www.sss.gov.ph/)
-- [PhilHealth](https://www.philhealth.gov.ph/)
-- [Pag-IBIG](https://www.pagibigfund.gov.ph/)
+## Step 4: Register with the BIR
 
-## Process Flow
+Register your partnership with the Bureau of Internal Revenue (BIR) under the Revenue District Office (RDO) covering Tanay, Rizal.
 
-1. SEC name check + register via [SEC eSPARC](https://espac.sec.gov.ph/)
-2. Secure Barangay Certification + site/lease documents
-3. Apply for Business Permit at [Lapu-Lapu BPLO](https://businesspermit.lapulapucity.gov.ph/)
-4. File BIR Form 1903 → apply ATP → register books
+### Requirements
+
+- SEC Registration Documents
+- Articles of Partnership
+- Mayor’s Permit / Business Permit
+- Valid IDs
+- Lease Contract or Proof of Business Address
+
+### BIR Forms & Registration
+
+- BIR Form 1903 (Application for Registration)  
+  https://www.bir.gov.ph/images/bir_files/internal_communications_1/1903%20January%202024%20ENCS.pdf
+
+### After BIR Registration
+
+Within the required period, you must:
+
+- Register Books of Accounts
+- Apply for Authority to Print (ATP) Receipts or use e-Invoicing
+- Register Official Receipts and Invoices
+
+### Official BIR Website
+
+- https://www.bir.gov.ph/
+
+---
+
+## Step 5: Register as an Employer (If Hiring Employees)
+
+If your partnership will hire employees, register with the following government agencies:
+
+| Agency            | Purpose                                | Website                         |
+| ----------------- | -------------------------------------- | ------------------------------- |
+| **SSS**           | Employee social security contributions | https://www.sss.gov.ph/         |
+| **PhilHealth**    | Health insurance coverage              | https://www.philhealth.gov.ph/  |
+| **Pag-IBIG Fund** | Housing and savings contributions      | https://www.pagibigfund.gov.ph/ |
+
+---
+
+## Recommended Process Flow
+
+1. Verify and register partnership name with SEC
+2. Secure Barangay Clearance
+3. Apply for Mayor’s/Business Permit at Tanay BPLO
+4. Register with the BIR
+5. Register books of accounts and receipts
+6. Register with SSS, PhilHealth, and Pag-IBIG if hiring employees
+
+---
 
 ## Document Checklist
 
-- [ ] SEC Articles of Partnership + SEC Certificate
-- [ ] Lease Contract OR Occupancy/Building docs
-- [ ] Lapu-Lapu BPLO Unified Application Form + CTC
-- [ ] BIR Form 1903, IDs, ATP/Books
+- [ ] SEC Certificate of Registration
+- [ ] Articles of Partnership
+- [ ] Valid IDs of all partners
+- [ ] Barangay Clearance
+- [ ] Lease Contract or Property Documents
+- [ ] Community Tax Certificate (Cedula)
+- [ ] Business Permit Application Form
+- [ ] BIR Form 1903
+- [ ] Books of Accounts and ATP Requirements
 
-With these steps, your partnership in Lapu-Lapu City will be fully compliant and ready to operate!
+---
+
+## Helpful Links
+
+- SEC eSPARC  
+  https://esparc.sec.gov.ph/
+
+- Municipality of Tanay  
+  https://tanay.gov.ph/
+
+- Bureau of Internal Revenue (BIR)  
+  https://www.bir.gov.ph/
+
+- SSS  
+  https://www.sss.gov.ph/
+
+- PhilHealth  
+  https://www.philhealth.gov.ph/
+
+- Pag-IBIG Fund  
+  https://www.pagibigfund.gov.ph/
+
+---
+
+## Reminders
+
+- Requirements and permit fees may vary depending on the type of business.
+- Always confirm updated requirements with the Tanay BPLO and BIR RDO before filing.
+- Keep digital and printed copies of all registration documents.
+- Renew business permits annually to maintain compliance.

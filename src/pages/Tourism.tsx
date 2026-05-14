@@ -1,0 +1,568 @@
+import { useState } from 'react';
+import { useParams, Link } from 'react-router-dom';
+import {
+  MapPin,
+  Phone,
+  Facebook,
+  Waves,
+  Utensils,
+  Landmark,
+  Tractor,
+  BedDouble,
+  Search,
+  ExternalLink,
+  Tent,
+  Wheat,
+  Droplets,
+  Star,
+  ChevronRight,
+} from 'lucide-react';
+import SEO from '../components/SEO';
+import { useScrollReveal } from '../hooks/useScrollReveal';
+import establishmentsData from '../../content/tourism/establishments.json';
+
+interface Establishment {
+  name: string;
+  category: string;
+  address?: string;
+  contact?: string;
+  facebook?: string;
+  image?: string;
+  description?: string;
+  tags?: string[];
+}
+
+interface Category {
+  id: string;
+  label: string;
+  icon: string;
+}
+
+const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
+  Waves,
+  Utensils,
+  Landmark,
+  Tractor,
+  BedDouble,
+  MapPin,
+};
+
+const CATEGORY_COLORS: Record<
+  string,
+  { pill: string; placeholder: string; icon: string }
+> = {
+  heritage: {
+    pill: 'bg-amber-100 text-amber-700',
+    placeholder: 'bg-amber-50',
+    icon: 'text-amber-300',
+  },
+  resorts: {
+    pill: 'bg-blue-100 text-blue-700',
+    placeholder: 'bg-blue-50',
+    icon: 'text-blue-300',
+  },
+  farms: {
+    pill: 'bg-green-100 text-green-700',
+    placeholder: 'bg-green-50',
+    icon: 'text-green-300',
+  },
+  events: {
+    pill: 'bg-purple-100 text-purple-700',
+    placeholder: 'bg-purple-50',
+    icon: 'text-purple-300',
+  },
+  restaurants: {
+    pill: 'bg-orange-100 text-orange-700',
+    placeholder: 'bg-orange-50',
+    icon: 'text-orange-300',
+  },
+  adventure: {
+    pill: 'bg-red-100 text-red-700',
+    placeholder: 'bg-red-50',
+    icon: 'text-red-300',
+  },
+  others: {
+    pill: 'bg-gray-100 text-gray-600',
+    placeholder: 'bg-gray-50',
+    icon: 'text-gray-300',
+  },
+};
+
+const CULTURE_HIGHLIGHTS = [
+  {
+    icon: Landmark,
+    color: 'bg-amber-50 border-amber-200 text-amber-800',
+    iconColor: 'bg-amber-100 text-amber-700',
+    title: 'Historical Identity',
+    subtitle: 'A Town Rooted in Faith and History',
+    body: 'Tanay is known for its deep historical roots, centuries-old traditions, and strong cultural identity. Founded during the Spanish colonial era, the town remains home to preserved heritage landmarks and enduring local customs passed through generations.',
+  },
+  {
+    icon: Landmark,
+    color: 'bg-stone-50 border-stone-200 text-stone-800',
+    iconColor: 'bg-stone-100 text-stone-700',
+    title: 'Churches & Pilgrimage',
+    subtitle: 'Churches · Monasteries · Spiritual Destinations',
+    body: 'The historic San Ildefonso de Toledo Parish Church stands as one of Rizal’s oldest churches, showcasing remarkable Baroque architecture and religious heritage. Tanay is also home to pilgrimage destinations such as Regina RICA, attracting visitors seeking peace, reflection, and scenic mountain views.',
+  },
+  {
+    icon: Tent,
+    color: 'bg-green-50 border-green-200 text-green-800',
+    iconColor: 'bg-green-100 text-green-700',
+    title: 'Festivals & Local Culture',
+    subtitle: 'Hane Festival · Arts · Traditions',
+    body: 'The vibrant Hane Festival celebrates the unity, resilience, and culture of the people of Tanay. Inspired by the local expression “Hane,” meaning agreement or togetherness, the festival features street dancing, cultural performances, local crafts, music, and community celebrations every November.',
+  },
+  {
+    icon: Wheat,
+    color: 'bg-orange-50 border-orange-200 text-orange-800',
+    iconColor: 'bg-orange-100 text-orange-700',
+    title: 'Nature & Adventure Tourism',
+    subtitle: 'Mountains · Rivers · Waterfalls · Trails',
+    body: 'Known as one of Rizal’s top eco-tourism destinations, Tanay offers breathtaking landscapes and outdoor adventures. Visitors explore destinations such as Daranak Falls, Masungi Georeserve, and the scenic Sierra Madre mountain ranges, famous for hiking, camping, biking, and nature escapes.',
+  },
+  {
+    icon: Droplets,
+    color: 'bg-blue-50 border-blue-200 text-blue-800',
+    iconColor: 'bg-blue-100 text-blue-700',
+    title: 'Scenic Highlands & Eco Destinations',
+    subtitle: 'Sea of Clouds · Sierra Madre Views · Nature Escapes',
+    body: 'From mountain viewpoints and riverside retreats to cool highland resorts, Tanay has become a favorite destination for travelers seeking nature, adventure, and relaxation just outside Metro Manila.',
+  },
+];
+
+// ── Index Page ────────────────────────────────────────────────────────────────
+
+function TourismIndex() {
+  const heroRef = useScrollReveal<HTMLDivElement>();
+  const cultureRef = useScrollReveal<HTMLDivElement>();
+  const catsRef = useScrollReveal<HTMLDivElement>();
+  const catsGridRef = useScrollReveal<HTMLDivElement>();
+
+  const categories: Category[] = establishmentsData.categories;
+  const establishments: Establishment[] = establishmentsData.establishments;
+
+  const CATEGORY_DESCS: Record<string, string> = {
+    heritage:
+      'Historical shrines, colonial churches, a community museum, and living craft traditions.',
+    resorts:
+      'Spring-fed pools and private resorts using cold, chemical-free natural water.',
+    farms:
+      'Agri-eco parks, farmstays, orchards, and farm-to-table experiences.',
+    events: 'Function halls, glamping cabins, and vacation home rentals.',
+    restaurants:
+      'Cafés, restaurants, and catering services featuring local Cavite cuisine.',
+    adventure: 'Outdoor adventure parks and eco-nature activities.',
+  };
+
+  return (
+    <>
+      <SEO
+        title="Tourism"
+        description="Discover the Town of Many Springs — heritage, spring resorts, farms, and cultural landmarks in Indang, Cavite."
+        keywords="Indang tourism, Cavite tourism, spring resorts, Bonifacio Shrine, Irok Festival, CvSU, agri-tourism"
+      />
+
+      {/* Hero */}
+      <div
+        className="relative text-white py-20 overflow-hidden"
+        style={{
+          backgroundColor: '#003087',
+          backgroundImage:
+            'radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px)',
+          backgroundSize: '24px 24px',
+        }}
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div
+            className="flex items-center gap-3 mb-3 px-3 py-1.5 rounded-full w-fit"
+            style={{ backgroundColor: 'rgba(255, 255, 255, 0.12)' }}
+          >
+            <MapPin className="h-5 w-5 text-blue-100" />
+            <span className="text-blue-100 text-xs font-medium uppercase tracking-widest">
+              Tanay, Rizal
+            </span>
+          </div>
+          <h1 className="text-4xl sm:text-5xl font-black mb-3 leading-tight">
+            Tourism
+          </h1>
+          <p className="text-2xl font-bold text-blue-200 mb-2">
+            "Home of Adventure and Nature Experience"
+          </p>
+          <p className="text-blue-100 text-lg max-w-xl mb-4">
+            Discover Tanay — known for breathtaking mountain views, historic
+            churches, eco-tourism destinations, waterfalls and rivers, adventure
+            trails, rich cultural heritage, and the vibrant Hane Festival in the
+            heart of Rizal.
+          </p>
+          <div className="flex flex-wrap items-center gap-2 mb-6">
+            <span className="bg-white/10 border border-white/20 text-white text-xs font-bold px-3 py-1 rounded-full">
+              "Hane" — A Symbol of Unity
+            </span>
+            <span className="bg-white/10 border border-white/20 text-white text-xs font-bold px-3 py-1 rounded-full">
+              Gateway to Rizal&#8217;s Nature Escapes
+            </span>
+            <span className="bg-white/10 border border-white/20 text-white text-xs font-bold px-3 py-1 rounded-full">
+              {establishments.length} Establishments
+            </span>
+          </div>
+          <a
+            href="https://www.facebook.com/tanaytourism"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-primary-700 font-bold text-sm rounded-lg hover:bg-blue-50 transition-colors"
+          >
+            <Facebook className="h-4 w-4" />
+            Follow @TanayTourism
+          </a>
+        </div>
+      </div>
+
+      {/* Culture Highlights */}
+      <section className="bg-white py-12 border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div ref={heroRef} className="reveal mb-8">
+            <div className="flex items-center gap-2 mb-1">
+              <Star className="h-4 w-4 text-amber-500" />
+              <span className="text-xs font-bold text-amber-600 uppercase tracking-widest">
+                Culture & Identity
+              </span>
+            </div>
+            <h2 className="text-2xl font-black text-gray-900">
+              What Makes Tanay Unique
+            </h2>
+          </div>
+          <div
+            ref={cultureRef}
+            className="reveal-stagger grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4"
+          >
+            {CULTURE_HIGHLIGHTS.map(
+              ({ icon: Icon, color, iconColor, title, subtitle, body }) => (
+                <div key={title} className={`rounded-xl border p-5 ${color}`}>
+                  <div
+                    className={`w-9 h-9 rounded-lg flex items-center justify-center mb-3 ${iconColor}`}
+                  >
+                    <Icon className="h-4 w-4" />
+                  </div>
+                  <h3 className="font-black text-sm mb-0.5">{title}</h3>
+                  <p className="text-xs font-semibold opacity-70 mb-2 leading-relaxed">
+                    {subtitle}
+                  </p>
+                  <p className="text-xs leading-relaxed opacity-80">{body}</p>
+                </div>
+              )
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Category Cards */}
+      <section className="bg-gray-50 py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div ref={catsRef} className="reveal mb-8">
+            <h2 className="text-2xl font-black text-gray-900">
+              Browse by Category
+            </h2>
+          </div>
+          <div
+            ref={catsGridRef}
+            className="reveal-stagger grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
+          >
+            {categories.map(cat => {
+              const count = establishments.filter(
+                e => e.category === cat.id
+              ).length;
+              const colors = CATEGORY_COLORS[cat.id] ?? CATEGORY_COLORS.others;
+              const IconComp = ICON_MAP[cat.icon] ?? MapPin;
+              return (
+                <Link
+                  key={cat.id}
+                  to={`/tourism/${cat.id}`}
+                  className="group bg-white rounded-xl border border-gray-100 hover:border-primary-200 hover:shadow-md transition-all duration-200 p-6 flex items-start gap-4"
+                >
+                  <div className="shrink-0 w-12 h-12 rounded-xl bg-primary-50 text-primary-700 flex items-center justify-center group-hover:bg-primary-100 transition-colors">
+                    <IconComp className="h-6 w-6" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center justify-between gap-2">
+                      <h3 className="font-black text-base text-gray-900">
+                        {cat.label}
+                      </h3>
+                      <ChevronRight className="h-4 w-4 shrink-0 text-gray-400 group-hover:text-primary-600 group-hover:translate-x-0.5 transition-all" />
+                    </div>
+                    <p className="text-xs text-gray-500 mt-1 leading-relaxed">
+                      {CATEGORY_DESCS[cat.id] ?? ''}
+                    </p>
+                    <span
+                      className={`inline-block mt-3 text-xs font-bold px-2 py-0.5 rounded-full ${colors.pill}`}
+                    >
+                      {count} listing{count !== 1 ? 's' : ''}
+                    </span>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+
+// ── Category Page ─────────────────────────────────────────────────────────────
+
+function TourismCategory() {
+  const { category } = useParams<{ category: string }>();
+  const [search, setSearch] = useState('');
+  const gridRef = useScrollReveal<HTMLDivElement>();
+
+  const categories: Category[] = establishmentsData.categories;
+  const establishments: Establishment[] = establishmentsData.establishments;
+
+  const cat = categories.find(c => c.id === category);
+  const colors = CATEGORY_COLORS[category ?? ''] ?? CATEGORY_COLORS.others;
+  const IconComp = cat ? (ICON_MAP[cat.icon] ?? MapPin) : MapPin;
+
+  const filtered = establishments.filter(item => {
+    if (item.category !== category) return false;
+    const q = search.toLowerCase();
+    return (
+      !q ||
+      item.name.toLowerCase().includes(q) ||
+      (item.description ?? '').toLowerCase().includes(q) ||
+      (item.address ?? '').toLowerCase().includes(q) ||
+      (item.tags ?? []).some(t => t.toLowerCase().includes(q))
+    );
+  });
+
+  if (!cat) {
+    return (
+      <main className="grow flex items-center justify-center py-20">
+        <div className="text-center">
+          <p className="text-gray-500 mb-4">Category not found.</p>
+          <Link
+            to="/tourism"
+            className="text-sm font-semibold text-primary-700 hover:text-primary-800"
+          >
+            View all tourism categories
+          </Link>
+        </div>
+      </main>
+    );
+  }
+
+  return (
+    <>
+      <SEO
+        title={`${cat.label} — Tourism`}
+        description={`${cat.label} listings in Indang, Cavite. Official 2026 tourism establishments.`}
+        keywords={`Indang ${cat.label.toLowerCase()}, Cavite tourism, ${cat.id}`}
+      />
+      <main className="grow">
+        {/* Breadcrumb + Header */}
+        <div className="bg-white border-b border-gray-100 py-8">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            {/* Breadcrumb */}
+            <nav className="flex items-center gap-2 text-sm text-gray-500 mb-6">
+              <Link to="/" className="hover:text-primary-700 transition-colors">
+                Home
+              </Link>
+              <ChevronRight className="h-3.5 w-3.5" />
+              <Link
+                to="/tourism"
+                className="hover:text-primary-700 transition-colors"
+              >
+                Tourism
+              </Link>
+              <ChevronRight className="h-3.5 w-3.5" />
+              <span className="font-semibold text-primary-700">
+                {cat.label}
+              </span>
+            </nav>
+
+            <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-primary-50 text-primary-700 mb-4">
+              <IconComp className="h-6 w-6" />
+            </div>
+            <h1 className="text-4xl font-black text-gray-900 mb-2">
+              {cat.label}
+            </h1>
+            <div className="flex items-center gap-2 mt-1">
+              <span
+                className={`text-xs font-bold px-2 py-0.5 rounded-full ${colors.pill}`}
+              >
+                {cat.label}
+              </span>
+              <span className="text-gray-400 text-sm">
+                {filtered.length} establishment
+                {filtered.length !== 1 ? 's' : ''} · Tanay, Rizal 2026
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* Search */}
+        <div className="bg-white border-b border-gray-100 sticky top-0 z-10 shadow-sm">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3">
+            <div className="relative w-full sm:w-80">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
+              <input
+                type="text"
+                value={search}
+                onChange={e => setSearch(e.target.value)}
+                placeholder={`Search ${cat.label.toLowerCase()}...`}
+                className="w-full border border-gray-200 rounded-lg pl-9 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Listings */}
+        <section className="bg-gray-50 py-8 min-h-100">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            {filtered.length === 0 ? (
+              <div className="text-center py-20 text-gray-400">
+                <MapPin className="h-10 w-10 mx-auto mb-3 opacity-40" />
+                <p className="font-semibold">No results found.</p>
+                <p className="text-sm mt-1">Try a different search term.</p>
+              </div>
+            ) : (
+              <div
+                ref={gridRef}
+                className="reveal-stagger grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
+              >
+                {filtered.map(item => (
+                  <EstablishmentCard
+                    key={item.name}
+                    item={item}
+                    cat={cat}
+                    colors={colors}
+                  />
+                ))}
+              </div>
+            )}
+          </div>
+        </section>
+
+        <div className="bg-white border-t border-gray-100 py-6">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 flex justify-end">
+            <a
+              href="https://www.facebook.com/tanaytourism"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors"
+            >
+              <Facebook className="h-4 w-4" />
+              Contact Tourism Office
+            </a>
+          </div>
+        </div>
+      </main>
+    </>
+  );
+}
+
+// ── Establishment Card ────────────────────────────────────────────────────────
+
+function EstablishmentCard({
+  item,
+  cat,
+  colors,
+}: {
+  item: Establishment;
+  cat: Category;
+  colors: (typeof CATEGORY_COLORS)[string];
+}) {
+  return (
+    <div className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-primary-200 transition-all duration-200 overflow-hidden flex flex-col">
+      {/* Thumbnail */}
+      {item.image ? (
+        <div className="w-full h-40 overflow-hidden border-b border-gray-100">
+          <img
+            src={item.image}
+            alt={item.name}
+            className="w-full h-full object-cover"
+          />
+        </div>
+      ) : (
+        <div
+          className={`w-full h-40 flex items-center justify-center border-b border-gray-100 ${colors.placeholder}`}
+        >
+          {(() => {
+            const IconComp = ICON_MAP[cat.icon] ?? MapPin;
+            return <IconComp className={`h-14 w-14 ${colors.icon}`} />;
+          })()}
+        </div>
+      )}
+
+      {/* Content */}
+      <div className="p-5 flex flex-col gap-3 flex-1">
+        <div>
+          <span
+            className={`inline-block text-xs font-semibold px-2 py-0.5 rounded-full mb-2 ${colors.pill}`}
+          >
+            {cat.label}
+          </span>
+          <h3 className="font-black text-sm leading-snug text-gray-900">
+            {item.name}
+          </h3>
+        </div>
+
+        {item.description && (
+          <p className="text-xs text-gray-600 leading-relaxed">
+            {item.description}
+          </p>
+        )}
+
+        {item.tags && item.tags.length > 0 && (
+          <div className="flex flex-wrap gap-1">
+            {item.tags.map(tag => (
+              <span
+                key={tag}
+                className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+
+        <div className="flex flex-col gap-1.5 pt-2 border-t border-gray-100 mt-auto">
+          {item.address && (
+            <span className="flex items-start gap-2 text-xs text-gray-500">
+              <MapPin className="h-3.5 w-3.5 shrink-0 mt-0.5 text-gray-400" />
+              {item.address}
+            </span>
+          )}
+          {item.contact && (
+            <a
+              href={`tel:${item.contact.replace(/\D/g, '')}`}
+              className="flex items-center gap-2 text-xs text-primary-600 hover:text-primary-800 font-semibold transition-colors"
+            >
+              <Phone className="h-3.5 w-3.5 shrink-0" />
+              {item.contact}
+            </a>
+          )}
+          {item.facebook && (
+            <a
+              href={item.facebook}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-xs text-blue-600 hover:text-blue-800 font-semibold transition-colors"
+            >
+              <Facebook className="h-3.5 w-3.5 shrink-0" />
+              Facebook Page
+              <ExternalLink className="h-3 w-3 opacity-60" />
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ── Router ────────────────────────────────────────────────────────────────────
+
+export default function Tourism() {
+  const { category } = useParams<{ category: string }>();
+  return category ? <TourismCategory /> : <TourismIndex />;
+}

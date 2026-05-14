@@ -1,89 +1,140 @@
-# Learn About Supplementary Activities for Schools in Your Area — Lapu-Lapu City
+# Learn About Supplementary Activities for Schools in Your Area — Tanay, Rizal
 
-This guide shows where to find **clubs, student organizations, competitions, service groups, and enrichment programs** available to learners in Lapu-Lapu City.
+This guide shows where to find **student organizations, clubs, competitions, leadership programs, community service groups, and enrichment activities** available to learners in Tanay, Rizal.
 
 ---
 
 ## Where to Look First (Local)
 
-1. **Your school’s official page or FB** — most clubs post tryout/enlistment dates there.
-2. **DepEd Lapu-Lapu City Division** — division-wide contests, trainings, and circulars:
-   - Website: https://depedlapulapu.net.ph/
-   - FB page: https://www.facebook.com/DepEDLLC/
-3. **City facilities** — the **Lapu-Lapu City e-Library (Hoops Dome, Gun-ob)** runs study support and computer/printing access (open daily 8:00 a.m.–12:00 midnight):
-   - SunStar article: https://www.sunstar.com.ph/cebu/lapu-lapu-city-reopens-e-library
-   - The POST coverage: https://thepost.net.ph/news/nation/lapu-lapu-city-library-reopens-offers-free-study-space-and-digital-access-for-students/
+1. **Your school’s official Facebook page or bulletin board**
+   - Most schools post announcements for club enlistment, tryouts, contests, and training programs there.
+
+2. **DepEd Rizal**
+   - Division and district-wide activities, contests, and memorandums are usually announced through official DepEd Rizal channels.
+
+### Helpful Links
+
+- DepEd Rizal Official Facebook Page  
+  https://www.facebook.com/depedtayorizalprovince/
+
+- Department of Education (DepEd)  
+  https://www.deped.gov.ph/
+
+- Municipality of Tanay Official Website  
+  https://tanay.gov.ph/
 
 ---
 
-## Core Student Organizations (DepEd-recognized)
+## Core Student Organizations (DepEd-Recognized)
 
-| Organization                                              | What it does                                                                        | Learn more                                                                                                                         |
-| --------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| **Supreme Pupil/Student Government (SPG/SSG)**            | Student leadership, school/community projects, assemblies, advocacy campaigns       | DepEd policy brief (PDF): https://www.deped.gov.ph/wp-content/uploads/2014/12/DO_s2014_47.pdf                                      |
-| **YES-O (Youth for Environment in Schools Organization)** | Environmental projects: clean-ups, waste management, tree-planting, 4 o’clock habit | Overview: https://www.deped.gov.ph/2003/09/01/do-72-s-2003-establishment-of-the-youth-for-environment-in-schools-yes-organization/ |
-| **Campus Journalism (School Papers)**                     | Writing, editing, layout, radio/TV script, participation in press conferences       | Start with your English/Filipino department; division circulars are posted on DepEd Lapu-Lapu site/FB                              |
-
----
-
-## Service & Skills Organizations (Often School-Based Chapters)
-
-| Organization                             | Typical activities                                         | Learn more                               |
-| ---------------------------------------- | ---------------------------------------------------------- | ---------------------------------------- |
-| **Red Cross Youth**                      | First aid basics, disaster preparedness, volunteer service | https://redcross.org.ph/red-cross-youth/ |
-| **Boy Scouts of the Philippines (BSP)**  | Scouting skills, leadership camps, community service       | National site: https://scouts.gov.ph/    |
-| **Girl Scouts of the Philippines (GSP)** | Leadership, life skills, community projects, camping       | https://girlscouts.org.ph/               |
-
-> Ask your school for **recognition and membership schedules** if you want to start or reactivate a chapter.
+| Organization                                                                                   | What It Does                                                                                               | Learn More                                                                                                               |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Supreme Elementary Learner Government (SELG) / Supreme Secondary Learner Government (SSLG)** | Student leadership, school activities, student representation, and community projects                      | https://www.deped.gov.ph/                                                                                                |
+| **YES-O (Youth for Environment in Schools Organization)**                                      | Environmental projects, clean-up drives, tree planting, waste management, and climate awareness activities | https://www.deped.gov.ph/2003/09/01/do-72-s-2003-establishment-of-the-youth-for-environment-in-schools-yes-organization/ |
+| **Campus Journalism / School Paper**                                                           | Writing, editing, broadcasting, photography, layout design, and journalism competitions                    | Ask your school paper adviser or English/Filipino department                                                             |
 
 ---
 
-## Academic & Interest Clubs (examples you’ll commonly find)
+## Service & Skills Organizations
 
-- **STEM/Math/Science clubs** — science fairs, investigatory projects, robotics/ICT showcases
-- **Araling Panlipunan & Social Science clubs** — quiz bowls, heritage walks, civic advocacy
-- **MAPEH / Arts, Music, Dance & Theater** — talent showcases, chorale, dance troupe, theater guild
-- **TLE/ICT clubs** — coding basics, multimedia, entrepreneurship pop-ups
-- **Sports teams** — tryouts announced by the school’s MAPEH/sports coordinator (division meets posted by DepEd)
+| Organization                             | Typical Activities                                                   | Learn More                               |
+| ---------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------- |
+| **Red Cross Youth (RCY)**                | First aid training, disaster preparedness, volunteer activities      | https://redcross.org.ph/red-cross-youth/ |
+| **Boy Scouts of the Philippines (BSP)**  | Camping, leadership training, survival skills, and community service | https://scouts.gov.ph/                   |
+| **Girl Scouts of the Philippines (GSP)** | Leadership activities, camping, life skills, and outreach projects   | https://girlscouts.org.ph/               |
 
-> Tip: Most schools post **club enlistment** in the first month of classes and **tryout notices** before division meets. Keep an eye on your school’s channels.
+> Ask your school administration or club advisers for membership schedules and requirements.
 
 ---
 
-## Enrichment & Alternative Pathways
+## Academic & Interest Clubs
 
-- **ALS (Alternative Learning System)** — if you’re out-of-school youth or need flexible learning.
-  - DepEd Lapu-Lapu Division contact page lists ALS focal persons: https://depedlapulapu.net.ph/contact-us/
-- **City e-Library Programs** — occasional **digital skills** and study support activities (ask staff at Hoops Dome).
-- **Youth & Environment / Disaster Readiness** — often led by YES-O, RCY, and school DRRM coordinators.
+Students in Tanay schools may also participate in:
+
+- **Science and Math Clubs**
+  - Science fairs, investigatory projects, quiz bees, robotics, and STEM activities.
+
+- **ICT / Computer Clubs**
+  - Coding, multimedia editing, digital literacy, and technology-related activities.
+
+- **MAPEH Clubs**
+  - Dance, music, choir, theater arts, and visual arts programs.
+
+- **Sports Teams**
+  - Basketball, volleyball, athletics, badminton, and other sports competitions.
+
+- **Social Science & Leadership Clubs**
+  - Debate, quiz bowls, civic engagement, and cultural awareness activities.
+
+> Club openings and tryouts are usually announced during the first weeks of the school year.
+
+---
+
+## Enrichment & Alternative Learning Programs
+
+### Alternative Learning System (ALS)
+
+ALS provides flexible learning opportunities for:
+
+- Out-of-school youth
+- Working students
+- Learners needing alternative education pathways
+
+### TESDA & Skills Programs
+
+Students and youth may also join technical-vocational and skills development programs through TESDA or partner schools.
+
+### Community & Youth Programs
+
+Barangays and local organizations may conduct:
+
+- Youth leadership seminars
+- Environmental campaigns
+- Disaster preparedness training
+- Literacy and digital skills programs
 
 ---
 
 ## How to Join (Quick Steps)
 
-1. **Scan your school’s bulletin/FB** for club fair dates, sign-up links, or adviser contacts.
-2. **Prepare simple requirements** (school ID, parent consent form if needed).
-3. **Attend the orientation/tryouts** and take note of meeting schedules.
-4. **Commit to service hours or outputs** (e.g., events, training, competitions).
-5. **Track division-level announcements** via DepEd Lapu-Lapu for contests and training invitations.
+1. Check your school’s Facebook page, bulletin boards, or announcements.
+2. Attend club fairs, orientations, or tryouts.
+3. Submit simple requirements such as:
+   - School ID
+   - Parent consent form (if needed)
+   - Registration form
+4. Participate in meetings, trainings, and school events.
+5. Follow DepEd Rizal and your school for division-level competitions and opportunities.
 
 ---
 
-## Parent/Guardian Pointers
+## Parent & Guardian Tips
 
-- Ask advisers about **safety protocols**, **meeting times**, and **fees (if any)**. Many activities are free or school-supported.
-- Balance: set a weekly schedule so academics and extracurriculars both thrive.
-- Encourage roles that build **leadership and documentation** (e.g., secretary, treasurer, logistics head).
+- Ask about schedules, safety measures, and activity requirements before joining.
+- Encourage balanced participation between academics and extracurricular activities.
+- Support students in joining leadership and skills-based programs that build confidence and teamwork.
 
 ---
 
-### Quick Links Recap
+## Quick Links Recap
 
-- DepEd Lapu-Lapu Division — https://depedlapulapu.net.ph/
-- DepEd Lapu-Lapu FB — https://www.facebook.com/DepEDLLC/
-- Lapu-Lapu City e-Library news — https://www.sunstar.com.ph/cebu/lapu-lapu-city-reopens-e-library
-- YES-O overview — https://www.deped.gov.ph/2003/09/01/do-72-s-2003-establishment-of-the-youth-for-environment-in-schools-yes-organization/
-- SPG/SSG policy (PDF) — https://www.deped.gov.ph/wp-content/uploads/2014/12/DO_s2014_47.pdf
-- Red Cross Youth — https://redcross.org.ph/red-cross-youth/
-- Boy Scouts — https://scouts.gov.ph/
-- Girl Scouts — https://girlscouts.org.ph/
+- DepEd Rizal Official Page  
+  https://www.facebook.com/depedrizalofficial
+
+- Department of Education  
+  https://www.deped.gov.ph/
+
+- YES-O Program  
+  https://www.deped.gov.ph/2003/09/01/do-72-s-2003-establishment-of-the-youth-for-environment-in-schools-yes-organization/
+
+- Red Cross Youth  
+  https://redcross.org.ph/red-cross-youth/
+
+- Boy Scouts of the Philippines  
+  https://scouts.gov.ph/
+
+- Girl Scouts of the Philippines  
+  https://girlscouts.org.ph/
+
+- Municipality of Tanay  
+  https://tanay.gov.ph/

@@ -1,132 +1,265 @@
-# Renew Permits and Pay Local Business Taxes — Lapu-Lapu City
+# Renew Permits and Pay Local Business Taxes — Tanay, Rizal
 
-Use this guide to renew your **Mayor’s/Business Permit** and **Local Business Taxes (LBT)** with the City Government.
+Use this guide to renew your **Mayor’s/Business Permit** and pay **Local Business Taxes (LBT)** with the Municipality of Tanay, Rizal.
 
 ---
 
 ## Who Must Renew
 
-- All businesses operating in Lapu-Lapu City: **sole proprietors, partnerships, corporations, NGOs, cooperatives, online sellers with local presence**, and professionals with a business office.
-- Renewal applies to **main office and each branch**.
+Business renewal applies to:
+
+- Sole proprietorships
+- Partnerships
+- Corporations
+- Cooperatives
+- Online businesses with local operations
+- Branch offices operating within Tanay
+- Professionals maintaining business offices
+
+> Businesses operating without a valid permit may face penalties, inspections, or closure orders.
 
 ---
 
 ## When to Renew
 
-- **Annual renewal period:** **First 20 days of January** (as provided in the Local Government Code).
-- **Payments:** either **annually** or **quarterly** (1st qtr due during renewal; next quarters usually due on or before the **20th** day of April, July, and October).
-- Late filings incur **surcharges and interest**.
+### Annual Renewal Period
 
-> Tip: Prepare your documents **by December** so you can file in the first week of January.
+- Usually conducted during the **first 20 days of January** each year, following the Local Government Code.
 
----
+### Quarterly Payments (if applicable)
 
-## What You’ll Need (Typical Requirements)
+Businesses paying quarterly usually follow these schedules:
 
-**Business Information**
+- **1st Quarter:** January
+- **2nd Quarter:** April
+- **3rd Quarter:** July
+- **4th Quarter:** October
 
-- Prior year **Mayor’s/Business Permit** and **Official Receipts**.
-- **DTI/SEC/CDA** registration (whichever applies).
-- **BIR** Certificate of Registration (Form 2303) and **Authority to Print** (if any).
-- **Contract of Lease** / **Tax Declaration** / **Certificate of Occupancy** (as applicable).
-- **Valid IDs** of owner or authorized representative (+ **SPA** or Board Resolution if not the owner).
-
-**Revenue/Tax Basis**
-
-- **Sworn Declaration of Gross Sales/Receipts** for the **preceding year** (or **Audited FS**/**Accountant-certified** FS if applicable).
-- **Inventory list** (selected industries) and **machine/equipment list** (if applicable).
-
-**Regulatory Clearances** (city/BPLO may route you during assessment)
-
-- **Barangay Clearance** (for business).
-- **Sanitary Permit** (Health).
-- **Fire Safety Inspection Certificate (FSIC)** (BFP).
-- **Environmental/Disposal Permits** (if required by the nature of business).
-- **Zoning/Occupancy** updates if there were renovations or transfers.
-
-> Note: Actual required clearances vary by business **nature, size, and risk category**. Bring your **previous permits** to guide the checker.
+> Late payments may incur surcharges and interest charges.
 
 ---
 
-## Step-by-Step (Walk-In)
+## Typical Requirements
 
-1. **Pre-screening / Queuing**
-   - Go to the **Business One-Stop Shop (BOSS)** during the renewal period.
-   - Get your queue number; submit last year’s permit and basic IDs for pre-check.
+### Business Documents
 
-2. **Application & Declaration**
-   - Fill out the **Business Renewal Form** and the **Sworn Declaration of Gross Sales/Receipts**.
-   - Declare any **changes** (business name, nature, capitalization, number of employees, floor area, machinery, location).
+- Previous Mayor’s/Business Permit
+- Official Receipts from prior payments
+- DTI / SEC / CDA Registration
+- BIR Certificate of Registration (Form 2303)
+- Lease Contract or Proof of Property Ownership
+- Community Tax Certificate (Cedula)
 
-3. **Regulatory Routing**
-   - The evaluator will route you (if needed) to: **Barangay**, **Sanitary/Health**, **Zoning**, **Environmental**, and **BFP** for assessment/inspection.
+### Financial Documents
 
-4. **Assessment**
-   - **BPLO** computes **Local Business Tax**, **Regulatory Fees**, and **Other Charges** (signage, garbage, sanitary, etc.).
-   - Choose **Annual** or **Quarterly** payment.
+- Sworn Declaration of Gross Sales/Receipts
+- Audited Financial Statements (if applicable)
+- Inventory or equipment list (for certain business types)
 
-5. **Payment**
-   - Pay at the **City Treasurer’s** cashier or accredited payment options (if available).
-   - Receive **Official Receipt(s)**.
+### Regulatory Clearances
 
-6. **Releasing**
-   - Claim your **Mayor’s/Business Permit**, **FSIC/Sanitary**, **Stickers/Plates**, and **Occupational permits** (if issued with the pack).
-   - Post the permit and required notices **conspicuously** at your place of business.
+Depending on the nature of your business, you may need:
 
----
+- Barangay Business Clearance
+- Sanitary Permit
+- Fire Safety Inspection Certificate (FSIC)
+- Zoning Clearance
+- Occupancy Permit
+- Environmental permits (if applicable)
 
-## (If Available) Online / Hybrid Filing
+### Identification
 
-- Some transactions may be done via the city’s **online business portal** or **pre-assessment** channels (if announced).
-- Prepare **scanned PDFs** of your documents (clear, legible; 1 file per requirement).
-- After online assessment, proceed to **payment** (e-payment or onsite) and **permit releasing** per instructions.
-
-> If unsure, confirm at the start of the renewal period if **online pre-filing** is open for your business type.
+- Valid ID of owner or authorized representative
+- Authorization letter, SPA, or Board Resolution (if represented)
 
 ---
 
-## How Your Dues Are Computed
+## Step-by-Step Renewal Process
 
-- **Local Business Tax (LBT):** Based on **gross sales/receipts** of the prior year and your **business category** (rates and brackets per local tax ordinance).
-- **Regulatory/Service Fees:** e.g., **Sanitary**, **Zoning**, **Garbage**, **Signage**, **Occupational**, and **Fire** fees/clearances.
-- **Other Assessments:** May apply for **delivery vehicles**, **storage/stockrooms**, **machinery**, or **special permits**.
+### 1. Secure Barangay Clearance
+
+Renew or obtain your Barangay Business Clearance from the barangay where the business operates.
+
+---
+
+### 2. Visit the Business One-Stop Shop (BOSS) / BPLO
+
+Proceed to the Municipal Hall of Tanay during the renewal period.
+
+### Prepare:
+
+- Last year’s permit
+- IDs
+- Financial documents
+- Regulatory clearances
+
+---
+
+### 3. Fill Out Renewal Forms
+
+Complete:
+
+- Business Permit Renewal Form
+- Sworn Gross Sales/Receipts Declaration
+
+Declare any updates regarding:
+
+- Business name
+- Ownership
+- Address
+- Floor area
+- Capitalization
+- Nature of business
+
+---
+
+### 4. Regulatory Assessment & Inspection
+
+Your application may be routed for:
+
+- Sanitary inspection
+- Fire safety clearance
+- Zoning verification
+- Environmental review
+
+---
+
+### 5. Assessment of Taxes & Fees
+
+The BPLO and Treasurer’s Office will compute:
+
+- Local Business Tax (LBT)
+- Regulatory fees
+- Garbage fees
+- Signage fees
+- Other applicable assessments
+
+You may choose annual or quarterly payment options if allowed.
+
+---
+
+### 6. Payment
+
+Pay the assessed fees at:
+
+- Municipal Treasurer’s Office
+- Authorized payment counters (if available)
+
+Keep all official receipts.
+
+---
+
+### 7. Claim Your Permit
+
+After payment and approval, claim your:
+
+- Mayor’s/Business Permit
+- Official receipts
+- Business stickers or plates (if issued)
+
+> Display your permit prominently at your place of business.
+
+---
+
+## Online / Hybrid Transactions
+
+Availability of online processing may vary depending on current LGU systems and announcements.
+
+Before applying online:
+
+- Prepare scanned PDF copies of your documents
+- Ensure files are clear and readable
+- Follow official LGU instructions carefully
+
+### Official Website
+
+- Municipality of Tanay  
+  https://tanay.gov.ph/
+
+---
+
+## How Taxes & Fees Are Computed
+
+### Local Business Tax (LBT)
+
+Usually based on:
+
+- Previous year’s gross sales/receipts
+- Type/category of business
+- Local tax ordinances
+
+### Additional Fees May Include
+
+- Sanitary fees
+- Garbage collection fees
+- Signage permit fees
+- Fire safety fees
+- Occupational permit fees
 
 ---
 
 ## Penalties for Late Renewal
 
-- **Surcharge** (commonly up to **25%** of the tax due) **plus** **monthly interest** (commonly up to **2% per month**) until fully paid, subject to the city’s ordinance caps.
-- Possible **closure/tagging** and **inspection findings** if you continue operations without a valid permit.
+Failure to renew on time may result in:
+
+- Surcharges
+- Monthly interest penalties
+- Inspection violations
+- Temporary closure orders
+- Accrued unpaid taxes
 
 ---
 
 ## Changes You Must Report
 
-- **Change of address**, **trade/brand name**, **ownership structure**, **business activity**, **floor area**, **machinery**, or **employee count**.
-- **Temporary closure** or **permanent cessation**:
-  - File a **Business Retirement** to stop tax accruals.
-  - Submit **inventory and last day of operation**, settle any **delinquencies**, and surrender old permits/plates.
+Report immediately if there are changes in:
+
+- Business address
+- Ownership
+- Trade name
+- Nature of business
+- Expansion or renovation
+- Closure or retirement of business
+
+> Businesses that permanently stop operations should process formal business retirement to avoid continuous tax assessment.
 
 ---
 
 ## Practical Tips
 
-- **Bring copies** of everything (and soft copies on a USB/phone).
-- If you had **renovations** or **new equipment**, bring **permits/invoices**—it speeds up Zoning/BFP review.
-- **Coordinate early** with your **lessor** for building-related documents (occupancy, fire compliance).
-- For **food/health businesses**, schedule **Sanitary inspections** early; ensure staff have updated **health cards** if required.
-- Keep a **renewal calendar**: Q2/Q3/Q4 due dates if you chose quarterly.
+- Prepare all documents before January.
+- Keep printed and digital copies of permits and receipts.
+- Coordinate early with landlords for lease and occupancy documents.
+- Food and health-related businesses should update sanitary and health permits early.
+- Monitor LGU announcements for updated procedures and schedules.
 
 ---
 
-## Quick Checklist (Print This)
+## Quick Checklist
 
-- [ ] Last year’s **Mayor’s/Business Permit** and **ORs**
-- [ ] **DTI/SEC/CDA** registration & **BIR 2303**
-- [ ] **Lease/Occupancy**/Tax Declaration (as applicable)
-- [ ] **Sworn Gross Sales/Receipts** (prev. year) / **FS**
-- [ ] **Barangay Clearance** (business)
-- [ ] **Sanitary** & **FSIC** (and other routed clearances)
-- [ ] **Valid ID** / **SPA or Board Resolution** for representative
-- [ ] Payment (cash/card) for **taxes & fees**
-- [ ] Collect **Permit**, **Stickers/Plates**, post on site
+- [ ] Previous Mayor’s/Business Permit
+- [ ] DTI / SEC / CDA Registration
+- [ ] BIR Form 2303
+- [ ] Lease Contract or Property Documents
+- [ ] Sworn Gross Sales/Receipts Declaration
+- [ ] Barangay Clearance
+- [ ] Fire Safety & Sanitary Clearances
+- [ ] Valid IDs / Authorization Documents
+- [ ] Payment for taxes and fees
+- [ ] Claim and display renewed permit
+
+---
+
+## Helpful Links
+
+- Municipality of Tanay  
+  https://tanay.gov.ph/
+
+- Bureau of Internal Revenue (BIR)  
+  https://www.bir.gov.ph/
+
+- DTI Philippines  
+  https://www.dti.gov.ph/
+
+- Bureau of Fire Protection (BFP)  
+  https://bfp.gov.ph/

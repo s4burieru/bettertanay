@@ -1,0 +1,83 @@
+import { Users, MapPin, Building2, Map } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import { useScrollReveal } from '../../hooks/useScrollReveal';
+import { Heading } from '../ui/Heading';
+
+export default function StatsSection() {
+  const { t } = useTranslation('common');
+  const ref = useScrollReveal<HTMLElement>();
+
+  const STATS = [
+    {
+      icon: Users,
+      value: '139,420',
+      label: t('stats.population.label'),
+      description: t('stats.population.desc'),
+    },
+    {
+      icon: MapPin,
+      value: '20',
+      label: t('stats.barangays.label'),
+      description: t('stats.barangays.desc'),
+    },
+    {
+      icon: Building2,
+      value: '1st Class',
+      label: t('stats.classification.label'),
+      description: t('stats.classification.desc'),
+    },
+    {
+      icon: Map,
+      value: '200.00',
+      label: t('stats.area.label'),
+      description: t('stats.area.desc'),
+    },
+  ];
+
+  return (
+    <section
+      ref={ref}
+      className="reveal bg-white border-b border-gray-100 py-10"
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="flex items-center justify-between mb-6">
+          <Heading level={4} className="font-black mb-6">
+            {t('stats.title')}
+          </Heading>
+          <Link
+            to="/statistics"
+            className="text-sm font-semibold text-primary-700 hover:text-primary-800 flex items-center gap-1 transition-colors"
+          >
+            {t('stats.viewProfile')}
+          </Link>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {STATS.map(({ icon: Icon, value, label, description }) => (
+            <div
+              key={description}
+              className="bg-gray-50 rounded-xl border border-gray-100 border-t-5 border-t-primary-700 overflow-hidden"
+            >
+              <div className="p-5">
+                <div className="bg-primary-100 text-primary-700 w-9 h-9 rounded-lg flex items-center justify-center mb-3">
+                  <Icon className="h-4 w-4" />
+                </div>
+                <div className="text-2xl font-black text-gray-900 leading-none mb-1">
+                  {value}
+                </div>
+                {label && (
+                  <div className="text-sm font-semibold text-gray-800">
+                    {label}
+                  </div>
+                )}
+                <div className="text-xs text-gray-600 mt-0.5">
+                  {description}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

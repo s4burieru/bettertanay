@@ -1,112 +1,197 @@
-# Apply for Local Scholarships — Lapu-Lapu City
+# Apply for Local Scholarships — Tanay, Rizal
 
-Use this guide to find **City/LGU**, **Congressional/partner**, **local college**, and **national** scholarship options you can apply for while based in **Lapu-Lapu City**.
-
----
-
-## 1) City/LGU Scholarship Programs
-
-| Program                                           | Who it’s for                                                                                           | What it covers\*                                                          | Where to apply                  | Notes                                                                                                                                                                                                         |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Lapu-Lapu City Government College Scholarship** | Lapu-Lapu City residents (typically Senior High / incoming college; priority to low-income households) | Tuition/fees or full scholarship, depending on intake and partner schools | City Hall / posted online calls | The city has historically opened slots for poor residents and tied these to local HEIs during certain intakes. Check latest calls from City Hall / Office of the Mayor. :contentReference[oaicite:0]{index=0} |
-
-\*Coverage varies by year/partner school; always verify the current announcement.
-
-**How to apply (typical flow)**
-
-1. Watch for the **official call for applications** from the **Lapu-Lapu City Government** (FB/website or City Information Office). :contentReference[oaicite:1]{index=1}
-2. Prepare documents (see **Common Requirements** below).
-3. Submit your application at the designated **LGU window/online form** and attend evaluation/orientation if shortlisted.
+Use this guide to find available **Municipal/LGU**, **school-based**, **TESDA**, and **national scholarship** opportunities you can apply for while based in Tanay, Rizal.
 
 ---
 
-## 2) Congressional / Partner Scholarship Slots
+## 1) Municipal / LGU Scholarship & Educational Assistance Programs
 
-| Program                                                                                       | Who it’s for                                   | What it covers                                          | Where to apply                                                                   | Notes                                                                                                                |
-| --------------------------------------------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| **Mayor Junard “Ahong” Chan & First Lady Ma. Cynthia King-Chan Scholarship** (periodic calls) | City residents, course/partner-school specific | Tuition assistance/full scholarship depending on cohort | Calls posted by the **Office of the Mayor** / **Office of Rep. Cindi King-Chan** | Look for official FB announcements with the **requirements and deadlines**. :contentReference[oaicite:2]{index=2}    |
-| **International/partner school opportunities**                                                | Senior High/college grads                      | Tuition discounts/scholarships via MOUs                 | Via partner school announcements & City coordination                             | Example: Taiwan partner university opportunities highlighted by city partners. :contentReference[oaicite:3]{index=3} |
+The Municipality of Tanay occasionally supports educational assistance, scholarship programs, and youth development initiatives through the LGU and partner agencies.
 
----
+### Possible Programs & Assistance
 
-## 3) Local Colleges & Their In-House Scholarships
+| Program                                                     | Who It’s For                                                       | Typical Assistance                                            | Where to Apply                                            | Notes                                                                      |
+| ----------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------- | --------------------------------------------------------- | -------------------------------------------------------------------------- |
+| **Municipal Educational Assistance / Scholarship Programs** | Qualified Tanay residents, Senior High School and College students | Financial assistance, allowance, or scholarship support       | Municipal Hall / Youth Office / Public Information Office | Availability depends on annual LGU funding and official announcements.     |
+| **Youth Development & Scholarship Support Activities**      | Students preparing for college or scholarship exams                | Review programs, orientation seminars, scholarship assistance | Municipal Youth-related programs or partner organizations | Tanay has participated in literacy and scholarship-related youth programs. |
 
-| School                                         | Scholarship page/info                                                        | Notes                                                                                                                                 |
-| ---------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Lapu-Lapu City College (LLCC)**              | School site lists contacts; ask registrar/scholarship desk for current slots | City college; scholarship rules and timing set per semester. :contentReference[oaicite:4]{index=4}                                    |
-| **University of Cebu** (Mactan/Main system)    | Public scholarship lists & requirements                                      | UC posts scholarship requirements (e.g., academic honors, docs). Availability varies by campus. :contentReference[oaicite:5]{index=5} |
-| **LCIC (Lapulapu-Cebu International College)** | Scholarship page with program specifics                                      | Has its own discounts/scholarships; separate from LGU. :contentReference[oaicite:6]{index=6}                                          |
-
-> Tip: Even if you’re targeting an **LGU scholarship**, apply to your target school’s **in-house scholarship** too. Slots stack or complement depending on rules.
+> Always wait for the official announcement from the Municipality of Tanay before applying.
 
 ---
 
-## 4) National Programs You Can Apply For While Based in Lapu-Lapu
+## 2) TESDA Scholarship Programs
 
-| Program                                                             | Who it’s for                                                  | Typical coverage                                          | Where to file                                                                                                               |
-| ------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| **CHED Merit Scholarship (CMSP)**                                   | Incoming/continuing college with merit + income criteria      | Stipend + book/tuition assistance (per CHED rules)        | CHED’s official calls/portals (watch national page) :contentReference[oaicite:7]{index=7}                                   |
-| **OWWA EDSP/ODSP** (for OFW dependents)                             | Qualified dependents of active OWWA members                   | EDSP up to ₱60k/yr; ODSP up to ₱20k/yr (amounts per call) | OWWA Scholarship portal; local **PESO Lapu-Lapu** often posts the call window :contentReference[oaicite:8]{index=8}         |
-| **Cebu Province scholarships** (if eligible as provincial resident) | Cebu Province residents (check city/province residency rules) | Tuition/stipend per program                               | Province announcements; verify residency eligibility vs. highly urbanized city status :contentReference[oaicite:9]{index=9} |
+### What’s Offered
+
+- Free technical-vocational training programs.
+- Courses may include:
+  - Bread and Pastry Production
+  - Welding (SMAW)
+  - Computer-related courses
+  - Livelihood and skills training programs
+
+### Who Can Apply
+
+- Senior High School graduates
+- College students
+- Out-of-school youth
+- Job seekers and interested residents
+
+### Typical Requirements
+
+- PSA Birth Certificate
+- Barangay Clearance
+- Valid ID
+- School records or diploma
+- ID photos
+
+### Where to Apply
+
+- TESDA Rizal training centers
+- Municipal PESO or partner training centers
+- TESDA online announcements and scholarship calls
+
+**Cost:** Free for qualified scholars under TESDA scholarship slots.
 
 ---
 
-## Common Requirements (have these ready)
+## 3) School-Based Scholarships
 
-- **Proof of residency** (Barangay Certificate)
-- **Birth certificate** (PSA)
-- **Report card/grades** (JHS/SHS/college)
-- **Good moral certificate** (from school)
-- **Income documents** (parents’ ITR/Certificate of Non-Filing/indigency, depending on program)
-- **Photos/ID** (2×2 or passport size)
-- **Admission/Enrollment proof** (if already admitted)
+Many colleges and universities in Rizal and nearby Metro Manila offer their own scholarships.
 
-(Exact lists vary per program; always follow the posted checklist.)
+### Common Scholarship Types
+
+- Academic scholarships
+- Entrance scholarships
+- Athletic scholarships
+- Financial assistance grants
+- Student assistantship programs
+
+### Schools to Check
+
+- Public colleges and universities in Rizal
+- State universities
+- Private colleges with scholarship programs
+- Technical and vocational schools
+
+> Ask the school registrar or scholarship office directly for updated scholarship openings and requirements.
+
+---
+
+## 4) National Scholarship Programs
+
+### CHED Merit Scholarship Program (CMSP)
+
+**Who it’s for**
+
+- Incoming or continuing college students with strong academic performance and qualified household income.
+
+**Coverage**
+
+- Tuition and miscellaneous allowance support depending on category.
+
+**Where to Apply**
+
+- Official CHED regional scholarship announcements and portals.
+
+---
+
+### DOST-SEI Undergraduate Scholarship
+
+**Who it’s for**
+
+- Grade 12 students pursuing Science, Technology, Engineering, and Mathematics (STEM)-related degrees.
+
+**Coverage**
+
+- Tuition support, monthly stipend, book allowance, and other benefits.
+
+**Where to Apply**
+
+- DOST-SEI scholarship portal and official announcements.
+
+---
+
+### OWWA Scholarship Programs (EDSP / ODSP)
+
+**Who it’s for**
+
+- Dependents of active OWWA-member OFWs.
+
+**Coverage**
+
+- Educational assistance and yearly financial support.
+
+**Where to Apply**
+
+- OWWA Regional Office or official OWWA scholarship portal.
+
+---
+
+## Common Requirements
+
+Prepare both physical and digital copies of the following:
+
+- PSA Birth Certificate
+- Barangay Certificate / Proof of Residency
+- Report Card or Transcript of Records
+- Certificate of Good Moral Character
+- Parent’s Income Documents or Certificate of Indigency
+- Valid IDs
+- Recent ID Photos
+- Admission or Enrollment Certificate (if available)
+
+> Requirements vary depending on the scholarship provider.
 
 ---
 
 ## Step-by-Step: How to Apply
 
-1. **Pick your target programs**
-   - City/LGU scholarship (watch City Hall channels), school-based scholarship, and at least one national program.
+1. **Look for official announcements**
+   - Check LGU pages, school pages, and national scholarship portals.
 
-2. **Check the current call**
-   - Read the **eligibility, coverage, and deadline**. Save the announcement.
+2. **Review eligibility requirements**
+   - Confirm residency, grade, income, and course requirements.
 
-3. **Assemble documents**
-   - Use the checklist above; request certificates early (Barangay, School Registrar, BIR/Barangay for income).
+3. **Prepare documents early**
+   - Request certificates and school records ahead of deadlines.
 
-4. **Submit**
-   - Follow the **specified portal or window**. Keep digital scans (PDF) for online filing.
+4. **Submit your application**
+   - Follow the official submission process (online or onsite).
 
-5. **Monitor & attend screening**
-   - Answer calls/emails, attend orientation/interviews, and **sign the scholarship agreement** if accepted.
+5. **Attend interviews or orientation**
+   - Some programs require screening or orientation sessions.
 
-6. **Comply every term**
-   - Maintain the **required GWA**, submit grade reports on time, and **renew** each semester/year.
+6. **Maintain scholarship requirements**
+   - Keep the required grades and submit renewal documents every term.
 
 ---
 
 ## Where to Watch for Announcements
 
-- LCIC’s website → “Scholarship” section
-- University of Cebu’s “Scholarship & Study Grants” page
-- DepEd Lapu-Lapu City’s official site / memorandums
-- City Government announcements (City Hall / Information Office)
+- Municipality of Tanay official website
+- Municipal Public Information Office
+- Schools and universities
+- CHED Region IV-A announcements
+- DOST-SEI official scholarship pages
+- TESDA Rizal announcements
+- OWWA scholarship portals
 
 ---
 
-### Example Applications Available Now
+## Helpful Links
 
-- [LCIC Scholarship Page](https://lcic.edu.ph/scholarship.html)
-- [UC Scholarships & Study Grants](https://www.universityofcebu.net/p/scholarship.html)
-- [DOST-SEI S&T Scholarship (Grade 12 applicants)](https://depedlapulapu.net.ph/download/dm-no-723-s-2024-2025-dost-sei-s-t-undergraduate-scholarship-applications-for-grade-12-senior-high-school-students/)
-- [English Access Program (DepEd Lapu-Lapu)](https://depedlapulapu.net.ph/download/dm-no-064-s-2025-english-access-scholarship-program/)
+- [Municipality of Tanay Official Website](https://tanay.gov.ph/)
+- [CHED Scholarship Programs](https://ched.gov.ph/scholarships/)
+- [DOST-SEI Undergraduate Scholarships](https://sei.dost.gov.ph/)
+- [TESDA Scholarship Programs](https://www.tesda.gov.ph/)
+- [OWWA Scholarship Programs](https://owwa.gov.ph/)
 
 ---
 
-### Reminders
+## Reminders
 
-- **Deadlines change every cycle.** Always follow the **current** call post.
-- **Coverage differs by program & year.** Read the fine print (tuition vs. full).
-- **Apply to multiple programs** to improve your chances and coverage.
+- Scholarship openings and funding availability change every year.
+- Always follow the latest official announcement and checklist.
+- Apply to multiple scholarship programs to improve your chances.
+- Keep scanned PDF copies of your documents for online applications.

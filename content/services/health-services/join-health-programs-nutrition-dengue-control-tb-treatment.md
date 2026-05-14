@@ -1,65 +1,77 @@
-# Join Health Programs — Lapu-Lapu City (Nutrition, Dengue Control, TB Treatment)
+# Join Health Programs — Tanay, Rizal (Nutrition, Dengue Control, TB Treatment)
 
-Below are city-led and national programs you can join through your **Barangay Health Center** and the **City Health Office (CHO)**.
+Below are municipal and national health programs you can join through your **Barangay Health Center** and the **Municipal Health Office (MHO)** of Tanay, Rizal.
 
 ---
 
 ## 1) Nutrition Programs
 
-**What’s offered**
+### What’s Offered
 
-- Supplementary feeding for day-care children.
-- Community nutrition activities such as breastfeeding promotion, growth monitoring, and health education.
-- Special events during Nutrition Month (July) and city-wide wellness programs.
+- Supplementary feeding programs for undernourished children.
+- Growth monitoring, breastfeeding promotion, and nutrition counseling.
+- Community nutrition education and wellness activities during Nutrition Month.
+- Vitamin supplementation and deworming activities for children.
 
-**Who can join**
+### Who Can Join
 
-- Day-care children and families identified by barangays or CSWD.
-- Residents may also take part in open city nutrition events.
+- Children identified by barangay health workers and nutrition scholars.
+- Pregnant women, breastfeeding mothers, and families needing nutrition support.
+- Residents joining community nutrition and wellness activities.
 
-**How to join**
+### How to Join
 
-1. Visit your **Barangay Health Center** or ask the **Barangay Nutrition Scholar (BNS)** about ongoing feeding programs.
-2. Join community activities and city-wide nutrition events announced by the **City Health Office (CHO)** or City Information Office.
+1. Visit your **Barangay Health Center** and ask the **Barangay Nutrition Scholar (BNS)** about feeding schedules and nutrition services.
+2. Participate in barangay or municipal nutrition activities announced by the **Municipal Health Office (MHO)**.
+3. Attend health education sessions and child monitoring activities in your barangay.
 
 **Cost:** Free for eligible beneficiaries.
 
 ---
 
-## 2) Dengue Control Programs
+## 2) Dengue Prevention & Control Programs
 
-**What’s offered**
+### What’s Offered
 
-- Community clean-up drives under the **ABKD (Aksyon Barangay Kontra Dengue)** program.
-- Daily “4 o’clock habit” — searching and destroying mosquito breeding sites.
-- Misting, fogging, and entomological surveys led by the CHO.
-- Information campaigns during Dengue Awareness Month and rainy season.
+- Barangay clean-up drives and anti-dengue campaigns.
+- Community implementation of the **4S Strategy**:
+  - **Search and destroy** mosquito breeding sites
+  - **Self-protection** measures
+  - **Seek early consultation**
+  - **Support spraying/fogging** in hotspot areas
+- Fogging and misting operations in affected communities.
+- Information campaigns during rainy season and Dengue Awareness activities.
 
-**How to join**
+### How to Join
 
-1. Take part in barangay clean-up drives and follow the **4S strategy** (Search & Destroy, Self-protection, Seek early consultation, Support fogging/misting).
-2. Cooperate when CHO teams conduct **misting** or **house-to-house larval checks**.
+1. Participate in barangay clean-up drives and maintain clean surroundings.
+2. Practice the daily “4 o’clock habit” by checking for stagnant water around your home.
+3. Cooperate with health workers during fogging, misting, or larval inspections.
+4. Report suspected dengue cases to your barangay health workers immediately.
 
-**Cost:** Free; no registration needed.
+**Cost:** Free; no registration required.
 
 ---
 
 ## 3) TB Treatment (NTP TB-DOTS)
 
-**What’s offered**
+### What’s Offered
 
-- Free consultations, diagnostic tests, and full course of anti-TB medicines under the **National Tuberculosis Program (NTP)**.
-- Supervised treatment through the **Directly Observed Therapy Short-course (DOTS)** approach.
+- Free TB screening and consultations.
+- Diagnostic testing and laboratory services for suspected TB patients.
+- Free anti-TB medicines under the **National Tuberculosis Program (NTP)**.
+- Supervised treatment through the **Directly Observed Treatment Short-course (DOTS)** program.
 
-**Where**
+### Where
 
-- Lapu-Lapu City Health Office (DOTS facility) and affiliated barangay health centers.
+- Municipal Health Office (MHO) of Tanay, Rizal
+- Barangay Health Centers and affiliated TB-DOTS facilities
 
-**How to join**
+### How to Join
 
-1. Go to your **Barangay Health Center** or the **CHO DOTS Clinic** for TB screening.
-2. If diagnosed, you will be enrolled in DOTS — treatment and medicines are given for free.
-3. Regular follow-up visits will be scheduled to monitor your recovery.
+1. Visit your **Barangay Health Center** or the **MHO** for TB screening.
+2. If diagnosed, health workers will enroll you in the DOTS program.
+3. Attend regular follow-up visits and take medicines as instructed.
 
 **Cost:** Free for all TB patients.
 
@@ -68,14 +80,15 @@ Below are city-led and national programs you can join through your **Barangay He
 ## Contact & Updates
 
 - **Barangay Health Centers** — First point of contact for nutrition, dengue, and TB programs.
-- **Lapu-Lapu City Health Office (CHO)** — Main office for program schedules and services.
-- **City Information Office** — Posts updates on city-wide campaigns and health events.
+- **Municipal Health Office (MHO)** — Main office for health services, schedules, and medical programs.
+- **Municipal Information Office / LGU Announcements** — Posts updates about municipal health campaigns and activities.
 
 ---
 
-### Quick Tips
+## Quick Tips
 
-- Bring a **valid ID** and your **barangay health record** (if you already have one).
-- For TB symptoms (cough for 2 weeks or more, weight loss, night sweats), seek screening immediately.
-- Join community clean-up drives and practice the 4 o’clock habit to prevent dengue.
-- Attend barangay nutrition events and feeding programs for your children’s growth and wellness.
+- Bring a **valid ID** and your **barangay health record** if available.
+- Seek immediate consultation for dengue symptoms such as high fever, severe headache, body pain, or rashes.
+- For TB symptoms such as cough lasting 2 weeks or more, weight loss, and night sweats, get screened immediately.
+- Support barangay clean-up drives to help prevent mosquito-borne diseases.
+- Attend nutrition and wellness activities to support your family’s health.
