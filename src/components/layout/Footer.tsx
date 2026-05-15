@@ -14,10 +14,10 @@ export default function Footer() {
 
   const QUICK_LINKS = [
     { labelKey: 'nav.services', href: '/services' },
-    { labelKey: 'nav.government', href: '/government/departments' },
+    { labelKey: 'nav.government', href: '/government' },
     {
       labelKey: 'nav.transparency',
-      href: '/government/transparency-documents',
+      href: '/transparency',
     },
     {
       labelKey: 'nav.fullDisclosure',
