@@ -18,7 +18,7 @@
     "home": "Tahanan",
     "services": "Mga Serbisyo",
     "government": "Pamahalaan",
-    "transparency": "Transparency",
+    "transparency": "Katapatan",
     "statistics": "Istatistika",
     "contact": "Makipag-ugnayan",
     "departments": "Mga Departamento at Opisyal",
@@ -29,6 +29,7 @@
     "annualBudget": "Taunang Badyet",
     "saln": "SALN",
     "foiReleases": "Mga Rekord ng FOI",
+    "tourism": "Turismo",
     "cityProfile": "Profil ng Lungsod",
     "annualReport": "Taunang Ulat",
     "infrastructureProjects": "Mga Proyektong Imprastraktura"
@@ -203,7 +204,7 @@
     "home": "Tahanan",
     "statistics": "Estadistika",
     "legislative": "Lehislatura",
-    "transparency": "Transparency",
+    "transparency": "Katapatan",
     "contact": "Makipag-ugnayan"
   },
   "joinUs": {

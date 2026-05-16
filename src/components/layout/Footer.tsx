@@ -20,12 +20,12 @@ export default function Footer() {
       href: '/transparency',
     },
     {
-      labelKey: 'nav.fullDisclosure',
-      href: '/government/transparency-documents/full-disclosure',
+      labelKey: 'nav.statistics',
+      href: '/statistics',
     },
     {
-      labelKey: 'nav.foiReleases',
-      href: '/government/transparency-documents/foi-releases',
+      labelKey: 'nav.tourism',
+      href: '/tourism',
     },
     { labelKey: 'contact.title', href: '#contact' },
   ];
@@ -97,7 +97,7 @@ export default function Footer() {
           {/* Quick Links */}
           <div>
             <h3 className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-4">
-              {t('footer.quickLinks')}
+              {t('footer.quic kLinks')}
             </h3>
             <ul className="space-y-2.5">
               {QUICK_LINKS.map(link => (
@@ -142,7 +142,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col gap-2">
               <a
-                href="https://github.com/s4burieru/bettertanay"
+                href="https://lgu.bettergov.ph/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 text-sm font-semibold text-white bg-primary-700 hover:bg-primary-600 px-4 py-2.5 rounded-lg transition-colors"
