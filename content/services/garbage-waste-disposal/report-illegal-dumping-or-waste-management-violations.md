@@ -1,65 +1,84 @@
-# Report Illegal Dumping & Waste Management Violations — Lapu-Lapu City
+# Report Illegal Dumping & Waste Management Violations — Tanay, Rizal
 
-Illegal dumping, open burning, and improper waste practices are violations of **Republic Act 9003 (Ecological Solid Waste Management Act)** and city ordinances. Residents are encouraged to report offenders to help keep Lapu-Lapu City clean and safe.
+Illegal dumping, open burning, and improper waste disposal are prohibited under **Republic Act 9003 (Ecological Solid Waste Management Act)** and local environmental ordinances in Tanay, Rizal. Residents are encouraged to report violations to help protect rivers, roads, and communities.
 
 ---
 
 ## 1) What to Report
 
-| Violation                           | Examples                                                                                              |
-| ----------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| **Illegal dumping**                 | Throwing trash in vacant lots, rivers, canals, sidewalks, or open spaces                              |
-| **Open burning**                    | Burning household or yard waste, plastics, or tires                                                   |
-| **Improper disposal by businesses** | Mixing segregated waste, throwing garbage outside collection days, failing to hire accredited haulers |
-| **Hazardous waste violations**      | Disposing of batteries, chemicals, medical waste with household trash                                 |
-| **Uncollected garbage sites**       | Overflowing bins or uncollected waste attracting pests                                                |
+| Violation                            | Examples                                                                               |
+| ------------------------------------ | -------------------------------------------------------------------------------------- |
+| **Illegal dumping**                  | Throwing garbage in rivers, creeks, vacant lots, roadsides, or public spaces           |
+| **Open burning**                     | Burning plastic, leaves, tires, or household waste                                     |
+| **Improper business waste disposal** | Mixing waste, dumping outside collection schedules, or lacking proper waste management |
+| **Hazardous waste violations**       | Disposal of chemicals, batteries, medical waste with regular garbage                   |
+| **Overflowing/uncollected waste**    | Long-term garbage buildup that creates health hazards                                  |
 
 ---
 
 ## 2) How to Report
 
-1. **Barangay Level (First Step)**
-   - Go to your **Barangay Hall** or message the **Barangay Facebook Page**.
-   - Ask for the **Barangay Environment/Solid Waste Committee**.
-   - Provide: **exact location**, **type of violation**, **time/date**, and **photos/videos** if possible.
+### 1. Barangay Level (First Response)
 
-2. **City Environment and Natural Resources Office (CENRO)**
-   - If the violation is large-scale, recurring, or unaddressed by the barangay, contact **CENRO** at City Hall.
-   - Phone: (032) 340-0004 (City Hall trunkline, ask for CENRO)
-   - Updates and announcements: [Lapu-Lapu City Government Facebook Page](https://www.facebook.com/lapulapucitygovernment)
+Residents are encouraged to report first to their **Barangay Hall**.
 
-3. **Other Hotlines**
-   - **City Information Office (CIO):** (032) 340-1615 (for reports and follow-up).
-   - **Philippine National Police (PNP):** for dumping that threatens public safety or involves large-scale transport.
+Provide:
+
+- Exact location (barangay, street, landmark)
+- Type of violation
+- Date and time observed
+- Photos or videos (if available)
+
+Barangay officials will coordinate enforcement or endorse the case to the municipal office.
+
+---
+
+### 2. Municipal Environment and Natural Resources Office (MENRO)
+
+For unresolved or large-scale violations, report to:
+
+**Municipal Environment and Natural Resources Office (MENRO) – Tanay, Rizal**  
+Municipal Hall, Tanay, Rizal, Philippines
+
+Reports may be submitted in person or through coordination with your Barangay Hall.
+
+---
+
+### 3. Other Authorities (If Needed)
+
+- **Philippine National Police (PNP) Tanay** — for large-scale dumping or public safety threats
+- **Municipal Disaster Risk Reduction and Management Office (MDRRMO)** — if dumping causes flooding or environmental hazards
+- **DENR Environmental Hotline (if escalated cases apply)**
 
 ---
 
 ## 3) What Happens After Reporting
 
-- **Barangay/CENRO inspection team** will visit the site.
-- **Offenders may be fined or penalized** under city ordinances.
-- For businesses, repeated violations can lead to **closure or suspension of business permits**.
-- Collected evidence (photos, witness accounts) strengthens enforcement action.
+- Barangay or MENRO conducts site inspection
+- Violators may receive warnings, fines, or penalties under local ordinances and RA 9003
+- Businesses may face suspension of permits for repeated violations
+- Severe cases may be elevated to higher enforcement agencies
 
 ---
 
 ## 4) Tips for Effective Reporting
 
-- Take **clear photos or videos** (include street names/landmarks).
-- Note the **time and date** you saw the violation.
-- Submit your **name and contact info** if you want updates (anonymous tips are still accepted).
-- Encourage neighbors to also report — multiple reports prompt quicker action.
+- Take clear photos or videos (include landmarks if possible)
+- Note exact time, date, and location
+- Provide detailed description of the violation
+- Coordinate with neighbors for stronger reports
+- Follow up with your barangay for status updates
 
 ---
 
-## 5) Penalties (as a reminder)
+## 5) Penalties (Reminder)
 
-- **Illegal dumping & open burning**: Fines and/or community service.
-- **Businesses without accredited haulers**: Higher penalties, possible permit suspension.
-- **Repeat offenders**: May face higher fines, legal cases, or closure orders.
+- Illegal dumping and open burning may result in fines or community service
+- Businesses violating waste regulations may face permit suspension
+- Repeat offenders may face stricter penalties under municipal ordinances and national law
 
 ---
 
-### Key Reminder
+## Key Reminder
 
-✅ Reporting waste violations is a **civic duty**. By promptly alerting your barangay or CENRO, you help protect your community’s health, prevent flooding, and keep Lapu-Lapu City sustainable.
+Reporting environmental violations helps prevent flooding, disease, and pollution. Active community reporting supports a cleaner and safer **Tanay, Rizal**.

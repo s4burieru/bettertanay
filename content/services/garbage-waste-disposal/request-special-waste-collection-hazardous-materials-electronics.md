@@ -1,67 +1,85 @@
-# Request Special Collection Services for Hazardous Waste & E-Waste — Lapu-Lapu City
+# Request Special Collection Services for Hazardous Waste & E-Waste — Tanay, Rizal
 
-Hazardous and electronic wastes (e-waste) cannot be disposed of with regular garbage. The City Environment and Natural Resources Office (CENRO) and barangays coordinate **special collection drives** and drop-off services for these items.
+Hazardous waste and electronic waste (e-waste) require special handling and cannot be disposed of through regular household garbage collection in Tanay, Rizal. These materials are managed through coordinated efforts of the **Municipal Environment and Natural Resources Office (MENRO)** and barangay units in accordance with **Republic Act 9003**.
 
 ---
 
 ## 1) What Counts as Hazardous & E-Waste?
 
-| Category                       | Examples                                                                           | Notes                                                       |
-| ------------------------------ | ---------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| **Household Hazardous Waste**  | Batteries, fluorescent bulbs, used paints/solvents, pesticides, cleaning chemicals | Toxic and can pollute soil/water                            |
-| **Electronic Waste (E-Waste)** | Old cellphones, computers, printers, TVs, chargers, cables                         | May contain lead, mercury, cadmium                          |
-| **Medical Waste (Household)**  | Used syringes, sharps, soiled bandages                                             | Should be turned over to health centers for proper disposal |
+| Category                       | Examples                                                                      | Notes                                                           |
+| ------------------------------ | ----------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| **Household Hazardous Waste**  | Batteries, fluorescent bulbs, paint, pesticides, solvents, cleaning chemicals | Toxic; can contaminate soil and water                           |
+| **Electronic Waste (E-Waste)** | Phones, computers, TVs, printers, chargers, cables                            | Contains heavy metals like lead and mercury                     |
+| **Household Medical Waste**    | Syringes, sharps, soiled bandages                                             | Must be disposed of through proper health or municipal channels |
 
 ---
 
 ## 2) How to Request Special Collection
 
-1. **Contact your Barangay Hall**
-   - Ask for the **Barangay Environment Committee** or Solid Waste desk.
-   - Provide details: type of waste, approximate volume, and your address.
+### 1. Coordinate with Your Barangay
 
-2. **Barangay forwards request to CENRO**
-   - CENRO schedules a **special truck pickup** or directs you to the next citywide collection event.
-   - Some barangays coordinate with **accredited junkshops/recyclers**.
+- Visit your **Barangay Hall**
+- Ask for the **Environment/Solid Waste Desk**
+- Provide details:
+  - Type of waste
+  - Estimated quantity
+  - Exact location
 
-3. **Prepare items for pickup/drop-off**
-   - Store in sealed, clearly labeled containers or boxes.
-   - Do not mix hazardous waste with household garbage.
+---
 
-4. **Follow the scheduled collection**
-   - Place items outside only when instructed, or bring them to the barangay/CENRO drop-off point.
+### 2. Barangay Coordination with MENRO
+
+- Your barangay forwards the request to the **Municipal Environment and Natural Resources Office (MENRO)**
+- MENRO may:
+  - Schedule a special pickup
+  - Include your barangay in a collection drive
+  - Refer you to accredited recycling partners
+
+---
+
+### 3. Prepare Items for Collection
+
+- Store items in sealed, labeled containers or boxes
+- Keep hazardous materials separate from regular garbage
+- Do not dismantle or break electronic devices or bulbs
+- Follow instructions from barangay or MENRO for pickup timing
 
 ---
 
 ## 3) Other Disposal Options
 
-- **Barangay E-Waste Drives** — many barangays organize quarterly e-waste collection campaigns.
-- **School/NGO Drives** — occasionally schools or civic groups run e-waste donation drives in coordination with the City.
-- **Accredited Junkshops/Collectors** — some accept electronics for recycling; ask CENRO for the accredited list.
+- **Barangay Collection Drives** — occasional e-waste or clean-up campaigns
+- **Municipal or Provincial Environmental Events** — scheduled recycling initiatives
+- **Accredited Junkshops/Recyclers** — accept certain electronics and scrap materials (ask your barangay or MENRO for approved partners)
 
 ---
 
-## 4) Contact Information
+## 4) Contact Offices
 
-- **City Environment and Natural Resources Office (CENRO)**  
-  Lapu-Lapu City Hall, Government Complex, Brgy. Pajo  
-  Phone: (032) 340-0004 (City Hall trunkline, ask for CENRO)  
-  Updates: [Lapu-Lapu City Government Facebook Page](https://www.facebook.com/lapulapucitygovernment)
+### Municipal Environment and Natural Resources Office (MENRO)
 
-- **Barangay Halls** — Environment/Solid Waste desk for barangay-level pickup scheduling.
+Municipal Hall, Tanay, Rizal, Philippines  
+Contact via Tanay Municipal Hall trunkline (ask for MENRO)
+
+### Barangay Hall
+
+Each barangay in Tanay has an Environment or Solid Waste desk responsible for:
+
+- Special waste pickup coordination
+- Local clean-up drives
+- Environmental reporting
 
 ---
 
 ## 5) Tips for Households
 
-- Keep a **separate box** for batteries, bulbs, and small electronics.
-- Do not break bulbs or dismantle devices — this increases risk of contamination.
-- Join **barangay or school e-waste drives** regularly to avoid stockpiling.
-- Encourage neighbors to **bundle requests together** — barangays often schedule collection faster for group requests.
+- Keep a dedicated container for batteries and small electronics
+- Do not mix hazardous waste with regular trash
+- Participate in barangay clean-up and recycling drives
+- Store hazardous waste safely until collection day
 
 ---
 
-### Reminder
+## Key Reminder
 
-✅ Never dispose of hazardous waste or e-waste with your regular garbage.  
-✅ Always coordinate with your **Barangay Hall** or **CENRO** for proper and safe collection.
+Never dispose of hazardous waste or e-waste with regular garbage. Always coordinate with your **Barangay Hall** or **MENRO Tanay** to ensure safe and proper disposal.
