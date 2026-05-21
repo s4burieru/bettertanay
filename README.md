@@ -4,7 +4,7 @@ A community-led, open-source civic tech portal to make the government of the **M
 
 ---
 
-## ✨ Features
+## Features
 
 - **🌐 Multilingual Support**: English and Filipino
 - **📱 Responsive Design**: Mobile-first approach with modern UI/UX
@@ -16,7 +16,7 @@ A community-led, open-source civic tech portal to make the government of the **M
 
 ---
 
-### Project Structure
+## Project Structure
 
 ```
 bettertanay/
