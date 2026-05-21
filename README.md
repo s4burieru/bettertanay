@@ -92,8 +92,8 @@ bettertanay/
 
 Thanks to everyone who has contributed to BetterTanay! 💙
 
-<a href="https://github.com/github.com/s4burieru/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=github.com/s4burieru" />
+<a href="https://github.com/s4burieru/bettertanay/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=s4burieru/bettertanay" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
