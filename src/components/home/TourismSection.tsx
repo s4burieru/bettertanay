@@ -101,7 +101,7 @@ export default function TourismSection() {
   const total = establishmentsData.establishments.length;
 
   return (
-    <section className="bg-gray-50 border-b border-gray-100 py-12">
+    <section className="bg-white border-b border-gray-100 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header */}
         <div
@@ -134,7 +134,7 @@ export default function TourismSection() {
             <Link
               key={h.title}
               to={h.href}
-              className="group bg-white rounded-xl border border-gray-100 border-t-5 border-t-primary-700 hover:border-primary-600 hover:shadow-md transition-all duration-200 overflow-hidden flex flex-col"
+              className="group bg-white rounded-xl border border-gray-100 border-t-5 border-t-primary-700 shadow-sm hover:border-primary-600 hover:shadow-md transition-all duration-200 overflow-hidden flex flex-col"
             >
               <div className="p-5 flex flex-col gap-3">
                 <div className="bg-primary-50 text-primary-700 w-10 h-10 rounded-lg flex items-center justify-center">
@@ -175,7 +175,7 @@ export default function TourismSection() {
                 <Link
                   key={id}
                   to={`/tourism/${id}`}
-                  className="group inline-flex items-center gap-2 bg-white border border-gray-100 hover:border-primary-200 hover:shadow-sm rounded-lg px-4 py-2.5 transition-all duration-200"
+                  className="group inline-flex items-center gap-2 bg-white border border-gray-100 shadow-sm hover:border-primary-200 hover:shadow-md rounded-lg px-4 py-2.5 transition-all duration-200"
                 >
                   <div className="bg-primary-50 text-primary-700 w-6 h-6 rounded-md flex items-center justify-center group-hover:bg-primary-100 transition-colors">
                     <Icon className="h-3.5 w-3.5" />

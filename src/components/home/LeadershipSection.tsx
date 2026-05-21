@@ -40,7 +40,7 @@ export default function LeadershipSection() {
             {t('leadership.title')}
           </Heading>
           <Link
-            to="/government/departments/officials"
+            to="/government"
             className="text-sm font-semibold text-primary-700 hover:text-primary-800 flex items-center gap-1 transition-colors"
           >
             {t('leadership.viewAll')}
