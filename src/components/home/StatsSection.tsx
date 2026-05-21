@@ -56,7 +56,7 @@ export default function StatsSection() {
           {STATS.map(({ icon: Icon, value, label, description }) => (
             <div
               key={description}
-              className="bg-gray-50 rounded-xl border border-gray-100 border-t-5 border-t-primary-700 overflow-hidden"
+              className="bg-gray-50 rounded-xl border border-gray-100 border-t-5 border-t-primary-700 overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
               <div className="p-5">
                 <div className="bg-primary-100 text-primary-700 w-9 h-9 rounded-lg flex items-center justify-center mb-3">

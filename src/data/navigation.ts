@@ -27,17 +27,6 @@ export const mainNavigation: NavigationItem[] = [
   {
     label: 'Government',
     href: '/government',
-    children: [
-      { label: 'Departments & Officials', href: '/government/departments' },
-      {
-        label: 'Legislative (Municipal Council)',
-        href: '/government/legislative',
-      },
-      {
-        label: 'Local Officials Directory',
-        href: '/government/departments/officials',
-      },
-    ],
   },
   { label: 'Transparency', href: '/transparency' },
   { label: 'Statistics', href: '/statistics' },

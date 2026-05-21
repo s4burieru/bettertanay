@@ -8,11 +8,8 @@ import Services from './pages/Services';
 import Document from './pages/Document';
 import Government from './pages/Government';
 import Statistics from './pages/Statistics';
-import Legislative from './pages/Legislative';
 import Transparency from './pages/Transparency';
 import Tourism from './pages/Tourism';
-import ExecutiveDirectory from './pages/ExecutiveDirectory';
-import SangguniangBayan from './pages/SangguniangBayan';
 import Sitemap from './pages/Sitemap';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -32,15 +29,6 @@ function App() {
                 path="/services/:category/:documentSlug"
                 element={<Document categoryType="service" />}
               />
-              <Route
-                path="/government/departments/officials"
-                element={<SangguniangBayan />}
-              />
-              <Route
-                path="/government/departments/executive"
-                element={<ExecutiveDirectory />}
-              />
-              <Route path="/government/legislative" element={<Legislative />} />
               <Route path="/government/:category" element={<Government />} />
               <Route path="/government" element={<Government />} />
               <Route
@@ -48,7 +36,6 @@ function App() {
                 element={<Document categoryType="government" />}
               />
               <Route path="/statistics" element={<Statistics />} />
-              <Route path="/legislative" element={<Legislative />} />
               <Route path="/transparency" element={<Transparency />} />
               <Route path="/tourism/:category" element={<Tourism />} />
               <Route path="/tourism" element={<Tourism />} />
