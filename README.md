@@ -126,10 +126,10 @@ This project is licensed under the Creative Commons Zero (CC0) License - see the
 
 ## Inspirations
 
-- [BetterGov.PH] https://github.com/bettergovph/bettergov
-- [Betterlocalgov] https://github.com/iyanski/betterlocalgov
-- [BetterSolano.org] http://bettersolano.org/
-- [BetterIndang.org] https://betterindang.org/
+- [BetterGov.PH](https://github.com/bettergovph/bettergov)
+- [Betterlocalgov](https://github.com/iyanski/betterlocalgov)
+- [BetterSolano.org](http://bettersolano.org)
+- [BetterIndang.org](https://betterindang.org)
 
 > ⚠️ **Not an official government website.** For official transactions, visit [tanay.gov.ph](https://tanay.gov.ph/)
 
