@@ -97,7 +97,7 @@ export default function Footer() {
           {/* Quick Links */}
           <div>
             <h3 className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-4">
-              {t('footer.quic kLinks')}
+              {t('footer.quickLinks')}
             </h3>
             <ul className="space-y-2.5">
               {QUICK_LINKS.map(link => (

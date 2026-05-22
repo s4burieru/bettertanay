@@ -5,7 +5,6 @@ import { Text } from '../ui/Text';
 import { useTranslation } from '../../hooks/useTranslation';
 import { Link } from 'react-router-dom';
 import { useScrollReveal } from '../../hooks/useScrollReveal';
-
 import { serviceCategories } from '../../data/yamlLoader';
 
 interface Subcategory {
