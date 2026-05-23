@@ -3,63 +3,22 @@
 # Icon must be a valid Lucide React icon name.
 
 categories:
-  - category: 'Legislative'
-    slug: 'legislative'
-    description: 'The Sangguniang Bayan (Municipal Council) of Tanay — the legislative body responsible for passing ordinances and resolutions for the development and governance of the municipality.'
-    icon: 'Landmark'
+  - category: 'Executive Branch'
+    slug: 'executive-branch'
+    description: 'The executive officials leading Tanay''s governance'
+    icon: 'Briefcase'
 
-  - category: 'Departments & Offices'
-    slug: 'departments'
-    description: 'Explore local government departments, offices, and agencies of Tanay, Rizal, including their services, mandates, and contact information.'
+  - category: 'Sangguniang Bayan Members'
+    slug: 'sangguniang-bayan-members'
+    description: 'Municipal Councilors serving the people of Tanay'
+    icon: 'Users'
+
+  - category: 'Department Heads & Key Offices'
+    slug: 'department-heads-key-offices'
+    description: 'Municipal offices providing services to citizens'
     icon: 'Building2'
-    subcategories:
-      - name: 'Executive'
-        slug: 'executive'
-      - name: 'Local Officials Directory'
-        slug: 'officials'
 
-  - category: 'News & Announcements'
-    slug: 'news'
-    description: 'Stay updated with the latest news, announcements, programs, and initiatives from the Municipality of Tanay, Rizal.'
-    icon: 'Newspaper'
-    subcategories:
-      - name: 'News'
-        slug: 'news'
-      - name: 'Announcements'
-        slug: 'announcements'
-
-  - category: 'Guides & Regulations'
-    slug: 'guides-and-regulations'
-    description: 'Access step-by-step guides, municipal procedures, rules, and local regulations in Tanay, Rizal.'
-    icon: 'BookOpen'
-    subcategories:
-      - name: 'Guides'
-        slug: 'guides'
-      - name: 'Regulations'
-        slug: 'regulations'
-
-  - category: 'Reports & Statistics'
-    slug: 'reports-and-statistics'
-    description: 'Access official reports, demographic data, and statistical information about Tanay, Rizal.'
-    icon: 'BarChart3'
-    subcategories:
-      - name: 'Reports'
-        slug: 'reports'
-      - name: 'Statistics'
-        slug: 'statistics'
-
-  - category: 'Public Consultations'
-    slug: 'public-consultations'
-    description: 'Participate in public consultations and community feedback initiatives in Tanay, Rizal.'
-    icon: 'MessagesSquare'
-    subcategories:
-      - name: 'Public Consultations'
-        slug: 'public-consultations'
-
-  - category: 'Transparency Documents'
-    slug: 'transparency-documents'
-    description: 'Access transparency reports, FOI releases, and public accountability documents of the Municipality of Tanay, Rizal.'
-    icon: 'FileText'
-    subcategories:
-      - name: 'Transparency Documents'
-        slug: 'transparency-documents'
+  - category: 'Barangays of Tanay'
+    slug: 'barangays-of-Tanay'
+    description: '20 Barangays serving our community'
+    icon: 'Map'
