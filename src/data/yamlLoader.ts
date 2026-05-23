@@ -43,12 +43,6 @@ import environmentIndex from '../../content/services/environment/index.yaml?raw'
 import disasterPreparednessIndex from '../../content/services/disaster-preparedness/index.yaml?raw';
 import housingLandUseIndex from '../../content/services/housing-land-use/index.yaml?raw';
 
-// Import government category index files
-import executiveBranchIndex from '../../content/government/executive-branch/index.yaml?raw';
-import sangguniangBayanMembersIndex from '../../content/government/sangguniang-bayan-members/index.yaml?raw';
-import departmentHeadsIndex from '../../content/government/department-heads-key-offices/index.yaml?raw';
-import barangaysIndex from '../../content/government/barangays-of-tanay/index.yaml?raw';
-
 // Create a mapping of category slugs to their YAML content
 const categoryIndexMap: { [key: string]: string } = {
   'health-services': healthServicesIndex,
@@ -61,10 +55,6 @@ const categoryIndexMap: { [key: string]: string } = {
   environment: environmentIndex,
   'disaster-preparedness': disasterPreparednessIndex,
   'housing-land-use': housingLandUseIndex,
-  'executive-branch': executiveBranchIndex,
-  'sangguniang-bayan-members': sangguniangBayanMembersIndex,
-  'department-heads-key-offices': departmentHeadsIndex,
-  'barangays-of-solano': barangaysIndex,
 };
 
 // Parse the YAML content
