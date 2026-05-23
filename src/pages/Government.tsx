@@ -6,7 +6,15 @@ import {
 } from '../data/yamlLoader';
 import { useParams, Link } from 'react-router-dom';
 import * as LucideIcons from 'lucide-react';
-import { Building2, Mail, Phone, Users, Briefcase, MapPin } from 'lucide-react';
+import {
+  Building2,
+  Mail,
+  Phone,
+  Users,
+  Briefcase,
+  MapPin,
+  ExternalLink,
+} from 'lucide-react';
 import SEO from '../components/SEO';
 import Section from '../components/ui/Section';
 import { Heading } from '../components/ui/Heading';
@@ -222,7 +230,7 @@ const Government: React.FC = () => {
               {/* Executive Branch - Inline Officials */}
               <div className="border-b border-gray-100 pb-12">
                 <div className="flex items-start gap-4 mb-6">
-                  <LucideIcons.Crown className="h-8 w-8 text-primary-600 shrink-0 mt-1" />
+                  <LucideIcons.Crown className="h-8 w-8 text-primary-700 shrink-0 mt-1" />
                   <div className="flex-1">
                     <h2 className="text-2xl font-black text-gray-900 mb-2">
                       Executive Branch
@@ -232,55 +240,61 @@ const Government: React.FC = () => {
                     </p>
                   </div>
                 </div>
-                <div className="space-y-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {OFFICIALS.map(official => (
-                    <Card
+                    <div
                       key={official.initials}
-                      hoverable
-                      className="border-l-4 border-primary-500"
+                      className="bg-white rounded-xl border border-gray-100 border-t-4 border-t-primary-700 shadow-sm overflow-hidden hover:shadow-md transition-shadow"
                     >
-                      <CardContent>
-                        <div className="flex items-start gap-4">
-                          {/* Avatar */}
-                          <div className="shrink-0 w-12 h-12 rounded-lg bg-primary-100 flex items-center justify-center">
-                            <span className="text-lg font-bold text-primary-700">
-                              {official.initials}
-                            </span>
-                          </div>
+                      <div className="p-5 flex gap-4">
+                        {/* Avatar */}
+                        <div className="shrink-0 w-14 h-14 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-black text-xs text-center leading-tight">
+                          {official.initials}
+                        </div>
 
-                          {/* Content */}
-                          <div className="flex-1">
-                            <p className="text-xs font-semibold text-primary-600 uppercase tracking-wide mb-1">
-                              {official.title}
-                            </p>
-                            <h3 className="text-lg font-bold text-gray-900 mb-1">
-                              {official.name}
-                            </h3>
-                            <p className="text-sm text-gray-600 mb-3">
-                              {official.position}
-                            </p>
+                        {/* Content */}
+                        <div className="flex-1 min-w-0">
+                          <span className="inline-block text-xs font-semibold text-primary-700 bg-primary-50 px-2 py-0.5 rounded-full border border-primary-100 mb-1.5">
+                            {official.title}
+                          </span>
+                          <h3 className="font-black text-gray-900 text-sm leading-snug mb-0.5 truncate">
+                            {official.name}
+                          </h3>
+                          <p className="text-gray-500 text-xs mb-3">
+                            {official.position}
+                          </p>
 
-                            {/* Contact Info */}
-                            <div className="flex flex-col gap-2">
-                              <a
-                                href={`tel:${official.phone}`}
-                                className="flex items-center gap-2 text-sm text-gray-700 hover:text-primary-600 transition-colors"
-                              >
-                                <Phone className="h-4 w-4 text-gray-400" />
-                                {official.phone}
-                              </a>
-                              <a
-                                href={`mailto:${official.email}`}
-                                className="flex items-center gap-2 text-sm text-gray-700 hover:text-primary-600 transition-colors"
-                              >
-                                <Mail className="h-4 w-4 text-gray-400" />
-                                {official.email}
-                              </a>
-                            </div>
+                          {/* Contact Info */}
+                          <div className="flex flex-col gap-1.5">
+                            <a
+                              href={`tel:${official.phone}`}
+                              className="flex items-center gap-2 text-xs text-gray-600 hover:text-primary-700 transition-colors"
+                            >
+                              <Phone className="h-3.5 w-3.5 text-primary-500" />
+                              {official.phone}
+                            </a>
+                            <a
+                              href={`mailto:${official.email}`}
+                              className="flex items-center gap-2 text-xs text-gray-600 hover:text-primary-700 transition-colors"
+                            >
+                              <Mail className="h-3.5 w-3.5 text-primary-500" />
+                              {official.email}
+                            </a>
                           </div>
                         </div>
-                      </CardContent>
-                    </Card>
+
+                        {/* External Link */}
+                        <div className="shrink-0 self-start">
+                          <Link
+                            to="/government"
+                            className="text-primary-400 hover:text-primary-700 transition-colors"
+                            aria-label="View profile"
+                          >
+                            <ExternalLink className="h-4 w-4" />
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
                   ))}
                 </div>
               </div>
@@ -288,7 +302,7 @@ const Government: React.FC = () => {
               {/* Sangguniang Bayan Members */}
               <div className="border-b border-gray-100 pb-12">
                 <div className="flex items-start gap-4 mb-6">
-                  <Users className="h-8 w-8 text-primary-600 shrink-0 mt-1" />
+                  <Users className="h-8 w-8 text-primary-700 shrink-0 mt-1" />
                   <div className="flex-1">
                     <h2 className="text-2xl font-black text-gray-900 mb-2">
                       Sangguniang Bayan Members
@@ -298,7 +312,7 @@ const Government: React.FC = () => {
                     </p>
                   </div>
                 </div>
-                <Card hoverable className="border-l-4 border-primary-500">
+                <Card hoverable className="border-l-4 border-primary-700">
                   <CardContent>
                     <p className="text-gray-600">
                       Coming soon - Information about our municipal councilors
@@ -310,7 +324,7 @@ const Government: React.FC = () => {
               {/* Department Heads & Key Offices */}
               <div className="border-b border-gray-100 pb-12">
                 <div className="flex items-start gap-4 mb-6">
-                  <Briefcase className="h-8 w-8 text-primary-600 shrink-0 mt-1" />
+                  <Briefcase className="h-8 w-8 text-primary-700 shrink-0 mt-1" />
                   <div className="flex-1">
                     <h2 className="text-2xl font-black text-gray-900 mb-2">
                       Department Heads & Key Offices
@@ -320,7 +334,7 @@ const Government: React.FC = () => {
                     </p>
                   </div>
                 </div>
-                <Card hoverable className="border-l-4 border-primary-500">
+                <Card hoverable className="border-l-4 border-primary-700">
                   <CardContent>
                     <p className="text-gray-600">
                       Coming soon - Information about municipal departments
@@ -332,7 +346,7 @@ const Government: React.FC = () => {
               {/* Barangays of Tanay */}
               <div className="border-b border-gray-100 pb-12 last:border-0">
                 <div className="flex items-start gap-4 mb-6">
-                  <MapPin className="h-8 w-8 text-primary-600 shrink-0 mt-1" />
+                  <MapPin className="h-8 w-8 text-primary-700 shrink-0 mt-1" />
                   <div className="flex-1">
                     <h2 className="text-2xl font-black text-gray-900 mb-2">
                       Barangays of Tanay
@@ -342,7 +356,7 @@ const Government: React.FC = () => {
                     </p>
                   </div>
                 </div>
-                <Card hoverable className="border-l-4 border-primary-500">
+                <Card hoverable className="border-l-4 border-primary-700">
                   <CardContent>
                     <p className="text-gray-600">
                       Coming soon - Information about our barangays

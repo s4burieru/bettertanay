@@ -70,70 +70,70 @@ const CMCI_PILLARS = [
   {
     icon: Zap,
     label: 'Economic Dynamism',
-    rank: '—',
-    score: '—',
+    rank: '66th',
+    score: '4.209',
     color: 'text-yellow-700 bg-yellow-50 border-yellow-200',
     iconColor: 'text-yellow-600 bg-yellow-100',
     highlights: [
-      'Growing tourism and local enterprises',
-      'Agriculture and eco-tourism contribute to the local economy',
-      'Gateway municipality to eastern Rizal destinations',
+      'Safety Compliant Business: 9th',
+      'Financial Deepening: 14th',
+      'Local Economy Growth: 64th',
     ],
   },
 
   {
     icon: Building2,
     label: 'Government Efficiency',
-    rank: '—',
-    score: '—',
+    rank: '66th',
+    score: '9.2674',
     color: 'text-blue-700 bg-blue-50 border-blue-200',
     iconColor: 'text-blue-600 bg-blue-100',
     highlights: [
-      'Public services and municipal governance initiatives',
-      'Business permit and licensing operations modernization',
-      'Compliance with national government directives',
+      'ARTA Citizens Charter: 1st',
+      'Getting Business Permits: 1st',
+      'Compliance to National Directives: 4th',
     ],
   },
 
   {
     icon: Globe,
     label: 'Infrastructure',
-    rank: '—',
-    score: '—',
+    rank: '35th',
+    score: '3.2366',
     color: 'text-purple-700 bg-purple-50 border-purple-200',
     iconColor: 'text-purple-600 bg-purple-100',
     highlights: [
-      'Road connectivity to Metro Manila and Rizal towns',
-      'Tourism-support infrastructure development',
-      'Ongoing improvements in utilities and transport access',
+      'Information Technology Capacity: 13th',
+      'Education: 18th',
+      'Transportation Vehicles: 26th',
     ],
   },
 
   {
     icon: Shield,
     label: 'Resiliency',
-    rank: '—',
-    score: '—',
+    rank: '69th',
+    score: '11.6864',
     color: 'text-green-700 bg-green-50 border-green-200',
     iconColor: 'text-green-600 bg-green-100',
     highlights: [
-      'Disaster preparedness and DRRM programs',
-      'Flood and landslide risk management initiatives',
-      'Environmental protection and watershed conservation',
+      'Local Risk Assessments: 1st',
+      'Utilities: 2nd',
+      'Land Use Plan: 4th',
     ],
   },
 
   {
     icon: Lightbulb,
     label: 'Innovation',
-    rank: '—',
-    score: '—',
+    rank: '57th',
+    score: '7.5023',
     color: 'text-orange-700 bg-orange-50 border-orange-200',
     iconColor: 'text-orange-600 bg-orange-100',
     highlights: [
-      'Digitalization and online public information services',
-      'Tourism promotion through digital platforms',
-      'Community-based innovation and sustainability initiatives',
+      'ICT Plan: 1st',
+      'E-BPLS Software: 1st',
+      'Online Payment Facilities: 1st',
     ],
   },
 ];
@@ -257,13 +257,12 @@ export default function Statistics() {
                   DTI CMCI 2024 — 5 Pillars
                 </h2>
                 <p className="text-sm text-gray-500 mt-0.5">
-                  Cities &amp; Municipalities Competitiveness Index · Tanay,
-                  Rizal
+                  Cities &amp; Municipalities Competitiveness Index · 149th
+                  overall out of 509 municipalities (1st–2nd Class)
                 </p>
               </div>
-
               <a
-                href="https://cmci.dti.gov.ph/"
+                href="https://cmci.dti.gov.ph/lgu-profile.php?lgu=Indang"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="shrink-0 hidden sm:flex items-center gap-1.5 text-sm font-semibold text-primary-700 hover:text-primary-800 transition-colors"
@@ -273,17 +272,15 @@ export default function Statistics() {
               </a>
             </div>
 
-            {/* Rizal Province callout */}
-            <div className="bg-blue-50 border border-blue-200 rounded-xl px-5 py-4 mb-6 flex items-start gap-3">
-              <Trophy className="h-5 w-5 text-blue-500 shrink-0 mt-0.5" />
-
+            {/* Innovation callout */}
+            <div className="bg-orange-50 border border-orange-200 rounded-xl px-5 py-4 mb-6 flex items-start gap-3">
+              <Lightbulb className="h-5 w-5 text-orange-500 shrink-0 mt-0.5" />
               <div>
-                <p className="text-sm font-bold text-blue-800">
+                <p className="text-sm font-bold text-orange-800">
                   Rizal Province ranked as the Most Competitive Province in the
-                  Philippines
+                  Philippines.
                 </p>
-
-                <p className="text-xs text-blue-700 mt-0.5">
+                <p className="text-xs text-orange-700 mt-0.5">
                   Based on the 2024 DTI Cities and Municipalities
                   Competitiveness Index (CMCI), Rizal ranked 1st nationwide in
                   overall provincial competitiveness.
@@ -293,7 +290,15 @@ export default function Statistics() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {CMCI_PILLARS.map(
-                ({ icon: Icon, label, color, iconColor, highlights }) => (
+                ({
+                  icon: Icon,
+                  label,
+                  rank,
+                  score,
+                  color,
+                  iconColor,
+                  highlights,
+                }) => (
                   <div key={label} className={`rounded-xl border p-5 ${color}`}>
                     <div className="flex items-center gap-3 mb-3">
                       <div
@@ -301,18 +306,21 @@ export default function Statistics() {
                       >
                         <Icon className="h-4 w-4" />
                       </div>
-
                       <div>
                         <div className="font-black text-sm leading-tight">
                           {label}
                         </div>
-
                         <div className="text-xs opacity-70 font-medium">
-                          DTI CMCI Pillar
+                          Score: {score}
                         </div>
                       </div>
+                      <div className="ml-auto text-right">
+                        <div className="text-lg font-black leading-none">
+                          {rank}
+                        </div>
+                        <div className="text-xs opacity-60">rank</div>
+                      </div>
                     </div>
-
                     <ul className="space-y-1">
                       {highlights.map(h => (
                         <li

@@ -88,7 +88,7 @@ export default function LeadershipSection() {
                 </div>
                 <div className="shrink-0 self-start">
                   <Link
-                    to="/government/departments/executive"
+                    to="/government"
                     className="text-primary-400 hover:text-primary-700 transition-colors"
                     aria-label={t('leadership.viewProfile')}
                   >
