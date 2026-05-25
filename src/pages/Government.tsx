@@ -307,10 +307,10 @@ const Government: React.FC = () => {
                 <div className="flex items-start gap-4 mb-6">
                   <LucideIcons.Crown className="h-8 w-8 text-primary-700 shrink-0 mt-1" />
                   <div className="flex-1">
-                    <h2 className="text-2xl font-black text-gray-900 mb-2">
+                    <h2 className="text-xl font-black text-gray-900 mb-2">
                       Executive Branch
                     </h2>
-                    <p className="text-gray-600">
+                    <p className="text-sm text-gray-500">
                       The executive officials leading Tanay's governance
                     </p>
                   </div>
@@ -379,10 +379,10 @@ const Government: React.FC = () => {
                 <div className="flex items-start gap-4 mb-6">
                   <Users className="h-8 w-8 text-primary-700 shrink-0 mt-1" />
                   <div className="flex-1">
-                    <h2 className="text-2xl font-black text-gray-900 mb-2">
+                    <h2 className="text-xl font-black text-gray-900 mb-2">
                       Sangguniang Bayan Members
                     </h2>
-                    <p className="text-gray-600">
+                    <p className="text-sm text-gray-500">
                       Municipal Councilors serving the people of Tanay
                     </p>
                   </div>
@@ -426,10 +426,10 @@ const Government: React.FC = () => {
                 <div className="flex items-start gap-4 mb-6">
                   <Briefcase className="h-8 w-8 text-primary-700 shrink-0 mt-1" />
                   <div className="flex-1">
-                    <h2 className="text-2xl font-black text-gray-900 mb-2">
+                    <h2 className="text-xl font-black text-gray-900 mb-2">
                       Department Heads & Key Offices
                     </h2>
-                    <p className="text-gray-600">
+                    <p className="text-sm text-gray-500">
                       Municipal offices providing services to citizens
                     </p>
                   </div>
@@ -448,10 +448,10 @@ const Government: React.FC = () => {
                 <div className="flex items-start gap-4 mb-6">
                   <MapPin className="h-8 w-8 text-primary-700 shrink-0 mt-1" />
                   <div className="flex-1">
-                    <h2 className="text-2xl font-black text-gray-900 mb-2">
+                    <h2 className="text-xl font-black text-gray-900 mb-2">
                       Barangays of Tanay
                     </h2>
-                    <p className="text-gray-600">
+                    <p className="text-sm text-gray-500">
                       20 Barangays serving our community
                     </p>
                   </div>
