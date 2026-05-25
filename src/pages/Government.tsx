@@ -33,6 +33,13 @@ interface Official {
   initials: string;
 }
 
+interface Councilor {
+  name: string;
+  title: string;
+  designation: string;
+  initials: string;
+}
+
 const OFFICIALS: Official[] = [
   {
     name: 'Hon. Rex Manuel C. Tanjuatco',
@@ -49,6 +56,76 @@ const OFFICIALS: Official[] = [
     phone: '(02) 8924-7174',
     email: 'vmruelestrella@gmail.com',
     initials: 'RE',
+  },
+];
+
+const SANGGUNIANG_BAYAN_MEMBERS: Councilor[] = [
+  {
+    name: 'Hon. Joy T. Tica',
+    title: 'Chairperson of the Committee on Health and Sanitation',
+    designation: 'SB Member',
+    initials: 'JT',
+  },
+  {
+    name: 'Hon. Gina P. Berdan',
+    title: 'Chairperson of the Committee on Tourism and Cultural Heritage',
+    designation: 'SB Member',
+    initials: 'GB',
+  },
+  {
+    name: 'Hon. Nelson M. Ocampo',
+    title: 'Chairperson of the Committee on Appropriations and Finance',
+    designation: 'SB Member',
+    initials: 'NO',
+  },
+  {
+    name: 'Hon. Angelo S. Pitoral',
+    title: 'Chairperson of the Committee on Public Works and Infrastructure',
+    designation: 'SB Member',
+    initials: 'AP',
+  },
+  {
+    name: 'Hon. Enrique S. Vergel De Dios',
+    title:
+      'Chairperson of the Committee on Public Order, Safety, and Disaster Risk Reduction',
+    designation: 'SB Member',
+    initials: 'EV',
+  },
+  {
+    name: 'Hon. Rogelio D. Cartolos Jr.',
+    title: 'Chairperson of the Committee on Agriculture, Fishery, and Food',
+    designation: 'SB Member',
+    initials: 'RC',
+  },
+  {
+    name: 'Hon. Harold F. Catameo',
+    title: 'Chairperson of the Committee on Trade, Commerce, and Industry',
+    designation: 'SB Member',
+    initials: 'HC',
+  },
+  {
+    name: 'Hon. Paula B. De Guzman',
+    title: 'Chairperson of the Committee on Women, Family, and Social Services',
+    designation: 'SB Member',
+    initials: 'PG',
+  },
+  {
+    name: 'Hon. Arlene Bacos',
+    title: 'President of the Liga ng mga Barangay',
+    designation: 'Ex-Officio SB Member',
+    initials: 'AB',
+  },
+  {
+    name: 'Hon. Keith Dallen Juco',
+    title: 'President of the Pederasyon ng mga Sangguniang Kabataan',
+    designation: 'Ex-Officio SB Member',
+    initials: 'KJ',
+  },
+  {
+    name: 'Hon. Virginia Arbulado',
+    title: 'Indigenous Peoples Mandatory Representative',
+    designation: 'Sectoral Representative',
+    initials: 'VA',
   },
 ];
 
@@ -105,9 +182,7 @@ const Government: React.FC = () => {
         />
         <Section className="p-3 mb-12">
           <Breadcrumbs className="mb-8" />
-          {Icon && (
-            <Icon className="h-8 w-8 mb-4 text-primary-600 rounded-md" />
-          )}
+          {Icon && <Icon className="h-8 w-8 mb-4 text-green-600 rounded-md" />}
           <Heading>{categoryData.category || category}</Heading>
           <Text className="text-gray-600 mb-6">{categoryData.description}</Text>
 
@@ -312,13 +387,38 @@ const Government: React.FC = () => {
                     </p>
                   </div>
                 </div>
-                <Card hoverable className="border-l-4 border-primary-700">
-                  <CardContent>
-                    <p className="text-gray-600">
-                      Coming soon - Information about our municipal councilors
-                    </p>
-                  </CardContent>
-                </Card>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {SANGGUNIANG_BAYAN_MEMBERS.map(councilor => (
+                    <div
+                      key={councilor.initials}
+                      className={`bg-white rounded-xl border border-gray-100 border-t-4 ${councilor.initials === 'AB' ? 'border-t-green-700' : councilor.initials === 'KJ' ? 'border-t-orange-700' : councilor.initials === 'VA' ? 'border-t-amber-800' : 'border-t-primary-700'} shadow-sm overflow-hidden hover:shadow-md transition-shadow`}
+                    >
+                      <div className="p-5 flex gap-4">
+                        {/* Avatar */}
+                        <div
+                          className={`shrink-0 w-14 h-14 rounded-full ${councilor.initials === 'AB' ? 'bg-green-100 text-green-700' : councilor.initials === 'KJ' ? 'bg-orange-100 text-orange-700' : councilor.initials === 'VA' ? 'bg-amber-100 text-amber-800' : 'bg-primary-100 text-primary-700'} flex items-center justify-center font-black text-xs text-center leading-tight`}
+                        >
+                          {councilor.initials}
+                        </div>
+
+                        {/* Content */}
+                        <div className="flex-1 min-w-0">
+                          <span
+                            className={`inline-block text-xs font-semibold ${councilor.initials === 'AB' ? 'text-green-700 bg-green-50 border-green-200' : councilor.initials === 'KJ' ? 'text-orange-700 bg-orange-50 border-orange-200' : councilor.initials === 'VA' ? 'text-amber-800 bg-amber-50 border-amber-200' : 'text-primary-700 bg-primary-50 border-primary-100'} px-2 py-0.5 rounded-full border mb-1.5`}
+                          >
+                            {councilor.designation}
+                          </span>
+                          <h3 className="font-black text-gray-900 text-sm leading-snug mb-0.5 truncate">
+                            {councilor.name}
+                          </h3>
+                          <p className="text-gray-500 text-xs line-clamp-2">
+                            {councilor.title}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
 
               {/* Department Heads & Key Offices */}
