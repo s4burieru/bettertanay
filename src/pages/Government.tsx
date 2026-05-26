@@ -150,7 +150,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: 'Municipal Legal Office',
-    phone: '942-7174 loc. 239',
+    phone: '(02) 8942-7174 loc. 239',
     icon: 'Scale',
   },
   {
@@ -215,7 +215,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: 'Municipal Health Office (MHO)',
-    phone: '—',
+    phone: '(02) 8655-2195',
     icon: 'Stethoscope',
   },
   {
@@ -250,7 +250,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: 'Public Employment Service Office (PESO)',
-    phone: '(8) 924-7174 Loc 228',
+    phone: '(02) 8942-7174 loc. 228',
     email: 'pesotanayjobs@gmail.com',
     icon: 'Zap',
   },
@@ -276,12 +276,18 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: 'Tanay Municipal Police Station',
-    phones: ['+63 2 8654-9347', '0907-827-9401'],
+    phones: ['(02) 8654-9347', '0907-827-9401'],
     icon: 'Shield',
   },
   {
     name: 'Tanay Water District',
-    phones: ['8654-4450', '8654-0033', '0929-171-8099'],
+    phones: [
+      '(02) 8654-4450',
+      '(02) 8654-0033',
+      '0929-171-8099',
+      '0915-173-6017',
+    ],
+    email: 'ogm.tanwd@gmail.com',
     icon: 'Droplet',
   },
   {
