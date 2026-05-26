@@ -40,6 +40,13 @@ interface Councilor {
   initials: string;
 }
 
+interface Department {
+  name: string;
+  phone: string;
+  email?: string;
+  icon: keyof typeof LucideIcons;
+}
+
 const OFFICIALS: Official[] = [
   {
     name: 'Hon. Rex Manuel C. Tanjuatco',
@@ -126,6 +133,145 @@ const SANGGUNIANG_BAYAN_MEMBERS: Councilor[] = [
     title: 'Indigenous Peoples Mandatory Representative',
     designation: 'Sectoral Representative',
     initials: 'VA',
+  },
+];
+
+const DEPARTMENTS: Department[] = [
+  {
+    name: 'Office of the Mayor',
+    phone: '(02) 8655-2195',
+    icon: 'Building2',
+  },
+  {
+    name: 'Municipal Administrator Office',
+    phone: '(02) 8655-2195',
+    icon: 'Briefcase',
+  },
+  {
+    name: 'Municipal Legal Office',
+    phone: '942-7174 loc. 239',
+    icon: 'Scale',
+  },
+  {
+    name: 'Office of the Sangguniang Bayan',
+    phone: '(02) 8655-2195',
+    icon: 'Users',
+  },
+  {
+    name: 'Secretary to the Sanggunian',
+    phone: '(02) 8655-2195',
+    icon: 'FileText',
+  },
+  {
+    name: "Municipal Treasurer's Office",
+    phone: '(02) 8655-2195',
+    icon: 'DollarSign',
+  },
+  {
+    name: 'Municipal Budget Office',
+    phone: '(02) 8655-2195',
+    icon: 'BarChart3',
+  },
+  {
+    name: "Municipal Accountant's Office",
+    phone: '(02) 8655-2195',
+    icon: 'Calculator',
+  },
+  {
+    name: 'Business Permits and Licensing Office (BPLO)',
+    phone: '(02) 8655-2195',
+    icon: 'FileCheck',
+  },
+  {
+    name: 'Municipal Planning and Development Office (MPDO)',
+    phone: '(02) 8655-2195',
+    icon: 'Map',
+  },
+  {
+    name: "Municipal Assessor's Office",
+    phone: '(02) 8655-2195',
+    icon: 'Home',
+  },
+  {
+    name: 'Municipal Engineering Office',
+    phone: '(02) 8655-2195',
+    icon: 'Hammer',
+  },
+  {
+    name: 'General Services Department (GSD)',
+    phone: '(02) 8655-2195',
+    icon: 'Settings',
+  },
+  {
+    name: 'Municipal Agricultural Office',
+    phone: '(02) 8655-2195',
+    icon: 'Leaf',
+  },
+  {
+    name: 'Municipal Social Welfare and Development Office (MSWDO)',
+    phone: '(02) 8655-2195',
+    icon: 'Heart',
+  },
+  {
+    name: 'Municipal Health Office (MHO)',
+    phone: '—',
+    icon: 'Stethoscope',
+  },
+  {
+    name: 'Municipal Disaster Risk Reduction and Management Office (MDRRMO)',
+    phone: '(02) 8655-2195',
+    icon: 'AlertTriangle',
+  },
+  {
+    name: 'Municipal Population Management Office',
+    phone: '(02) 8655-2195',
+    icon: 'Users',
+  },
+  {
+    name: 'Human Resource Management Office (HRMO)',
+    phone: '(02) 8655-2195',
+    icon: 'Users',
+  },
+  {
+    name: 'Tourism Office',
+    phone: '(02) 8655-2195',
+    icon: 'MapPin',
+  },
+  {
+    name: 'Municipal Environment and Natural Resources Office (MENRO)',
+    phone: '(02) 8655-2195',
+    icon: 'TreePine',
+  },
+  {
+    name: 'Municipal Anti-Drug Abuse Council (MADAC)',
+    phone: '(02) 8655-2195',
+    icon: 'Shield',
+  },
+  {
+    name: 'Public Employment Service Office (PESO)',
+    phone: '(8) 924-7174 Loc 228',
+    email: 'pesotanayjobs@gmail.com',
+    icon: 'Zap',
+  },
+  {
+    name: 'Information Management Systems (IMS) Office',
+    phone: '(02) 8655-2195',
+    icon: 'Settings',
+  },
+  {
+    name: 'Public Information Office (PIO)',
+    phone: '(02) 8655-2195',
+    icon: 'FileText',
+  },
+  {
+    name: 'Tanay Technology and Livelihood Development Center (TTLDC)',
+    phone: '(02) 8655-2195',
+    icon: 'Zap',
+  },
+  {
+    name: 'Himlayang Bayan Office',
+    phone: '(02) 8655-2195',
+    icon: 'Flower2',
   },
 ];
 
@@ -391,7 +537,7 @@ const Government: React.FC = () => {
                   {SANGGUNIANG_BAYAN_MEMBERS.map(councilor => (
                     <div
                       key={councilor.initials}
-                      className={`bg-white rounded-xl border border-gray-100 border-t-4 ${councilor.initials === 'AB' ? 'border-t-green-700' : councilor.initials === 'KJ' ? 'border-t-orange-700' : councilor.initials === 'VA' ? 'border-t-amber-800' : 'border-t-primary-700'} shadow-sm overflow-hidden hover:shadow-md transition-shadow`}
+                      className={`bg-white rounded-xl border border-gray-100 border-l-4 ${councilor.initials === 'AB' ? 'border-l-green-700' : councilor.initials === 'KJ' ? 'border-l-orange-700' : councilor.initials === 'VA' ? 'border-l-amber-800' : 'border-l-primary-700'} shadow-sm overflow-hidden hover:shadow-md transition-shadow`}
                     >
                       <div className="p-5 flex gap-4">
                         {/* Avatar */}
@@ -434,13 +580,60 @@ const Government: React.FC = () => {
                     </p>
                   </div>
                 </div>
-                <Card hoverable className="border-l-4 border-primary-700">
-                  <CardContent>
-                    <p className="text-gray-600">
-                      Coming soon - Information about municipal departments
-                    </p>
-                  </CardContent>
-                </Card>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {DEPARTMENTS.map(dept => {
+                    const DeptIcon = LucideIcons[
+                      dept.icon
+                    ] as React.ComponentType<{ className?: string }>;
+                    return (
+                      <div
+                        key={dept.name}
+                        className="bg-white rounded-xl border border-gray-100 border-l-4 border-l-primary-700 shadow-sm overflow-hidden hover:shadow-md transition-shadow"
+                      >
+                        <div className="p-5 flex gap-4">
+                          {/* Icon */}
+                          <div className="shrink-0 text-primary-700">
+                            {DeptIcon && <DeptIcon className="h-6 w-6" />}
+                          </div>
+
+                          {/* Content */}
+                          <div className="flex-1 min-w-0">
+                            <h3 className="font-black text-gray-900 text-sm leading-snug mb-3">
+                              {dept.name}
+                            </h3>
+
+                            {/* Contact Info */}
+                            <div className="flex flex-col gap-1.5">
+                              {dept.phone !== '—' ? (
+                                <a
+                                  href={`tel:${dept.phone}`}
+                                  className="flex items-center gap-2 text-xs text-gray-600 hover:text-primary-700 transition-colors"
+                                >
+                                  <Phone className="h-3.5 w-3.5 text-primary-500" />
+                                  <span className="truncate">{dept.phone}</span>
+                                </a>
+                              ) : (
+                                <div className="flex items-center gap-2 text-xs text-gray-600">
+                                  <Phone className="h-3.5 w-3.5 text-primary-500" />
+                                  <span className="truncate">{dept.phone}</span>
+                                </div>
+                              )}
+                              {dept.email && (
+                                <a
+                                  href={`mailto:${dept.email}`}
+                                  className="flex items-center gap-2 text-xs text-gray-600 hover:text-primary-700 transition-colors"
+                                >
+                                  <Mail className="h-3.5 w-3.5 text-primary-500" />
+                                  <span className="truncate">{dept.email}</span>
+                                </a>
+                              )}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
 
               {/* Barangays of Tanay */}
