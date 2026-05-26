@@ -42,7 +42,8 @@ interface Councilor {
 
 interface Department {
   name: string;
-  phone: string;
+  phone?: string;
+  phones?: string[];
   email?: string;
   icon: keyof typeof LucideIcons;
 }
@@ -272,6 +273,21 @@ const DEPARTMENTS: Department[] = [
     name: 'Himlayang Bayan Office',
     phone: '(02) 8655-2195',
     icon: 'Flower2',
+  },
+  {
+    name: 'Tanay Municipal Police Station',
+    phones: ['+63 2 8654-9347', '0907-827-9401'],
+    icon: 'Shield',
+  },
+  {
+    name: 'Tanay Water District',
+    phones: ['8654-4450', '8654-0033', '0929-171-8099'],
+    icon: 'Droplet',
+  },
+  {
+    name: 'Municipal Trial Court (MTC) Tanay',
+    phones: ['(02) 8655-5726', '0917-504-2829'],
+    icon: 'Scale',
   },
 ];
 
@@ -604,7 +620,18 @@ const Government: React.FC = () => {
 
                             {/* Contact Info */}
                             <div className="flex flex-col gap-1.5">
-                              {dept.phone !== '—' ? (
+                              {dept.phones ? (
+                                dept.phones.map((phoneNum, idx) => (
+                                  <a
+                                    key={idx}
+                                    href={`tel:${phoneNum.replace(/\D/g, '')}`}
+                                    className="flex items-center gap-2 text-xs text-gray-600 hover:text-primary-700 transition-colors"
+                                  >
+                                    <Phone className="h-3.5 w-3.5 text-primary-500" />
+                                    <span className="truncate">{phoneNum}</span>
+                                  </a>
+                                ))
+                              ) : dept.phone && dept.phone !== '—' ? (
                                 <a
                                   href={`tel:${dept.phone}`}
                                   className="flex items-center gap-2 text-xs text-gray-600 hover:text-primary-700 transition-colors"
