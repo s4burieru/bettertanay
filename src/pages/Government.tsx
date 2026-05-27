@@ -297,6 +297,115 @@ const DEPARTMENTS: Department[] = [
   },
 ];
 
+interface Barangay {
+  name: string;
+  captain: string;
+  contact: string;
+}
+
+const BARANGAYS: Barangay[] = [
+  {
+    name: 'Cayabu',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Cuyambay',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Daraitan',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Katipunan-Bayan (Poblacion)',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Kaybuto (Poblacion)',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Laiban',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Mag-Ampon (Poblacion)',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Mamuyao',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Pinagkamaligan (Poblacion)',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Plaza Aldea (Poblacion)',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Sampaloc',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'San Andres',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'San Isidro (Poblacion)',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Santa Inez',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Santo Niño',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Tabing Ilog (Poblacion)',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Tandang Kutyo (Poblacion)',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Tinucan',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Wawa (Poblacion)',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+  {
+    name: 'Madilay-dilay',
+    captain: 'to follow',
+    contact: 'to follow',
+  },
+];
+
 const Government: React.FC = () => {
   const { category } = useParams();
   const [categoryIndex, setCategoryIndex] = useState<CategoryIndex>({
@@ -682,13 +791,39 @@ const Government: React.FC = () => {
                     </p>
                   </div>
                 </div>
-                <Card hoverable className="border-l-4 border-primary-700">
-                  <CardContent>
-                    <p className="text-gray-600">
-                      Coming soon - Information about our barangays
-                    </p>
-                  </CardContent>
-                </Card>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {BARANGAYS.map((barangay, idx) => (
+                    <Card
+                      key={idx}
+                      hoverable
+                      className="border-l-4 border-primary-700"
+                    >
+                      <CardContent>
+                        <h3 className="font-black text-gray-900 text-sm mb-3">
+                          {barangay.name}
+                        </h3>
+                        <div className="space-y-2">
+                          <div>
+                            <p className="text-xs text-gray-500 mb-1">
+                              Brgy Captain
+                            </p>
+                            <span className="inline-block px-2 py-1 rounded bg-gray-100 text-gray-600 text-xs">
+                              {barangay.captain}
+                            </span>
+                          </div>
+                          <div>
+                            <p className="text-xs text-gray-500 mb-1">
+                              Contact
+                            </p>
+                            <span className="inline-block px-2 py-1 rounded bg-gray-100 text-gray-600 text-xs">
+                              {barangay.contact}
+                            </span>
+                          </div>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
