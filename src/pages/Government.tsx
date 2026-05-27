@@ -796,12 +796,15 @@ const Government: React.FC = () => {
                     <Card
                       key={idx}
                       hoverable
-                      className="border-l-4 border-primary-700"
+                      className="border-t-4 border-primary-700"
                     >
                       <CardContent>
-                        <h3 className="font-black text-gray-900 text-sm mb-3">
-                          {barangay.name}
-                        </h3>
+                        <div className="flex items-start gap-2 mb-3">
+                          <MapPin className="h-5 w-5 text-primary-700 shrink-0 mt-0.5" />
+                          <h3 className="font-black text-gray-900 text-sm">
+                            {barangay.name}
+                          </h3>
+                        </div>
                         <div className="space-y-2">
                           <div>
                             <p className="text-xs text-gray-500 mb-1">
