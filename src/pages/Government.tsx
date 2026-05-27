@@ -791,7 +791,7 @@ const Government: React.FC = () => {
                     </p>
                   </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                   {BARANGAYS.map((barangay, idx) => (
                     <Card
                       key={idx}
@@ -815,12 +815,7 @@ const Government: React.FC = () => {
                             </span>
                           </div>
                           <div>
-                            <p className="text-xs text-gray-500 mb-1">
-                              Contact
-                            </p>
-                            <span className="inline-block px-2 py-1 rounded bg-gray-100 text-gray-600 text-xs">
-                              {barangay.contact}
-                            </span>
+                            <Phone className="h-4 w-4 text-primary-700" />
                           </div>
                         </div>
                       </CardContent>
