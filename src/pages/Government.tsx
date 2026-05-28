@@ -396,8 +396,8 @@ const BARANGAYS: Barangay[] = [
   },
   {
     name: 'Wawa (Poblacion)',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Sigfredo A. Santos',
+    contact: '86544263',
   },
   {
     name: 'Madilay-dilay',
@@ -806,16 +806,16 @@ const Government: React.FC = () => {
                           </h3>
                         </div>
                         <div className="space-y-2">
-                          <div>
-                            <p className="text-xs text-gray-500 mb-1">
-                              Brgy Captain
-                            </p>
-                            <span className="inline-block px-2 py-1 rounded bg-gray-100 text-gray-600 text-xs">
+                          <div className="flex items-center gap-2">
+                            <span className="text-xs text-gray-600">
                               {barangay.captain}
                             </span>
                           </div>
-                          <div>
-                            <Phone className="h-4 w-4 text-primary-700" />
+                          <div className="flex items-center gap-2">
+                            <Phone className="h-3 w-3 text-primary-700 shrink-0" />
+                            <span className="text-xs text-gray-600">
+                              {barangay.contact}
+                            </span>
                           </div>
                         </div>
                       </CardContent>
