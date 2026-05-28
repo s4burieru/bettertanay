@@ -795,8 +795,7 @@ const Government: React.FC = () => {
                   {BARANGAYS.map((barangay, idx) => (
                     <Card
                       key={idx}
-                      hoverable
-                      className="border-t-4 border-primary-700"
+                      className="border-t-4 border-primary-700 shadow-sm overflow-hidden hover:shadow-md transition-shadow"
                     >
                       <CardContent>
                         <div className="flex items-start gap-2 mb-3">
@@ -811,12 +810,15 @@ const Government: React.FC = () => {
                               {barangay.captain}
                             </span>
                           </div>
-                          <div className="flex items-center gap-2">
+                          <a
+                            href={`tel:${barangay.contact.replace(/\D/g, '')}`}
+                            className="flex items-center gap-2 hover:text-primary-700 transition-colors cursor-pointer group"
+                          >
                             <Phone className="h-3 w-3 text-primary-700 shrink-0" />
-                            <span className="text-xs text-gray-600">
+                            <span className="text-xs text-gray-600 group-hover:font-semibold">
                               {barangay.contact}
                             </span>
-                          </div>
+                          </a>
                         </div>
                       </CardContent>
                     </Card>
