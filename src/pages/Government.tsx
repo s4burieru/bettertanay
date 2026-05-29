@@ -306,93 +306,93 @@ interface Barangay {
 const BARANGAYS: Barangay[] = [
   {
     name: 'Cayabu',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Antonio E. Bolañoos',
+    contact: '—',
   },
   {
     name: 'Cuyambay',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Reynaldo D. Dela Sada',
+    contact: '86710751',
   },
   {
     name: 'Daraitan',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Adrian C. Pranada',
+    contact: '09671522550',
   },
   {
     name: 'Katipunan-Bayan (Poblacion)',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Emmanuel V. Alegado Sr.',
+    contact: '—',
   },
   {
     name: 'Kaybuto (Poblacion)',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Jimson P. Fernandez',
+    contact: 'fernandezjimson15@gmail.com',
   },
   {
     name: 'Laiban',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Antonio A. Estrellado',
+    contact: 'tonetestrellado@gmail.com',
   },
   {
     name: 'Mag-Ampon (Poblacion)',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Gerardo L. Reyes',
+    contact: '72731327',
   },
   {
     name: 'Mamuyao',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Gerome R. Villaflor',
+    contact: 'geromevillaflor@gmail.com',
   },
   {
     name: 'Pinagkamaligan (Poblacion)',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'SK Chair. Karl Jerome V. Velasco',
+    contact: 'velascokarljerome@gmail.com',
   },
   {
     name: 'Plaza Aldea (Poblacion)',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Mara Clara M. Estrella',
+    contact: '—',
   },
   {
     name: 'Sampaloc',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Michael E. Mago',
+    contact: '09192965422',
   },
   {
     name: 'San Andres',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Sofia P. Dela Rosa',
+    contact: '—',
   },
   {
     name: 'San Isidro (Poblacion)',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Jake Gemerson V. Mina',
+    contact: '86553286',
   },
   {
     name: 'Santa Inez',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Adrenico N. Zubiaga',
+    contact: '—',
   },
   {
     name: 'Santo Niño',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Angel V. Patrimonio Jr.',
+    contact: '—',
   },
   {
     name: 'Tabing Ilog (Poblacion)',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. EDMON F. CATAMBAY',
+    contact: '82526299',
   },
   {
     name: 'Tandang Kutyo (Poblacion)',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Hilario C. Custodio',
+    contact: '6543208',
   },
   {
     name: 'Tinucan',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Herminigilda F. Cabanting',
+    contact: '—',
   },
   {
     name: 'Wawa (Poblacion)',
@@ -401,8 +401,8 @@ const BARANGAYS: Barangay[] = [
   },
   {
     name: 'Madilay-dilay',
-    captain: 'to follow',
-    contact: 'to follow',
+    captain: 'Kap. Gregorio C. Manalo',
+    contact: 'gregoriomanalo48@gmail.com',
   },
 ];
 
@@ -810,15 +810,29 @@ const Government: React.FC = () => {
                               {barangay.captain}
                             </span>
                           </div>
-                          <a
-                            href={`tel:${barangay.contact.replace(/\D/g, '')}`}
-                            className="flex items-center gap-2 hover:text-primary-700 transition-colors cursor-pointer group"
-                          >
-                            <Phone className="h-3 w-3 text-primary-700 shrink-0" />
-                            <span className="text-xs text-gray-600 group-hover:font-semibold">
-                              {barangay.contact}
-                            </span>
-                          </a>
+                          {barangay.contact !== '—' ? (
+                            <a
+                              href={
+                                barangay.contact.includes('@')
+                                  ? `mailto:${barangay.contact}`
+                                  : `tel:${barangay.contact.replace(/\D/g, '')}`
+                              }
+                              className="flex items-center gap-2 hover:text-primary-700 transition-colors cursor-pointer group"
+                            >
+                              {barangay.contact.includes('@') ? (
+                                <Mail className="h-3 w-3 text-primary-700 shrink-0" />
+                              ) : (
+                                <Phone className="h-3 w-3 text-primary-700 shrink-0" />
+                              )}
+                              <span className="text-xs text-gray-600 group-hover:font-semibold">
+                                {barangay.contact}
+                              </span>
+                            </a>
+                          ) : (
+                            <div className="flex items-center gap-2 text-xs text-gray-400">
+                              <span>No contact source available</span>
+                            </div>
+                          )}
                         </div>
                       </CardContent>
                     </Card>
