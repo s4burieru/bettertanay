@@ -150,12 +150,13 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: 'Municipal Legal Office',
-    phone: '(02) 8942-7174 loc. 239',
+    phone: '(02) 8942-7174 loc 239',
     icon: 'Scale',
   },
   {
     name: 'Office of the Sangguniang Bayan',
     phone: '(02) 8655-2195',
+    email: 'sbtanay@gmail.com',
     icon: 'Users',
   },
   {
@@ -211,6 +212,7 @@ const DEPARTMENTS: Department[] = [
   {
     name: 'Municipal Social Welfare and Development Office (MSWDO)',
     phone: '(02) 8655-2195',
+    email: 'socialwelfaretanay@gmail.com',
     icon: 'Heart',
   },
   {
@@ -220,7 +222,8 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: 'Municipal Disaster Risk Reduction and Management Office (MDRRMO)',
-    phone: '(02) 8655-2195',
+    phone: '0963 473 3333',
+    email: 'tanaymdrrmo1980@gmail.com',
     icon: 'AlertTriangle',
   },
   {
@@ -235,22 +238,25 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: 'Tourism Office',
-    phone: '(02) 8655-2195',
+    phone: '0968 556 5335',
+    email: 'lgutourismtanay2020@gmail.com',
     icon: 'MapPin',
   },
   {
     name: 'Municipal Environment and Natural Resources Office (MENRO)',
-    phone: '(02) 8655-2195',
+    phone: '0999 881 3679',
+    email: 'tanaymenro2019@gmail.com',
     icon: 'TreePine',
   },
   {
     name: 'Municipal Anti-Drug Abuse Council (MADAC)',
     phone: '(02) 8655-2195',
+    email: 'madaclgu@gmail.com',
     icon: 'Shield',
   },
   {
     name: 'Public Employment Service Office (PESO)',
-    phone: '(02) 8942-7174 loc. 228',
+    phone: '(02) 8942-7174 loc 228',
     email: 'pesotanayjobs@gmail.com',
     icon: 'Zap',
   },
