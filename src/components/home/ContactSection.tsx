@@ -46,7 +46,7 @@ export default function ContactSection() {
             {t('contact.title')}
           </Heading>
           <Link
-            to="/government/departments"
+            to="/government#department-heads"
             className="text-sm font-semibold text-primary-700 hover:text-primary-800 flex items-center gap-1 transition-colors"
           >
             {t('contact.viewAll')}

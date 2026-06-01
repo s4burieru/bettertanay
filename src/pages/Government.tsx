@@ -4,7 +4,7 @@ import {
   type Subcategory,
   type CategoryIndex,
 } from '../data/yamlLoader';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
 import * as LucideIcons from 'lucide-react';
 import {
   Building2,
@@ -414,6 +414,7 @@ const BARANGAYS: Barangay[] = [
 
 const Government: React.FC = () => {
   const { category } = useParams();
+  const location = useLocation();
   const [categoryIndex, setCategoryIndex] = useState<CategoryIndex>({
     layout: 'list',
     pages: [],
@@ -439,6 +440,18 @@ const Government: React.FC = () => {
         .finally(() => setLoading(false));
     }
   }, [category, categoryData]);
+
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.substring(1);
+      const element = document.getElementById(id);
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 0);
+      }
+    }
+  }, [location.hash]);
 
   // Category detail view
   if (category) {
@@ -710,7 +723,7 @@ const Government: React.FC = () => {
         </section>
 
         {/* Department Heads & Key Offices */}
-        <section className="bg-white py-12">
+        <section className="bg-white py-12" id="department-heads">
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="space-y-12">
               <div className="border-b border-gray-100 pb-12">
