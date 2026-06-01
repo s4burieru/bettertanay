@@ -656,55 +656,63 @@ const Government: React.FC = () => {
                   ))}
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
 
-              {/* Sangguniang Bayan Members */}
-              <div className="border-b border-gray-100 pb-12">
-                <div className="flex items-start gap-4 mb-6">
-                  <Users className="h-8 w-8 text-primary-700 shrink-0 mt-1" />
-                  <div className="flex-1">
-                    <h2 className="text-xl font-black text-gray-900 mb-2">
-                      Sangguniang Bayan Members
-                    </h2>
-                    <p className="text-sm text-gray-500">
-                      Municipal Councilors serving the people of Tanay
-                    </p>
+        {/* Sangguniang Bayan Members */}
+        <section className="bg-gray-50 py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <div className="flex items-start gap-4 mb-6">
+              <Users className="h-8 w-8 text-primary-700 shrink-0 mt-1" />
+              <div className="flex-1">
+                <h2 className="text-xl font-black text-gray-900 mb-2">
+                  Sangguniang Bayan Members
+                </h2>
+                <p className="text-sm text-gray-500">
+                  Municipal Councilors serving the people of Tanay
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {SANGGUNIANG_BAYAN_MEMBERS.map(councilor => (
+                <div
+                  key={councilor.initials}
+                  className={`bg-white rounded-xl border border-gray-100 border-l-4 ${councilor.initials === 'AB' ? 'border-l-green-700' : councilor.initials === 'KJ' ? 'border-l-orange-700' : councilor.initials === 'VA' ? 'border-l-amber-800' : 'border-l-primary-700'} shadow-sm overflow-hidden hover:shadow-md transition-shadow`}
+                >
+                  <div className="p-5 flex gap-4">
+                    {/* Avatar */}
+                    <div
+                      className={`shrink-0 w-14 h-14 rounded-full ${councilor.initials === 'AB' ? 'bg-green-100 text-green-700' : councilor.initials === 'KJ' ? 'bg-orange-100 text-orange-700' : councilor.initials === 'VA' ? 'bg-amber-100 text-amber-800' : 'bg-primary-100 text-primary-700'} flex items-center justify-center font-black text-xs text-center leading-tight`}
+                    >
+                      {councilor.initials}
+                    </div>
+
+                    {/* Content */}
+                    <div className="flex-1 min-w-0">
+                      <span
+                        className={`inline-block text-xs font-semibold ${councilor.initials === 'AB' ? 'text-green-700 bg-green-50 border-green-200' : councilor.initials === 'KJ' ? 'text-orange-700 bg-orange-50 border-orange-200' : councilor.initials === 'VA' ? 'text-amber-800 bg-amber-50 border-amber-200' : 'text-primary-700 bg-primary-50 border-primary-100'} px-2 py-0.5 rounded-full border mb-1.5`}
+                      >
+                        {councilor.designation}
+                      </span>
+                      <h3 className="font-black text-gray-900 text-sm leading-snug mb-0.5 truncate">
+                        {councilor.name}
+                      </h3>
+                      <p className="text-gray-500 text-xs line-clamp-2">
+                        {councilor.title}
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {SANGGUNIANG_BAYAN_MEMBERS.map(councilor => (
-                    <div
-                      key={councilor.initials}
-                      className={`bg-white rounded-xl border border-gray-100 border-l-4 ${councilor.initials === 'AB' ? 'border-l-green-700' : councilor.initials === 'KJ' ? 'border-l-orange-700' : councilor.initials === 'VA' ? 'border-l-amber-800' : 'border-l-primary-700'} shadow-sm overflow-hidden hover:shadow-md transition-shadow`}
-                    >
-                      <div className="p-5 flex gap-4">
-                        {/* Avatar */}
-                        <div
-                          className={`shrink-0 w-14 h-14 rounded-full ${councilor.initials === 'AB' ? 'bg-green-100 text-green-700' : councilor.initials === 'KJ' ? 'bg-orange-100 text-orange-700' : councilor.initials === 'VA' ? 'bg-amber-100 text-amber-800' : 'bg-primary-100 text-primary-700'} flex items-center justify-center font-black text-xs text-center leading-tight`}
-                        >
-                          {councilor.initials}
-                        </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
-                        {/* Content */}
-                        <div className="flex-1 min-w-0">
-                          <span
-                            className={`inline-block text-xs font-semibold ${councilor.initials === 'AB' ? 'text-green-700 bg-green-50 border-green-200' : councilor.initials === 'KJ' ? 'text-orange-700 bg-orange-50 border-orange-200' : councilor.initials === 'VA' ? 'text-amber-800 bg-amber-50 border-amber-200' : 'text-primary-700 bg-primary-50 border-primary-100'} px-2 py-0.5 rounded-full border mb-1.5`}
-                          >
-                            {councilor.designation}
-                          </span>
-                          <h3 className="font-black text-gray-900 text-sm leading-snug mb-0.5 truncate">
-                            {councilor.name}
-                          </h3>
-                          <p className="text-gray-500 text-xs line-clamp-2">
-                            {councilor.title}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Department Heads & Key Offices */}
+        {/* Department Heads & Key Offices */}
+        <section className="bg-white py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <div className="space-y-12">
               <div className="border-b border-gray-100 pb-12">
                 <div className="flex items-start gap-4 mb-6">
                   <Briefcase className="h-8 w-8 text-primary-700 shrink-0 mt-1" />
@@ -783,67 +791,71 @@ const Government: React.FC = () => {
                   })}
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
 
-              {/* Barangays of Tanay */}
-              <div className="border-b border-gray-100 pb-12 last:border-0">
-                <div className="flex items-start gap-4 mb-6">
-                  <MapPin className="h-8 w-8 text-primary-700 shrink-0 mt-1" />
-                  <div className="flex-1">
-                    <h2 className="text-xl font-black text-gray-900 mb-2">
-                      Barangays of Tanay
-                    </h2>
-                    <p className="text-sm text-gray-500">
-                      20 Barangays serving our community
-                    </p>
-                  </div>
+        {/* Barangays of Tanay */}
+        <section className="bg-gray-50 py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <div className="border-b border-gray-100 pb-12 last:border-0">
+              <div className="flex items-start gap-4 mb-6">
+                <MapPin className="h-8 w-8 text-primary-700 shrink-0 mt-1" />
+                <div className="flex-1">
+                  <h2 className="text-xl font-black text-gray-900 mb-2">
+                    Barangays of Tanay
+                  </h2>
+                  <p className="text-sm text-gray-500">
+                    20 Barangays serving our community
+                  </p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                  {BARANGAYS.map((barangay, idx) => (
-                    <Card
-                      key={idx}
-                      className="border-t-4 border-primary-700 shadow-sm overflow-hidden hover:shadow-md transition-shadow"
-                    >
-                      <CardContent>
-                        <div className="flex items-start gap-2 mb-3">
-                          <MapPin className="h-5 w-5 text-primary-700 shrink-0 mt-0.5" />
-                          <h3 className="font-black text-gray-900 text-sm">
-                            {barangay.name}
-                          </h3>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                {BARANGAYS.map((barangay, idx) => (
+                  <Card
+                    key={idx}
+                    className="border-t-4 border-primary-700 shadow-sm overflow-hidden hover:shadow-md transition-shadow"
+                  >
+                    <CardContent>
+                      <div className="flex items-start gap-2 mb-3">
+                        <MapPin className="h-5 w-5 text-primary-700 shrink-0 mt-0.5" />
+                        <h3 className="font-black text-gray-900 text-sm">
+                          {barangay.name}
+                        </h3>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="flex items-center gap-2">
+                          <span className="text-xs text-gray-600">
+                            {barangay.captain}
+                          </span>
                         </div>
-                        <div className="space-y-2">
-                          <div className="flex items-center gap-2">
-                            <span className="text-xs text-gray-600">
-                              {barangay.captain}
+                        {barangay.contact !== '—' ? (
+                          <a
+                            href={
+                              barangay.contact.includes('@')
+                                ? `mailto:${barangay.contact}`
+                                : `tel:${barangay.contact.replace(/\D/g, '')}`
+                            }
+                            className="flex items-center gap-2 hover:text-primary-700 transition-colors cursor-pointer group"
+                          >
+                            {barangay.contact.includes('@') ? (
+                              <Mail className="h-3 w-3 text-primary-700 shrink-0" />
+                            ) : (
+                              <Phone className="h-3 w-3 text-primary-700 shrink-0" />
+                            )}
+                            <span className="text-xs text-gray-600 group-hover:font-semibold">
+                              {barangay.contact}
                             </span>
+                          </a>
+                        ) : (
+                          <div className="flex items-center gap-2 text-xs text-gray-400">
+                            <span>No contact source available</span>
                           </div>
-                          {barangay.contact !== '—' ? (
-                            <a
-                              href={
-                                barangay.contact.includes('@')
-                                  ? `mailto:${barangay.contact}`
-                                  : `tel:${barangay.contact.replace(/\D/g, '')}`
-                              }
-                              className="flex items-center gap-2 hover:text-primary-700 transition-colors cursor-pointer group"
-                            >
-                              {barangay.contact.includes('@') ? (
-                                <Mail className="h-3 w-3 text-primary-700 shrink-0" />
-                              ) : (
-                                <Phone className="h-3 w-3 text-primary-700 shrink-0" />
-                              )}
-                              <span className="text-xs text-gray-600 group-hover:font-semibold">
-                                {barangay.contact}
-                              </span>
-                            </a>
-                          ) : (
-                            <div className="flex items-center gap-2 text-xs text-gray-400">
-                              <span>No contact source available</span>
-                            </div>
-                          )}
-                        </div>
-                      </CardContent>
-                    </Card>
-                  ))}
-                </div>
+                        )}
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
               </div>
             </div>
           </div>
