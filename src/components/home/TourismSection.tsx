@@ -61,8 +61,8 @@ const CATEGORY_NAV = [
 const HIGHLIGHTS = [
   {
     icon: Church,
-    title: 'San Ildefonso De Toledo Parish',
-    desc: 'Built in 1611 — one of the oldest churches in Cavite with a rose-colored stone facade.',
+    title: 'Tanay Church (San Ildefonso de Toledo Parish Church)',
+    desc: 'Built in 1773, this centuries-old church is known for its Baroque architecture and historical significance in Tanay.',
     tag: 'Heritage',
     tagColor: 'bg-amber-100 text-amber-700',
     href: '/tourism/heritage',
@@ -70,26 +70,26 @@ const HIGHLIGHTS = [
   {
     icon: Building,
     title: 'Regina RICA',
-    desc: 'The exact site where Andres Bonifacio was arrested in April 1897, now a national historical marker.',
-    tag: 'History',
+    desc: 'A well-known pilgrimage destination featuring a giant statue of the Blessed Virgin Mary, retreat facilities, and scenic mountain views.',
+    tag: 'Heritage',
     tagColor: 'bg-amber-100 text-amber-700',
     href: '/tourism/heritage',
   },
   {
     icon: Droplets,
-    title: 'Calinawan Cave',
-    desc: 'Cold, chemical-free flowing spring water resorts — the signature experience of the Town of Many Springs.',
+    title: 'Daranak Falls',
+    desc: 'One of Tanay’s most famous natural attractions, featuring cool waters surrounded by lush forests and rock formations.',
     tag: 'Resorts',
     tagColor: 'bg-blue-100 text-blue-700',
-    href: '/tourism/resorts',
+    href: '/tourism/nature',
   },
   {
     icon: Leaf,
-    title: 'Daranak Falls',
-    desc: 'Farm stays, orchards, and the CvSU Agri-Eco Tourism Park — unique farm-to-table experiences.',
-    tag: 'Farms',
+    title: 'Calinawan Cave',
+    desc: 'A historic cave system believed to have served as a hideout during wartime and now popular for guided exploration.',
+    tag: 'Adventure',
     tagColor: 'bg-green-100 text-green-700',
-    href: '/tourism/farms',
+    href: '/tourism/adventure',
   },
 ];
 
