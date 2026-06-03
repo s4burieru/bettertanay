@@ -476,7 +476,7 @@ function EstablishmentCard({
     <div className="bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-primary-200 transition-all duration-200 overflow-hidden flex flex-col">
       {/* Thumbnail */}
       {item.image ? (
-        <div className="w-full h-40 overflow-hidden border-b border-gray-100">
+        <div className="w-full aspect-video overflow-hidden border-b border-gray-100">
           <img
             src={item.image}
             alt={item.name}
@@ -485,7 +485,7 @@ function EstablishmentCard({
         </div>
       ) : (
         <div
-          className={`w-full h-40 flex items-center justify-center border-b border-gray-100 ${colors.placeholder}`}
+          className={`w-full aspect-video flex items-center justify-center border-b border-gray-100 ${colors.placeholder}`}
         >
           {(() => {
             const IconComp = ICON_MAP[cat.icon] ?? MapPin;
