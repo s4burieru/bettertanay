@@ -3,6 +3,8 @@ import { useParams, Link } from 'react-router-dom';
 import {
   MapPin,
   Phone,
+  Mail,
+  Globe,
   Facebook,
   Waves,
   Utensils,
@@ -26,7 +28,9 @@ interface Establishment {
   category: string;
   address?: string;
   contact?: string;
+  email?: string;
   facebook?: string;
+  website?: string;
   image?: string;
   description?: string;
   tags?: string[];
@@ -542,6 +546,15 @@ function EstablishmentCard({
               {item.contact}
             </a>
           )}
+          {item.email && (
+            <a
+              href={`mailto:${item.email}`}
+              className="flex items-center gap-2 text-xs text-primary-600 hover:text-primary-800 font-semibold transition-colors"
+            >
+              <Mail className="h-3.5 w-3.5 shrink-0" />
+              {item.email}
+            </a>
+          )}
           {item.facebook && (
             <a
               href={item.facebook}
@@ -551,6 +564,18 @@ function EstablishmentCard({
             >
               <Facebook className="h-3.5 w-3.5 shrink-0" />
               Facebook Page
+              <ExternalLink className="h-3 w-3 opacity-60" />
+            </a>
+          )}
+          {item.website && item.website !== '#' && (
+            <a
+              href={item.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-xs text-primary-600 hover:text-primary-800 font-semibold transition-colors"
+            >
+              <Globe className="h-3.5 w-3.5 shrink-0" />
+              Visit Website
               <ExternalLink className="h-3 w-3 opacity-60" />
             </a>
           )}

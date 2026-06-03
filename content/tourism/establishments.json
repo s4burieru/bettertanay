@@ -18,19 +18,31 @@
       "name": "Daranak Falls",
       "category": "resorts",
       "address": "Sampaloc, Tanay, Rizal",
-      "contact": "daranakfalls2020@gmail.com",
+      "contact": "(02) 655 1770",
+      "email": "daranakfalls2020@gmail.com",
       "facebook": "https://www.facebook.com/DaranakFallsinfocenter/",
       "website": "#",
       "image": "/establishment-images/daranak-falls.jpg"
     },
     {
-      "name": "Regina RICA (Our Lady of the Holy Rosary)",
+      "name": "San Ildefonso De Toledo Parish",
+      "category": "heritage",
+      "address": "Plaza Aldea, Tanay, Rizal",
+      "contact": "286541015",
+      "email": "sanildefonsoparishchurch@yahoo.com",
+      "facebook": "https://www.facebook.com/SIDTPTanay",
+      "website": "tanaychurch.com",
+      "image": "/establishment-images/san-ildefonso.jpg"
+    },
+    {
+      "name": "Regina RICA",
       "category": "heritage",
       "address": "Sampaloc, Tanay, Rizal",
-      "contact": "#",
-      "facebook": "#",
-      "website": "#",
-      "image": "#"
+      "contact": "(02) 372 5327",
+      "email": "regina.rica@yahoo.com",
+      "facebook": "https://www.facebook.com/reginaricaofficial",
+      "website": "reginarica.org",
+      "image": "/establishment-images/regina-rica.jpg"
     }
   ]
 }
