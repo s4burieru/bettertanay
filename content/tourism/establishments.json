@@ -21,7 +21,6 @@
       "contact": "(02) 655 1770",
       "email": "daranakfalls2020@gmail.com",
       "facebook": "https://www.facebook.com/DaranakFallsinfocenter/",
-      "website": "#",
       "image": "/establishment-images/daranak-falls.jpg"
     },
     {
@@ -43,6 +42,14 @@
       "facebook": "https://www.facebook.com/reginaricaofficial",
       "website": "reginarica.org",
       "image": "/establishment-images/regina-rica.jpg"
+    },
+    {
+      "name": "Calinawan Cave",
+      "category": "adventure",
+      "address": "Tandang Kutyo, Tanay, Rizal",
+      "contact": "0935 393 0978",
+      "facebook": "https://www.facebook.com/profile.php?id=100069372976356",
+      "image": "/establishment-images/calinawan-cave.jpg"
     }
   ]
 }
