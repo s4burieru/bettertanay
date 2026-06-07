@@ -27,10 +27,10 @@
       "name": "San Ildefonso De Toledo Parish",
       "category": "heritage",
       "address": "Plaza Aldea, Tanay, Rizal",
-      "contact": "286541015",
+      "contact": "(02) 8654 1015",
       "email": "sanildefonsoparishchurch@yahoo.com",
       "facebook": "https://www.facebook.com/SIDTPTanay",
-      "website": "tanaychurch.com",
+      "website": "https://tanaychurch.com",
       "image": "/establishment-images/san-ildefonso.jpg"
     },
     {
@@ -58,6 +58,38 @@
       "contact": "0906 604 9455",
       "facebook": "https://www.facebook.com/daraitanHANE/",
       "image": "/establishment-images/tinipak-river.jpg"
+    },
+    {
+      "name": "Nagpatong Rock Formation",
+      "category": "adventure",
+      "address": "Cuyambay, Tanay, Rizal",
+      "contact": "(02) 8655 1773",
+      "image": "/establishment-images/nagpatong-rock-formation.jpg"
+    },
+    {
+      "name": "Batlag Falls",
+      "category": "resorts",
+      "address": "Sitio Rawang, Tandang Kutyo, Tanay, Rizal",
+      "contact": "0956 774 1870",
+      "facebook": "https://www.facebook.com/BatlagFallsOfficialPage/",
+      "image": "/establishment-images/batlag-falls.jpg"
+    },
+    {
+      "name": "Masungi Georeserve",
+      "category": "adventure",
+      "address": "Kilometer 47, Marcos Highway, Baras, Rizal",
+      "contact": "0908 888 7002",
+      "email": "trail@masungigeoreserve.com",
+      "facebook": "https://www.facebook.com/masungigeoreserve",
+      "website": "https://www.masungigeoreserve.com/",
+      "image": "/establishment-images/masungi-georeserve.jpg"
+    },
+    {
+      "name": "Mt. Maynuba",
+      "category": "adventure",
+      "address": "Cayabu, Tanay, Rizal",
+      "contact": "(02) 8655 1773",
+      "image": "/establishment-images/maynuba.jpg"
     }
   ]
 }
