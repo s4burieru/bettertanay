@@ -90,6 +90,12 @@
       "address": "Cayabu, Tanay, Rizal",
       "contact": "(02) 8655 1773",
       "image": "/establishment-images/maynuba.jpg"
+    },
+    {
+      "name": "Tanay Parola",
+      "category": "heritage",
+      "address": "San Isidro, Tanay, Rizal",
+      "image": "/establishment-images/parola.jpg"
     }
   ]
 }

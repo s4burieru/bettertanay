@@ -155,7 +155,7 @@ function TourismIndex() {
       'Agri-eco parks, farmstays, orchards, and farm-to-table experiences.',
     events: 'Function halls, glamping cabins, and vacation home rentals.',
     restaurants:
-      'Cafés, restaurants, and catering services featuring local Cavite cuisine.',
+      'Cafés, restaurants, and catering services featuring local Tanay cuisine.',
     adventure: 'Outdoor adventure parks and eco-nature activities.',
   };
 
