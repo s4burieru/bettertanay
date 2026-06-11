@@ -60,7 +60,7 @@ const CATEGORY_COLORS: Record<
     placeholder: 'bg-amber-50',
     icon: 'text-amber-300',
   },
-  resorts: {
+  nature: {
     pill: 'bg-blue-100 text-blue-700',
     placeholder: 'bg-blue-50',
     icon: 'text-blue-300',
@@ -70,7 +70,7 @@ const CATEGORY_COLORS: Record<
     placeholder: 'bg-green-50',
     icon: 'text-green-300',
   },
-  events: {
+  stay: {
     pill: 'bg-purple-100 text-purple-700',
     placeholder: 'bg-purple-50',
     icon: 'text-purple-300',
@@ -149,11 +149,11 @@ function TourismIndex() {
   const CATEGORY_DESCS: Record<string, string> = {
     heritage:
       'Historical shrines, colonial churches, a community museum, and living craft traditions.',
-    resorts:
+    nature:
       'Spring-fed pools and private resorts using cold, chemical-free natural water.',
     farms:
       'Agri-eco parks, farmstays, orchards, and farm-to-table experiences.',
-    events: 'Function halls, glamping cabins, and vacation home rentals.',
+    stay: 'Function halls, glamping cabins, and vacation home rentals.',
     restaurants:
       'Cafés, restaurants, and catering services featuring local Tanay cuisine.',
     adventure: 'Outdoor adventure parks and eco-nature activities.',
