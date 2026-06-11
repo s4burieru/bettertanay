@@ -95,7 +95,31 @@
       "name": "Tanay Parola",
       "category": "heritage",
       "address": "San Isidro, Tanay, Rizal",
+      "facebook": "https://www.facebook.com/barangay.san.isidro.55920/",
       "image": "/establishment-images/parola.jpg"
+    },
+    {
+      "name": "Mt. Tinucan",
+      "category": "adventure",
+      "address": "Tinucan, Tanay, Rizal",
+      "contact": "0995 039 6887",
+      "facebook": "https://www.facebook.com/Tinucantourism/",
+      "image": "/establishment-images/tinucan.jpg"
+    },
+    {
+      "name": "Mt. Kulis",
+      "category": "adventure",
+      "address": "Sitio Maysawa, Cuyambay, Tanay, Rizal",
+      "facebook": "https://www.facebook.com/mtkulis/",
+      "image": "/establishment-images/kulis.jpg"
+    },
+    {
+      "name": "Mt. Batolusong",
+      "category": "adventure",
+      "address": "San Andres, Tanay, Rizal",
+      "contact": "0939 428 3804",
+      "facebook": "https://www.facebook.com/magandangtanay/",
+      "image": "/establishment-images/batolusong.jpg"
     }
   ]
 }
