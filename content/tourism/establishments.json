@@ -6,17 +6,17 @@
     "instructions": "Each entry requires 'name' and 'category'. All other fields are optional — leave as empty string if unknown."
   },
   "categories": [
-    { "id": "heritage", "label": "Heritage & History", "icon": "Landmark" },
-    { "id": "resorts", "label": "Resorts & Pools", "icon": "Waves" },
+    { "id": "heritage", "label": "Heritage & Culture", "icon": "Landmark" },
+    { "id": "nature", "label": "Waterfalls & Rivers", "icon": "Waves" },
     { "id": "farms", "label": "Farms & Agri-Tour", "icon": "Tractor" },
-    { "id": "events", "label": "Events & Glamping", "icon": "BedDouble" },
+    { "id": "stay", "label": "Camping & Staycation", "icon": "BedDouble" },
     { "id": "restaurants", "label": "Cafés & Dining", "icon": "Utensils" },
     { "id": "adventure", "label": "Adventure & Eco", "icon": "MapPin" }
   ],
   "establishments": [
     {
       "name": "Daranak Falls",
-      "category": "resorts",
+      "category": "nature",
       "address": "Sampaloc, Tanay, Rizal",
       "contact": "(02) 655 1770",
       "email": "daranakfalls2020@gmail.com",
@@ -53,7 +53,7 @@
     },
     {
       "name": "Tinipak River",
-      "category": "resorts",
+      "category": "nature",
       "address": "Daraitan, Tanay, Rizal",
       "contact": "0906 604 9455",
       "facebook": "https://www.facebook.com/daraitanHANE/",
@@ -68,7 +68,7 @@
     },
     {
       "name": "Batlag Falls",
-      "category": "resorts",
+      "category": "nature",
       "address": "Sitio Rawang, Tandang Kutyo, Tanay, Rizal",
       "contact": "0956 774 1870",
       "facebook": "https://www.facebook.com/BatlagFallsOfficialPage/",
@@ -120,6 +120,14 @@
       "contact": "0939 428 3804",
       "facebook": "https://www.facebook.com/magandangtanay/",
       "image": "/establishment-images/batolusong.jpg"
+    },
+    {
+      "name": "Lambingan Hills",
+      "category": "adventure",
+      "address": "Sitio Maysawa, Cuyambay, Tanay, Rizal",
+      "contact": "0921 571 2014",
+      "facebook": "https://www.facebook.com/lambinganhillsofficial/",
+      "image": "/establishment-images/lambingan-hills.jpg"
     }
   ]
 }
