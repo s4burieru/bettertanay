@@ -123,11 +123,48 @@
     },
     {
       "name": "Lambingan Hills",
-      "category": "adventure",
+      "category": "stay",
       "address": "Sitio Maysawa, Cuyambay, Tanay, Rizal",
       "contact": "0921 571 2014",
       "facebook": "https://www.facebook.com/lambinganhillsofficial/",
       "image": "/establishment-images/lambingan-hills.jpg"
+    },
+    {
+      "name": "Cafe Katerina",
+      "category": "restaurants",
+      "address": "Marcos Highway, Sitio Mayagay, Tanay, Rizal",
+      "contact": "0995 890 0304",
+      "email": "cafekaterina@gmail.com",
+      "facebook": "https://www.facebook.com/cafekaterina2013/",
+      "image": "/establishment-images/cafe-katerina.jpg"
+    },
+    {
+      "name": "Grotto Of Our Lady Of Rawang",
+      "category": "heritage",
+      "address": "Sitio Harangan, Plaza Aldea, Tanay, Rizal",
+      "image": "/establishment-images/grotto.jpg"
+    },
+    {
+      "name": "Tanay Park",
+      "category": "heritage",
+      "address": "Yujuico St, Tanay, Rizal",
+      "image": "/establishment-images/tanay-park.jpg"
+    },
+    {
+      "name": "Tanay Veterans Memorial",
+      "category": "heritage",
+      "address": "Plaza Aldea, Tanay, Rizal",
+      "image": "/establishment-images/tanay-veterans-memorial.jpg"
+    },
+    {
+      "name": "Tanay Municipal Hall",
+      "category": "heritage",
+      "address": "Plaza Aldea, Tanay, Rizal",
+      "facebook": "facebook.com/tanayrizalgov/",
+      "website": "https://tanay.gov.ph",
+      "contact": "(02) 8924 7174",
+      "email": "contacts@tanay.gov.ph",
+      "image": "/establishment-images/tanay-municipal-hall.jpg"
     }
   ]
 }
