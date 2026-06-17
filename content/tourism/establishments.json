@@ -194,6 +194,104 @@
       "contact": "0926 131 4990",
       "email": "moolk.creamerycorp@gmail.com",
       "image": "/establishment-images/moolk-farm.jpg"
+    },
+    {
+      "name": "Kape Natividad Roastery and Cafe",
+      "category": "restaurants",
+      "address": "Marikina-Infanta Hwy, Tanay, Rizal",
+      "contact": "0961 326 1186",
+      "email": "kapenatividad@gmail.com",
+      "facebook": "https://www.facebook.com/KapeNatividadPH",
+      "image": "/establishment-images/kape-natividad-roastery-and-cafe.jpg"
+    },
+    {
+      "name": "Pico de Pino Cafe & Restaurant",
+      "category": "restaurants",
+      "address": "Marikina-Infanta Hwy, Cuyambay, Tanay, Rizal",
+      "contact": "0998 544 3925",
+      "email": "picodepino@yahoo.com",
+      "facebook": "https://www.facebook.com/picodepino.tanay",
+      "website": "https://picodepino.com/",
+      "image": "/establishment-images/pico-de-pino-cafe-&-restaurant.jpg"
+    },
+    {
+      "name": "Kamala Café",
+      "category": "restaurants",
+      "address": "KM54 Marilaque Highway, Cuyambay, Tanay, Rizal",
+      "facebook": "https://www.facebook.com/KamalaCafePH/",
+      "image": "/establishment-images/kamala-café.jpg"
+    },
+    {
+      "name": "Palpitate Coffee",
+      "category": "restaurants",
+      "address": "Ipil St, Cuyambay, Tanay Rizal",
+      "contact": "0960 332 5025",
+      "email": "palpitatetanay@gmail.com",
+      "facebook": "https://www.facebook.com/palpitatecoffeetanay",
+      "image": "/establishment-images/palpitate-coffee.jpg"
+    },
+    {
+      "name": "Tanay Highlands",
+      "category": "restaurants",
+      "address": "Sitio Mayagay 1, Sampaloc, Tanay, Rizal",
+      "contact": "0968 855 4846",
+      "email": "hello@tanayhighlands.com",
+      "facebook": "https://www.facebook.com/tanayhighlands",
+      "image": "/establishment-images/tanay-highlands.jpg"
+    },
+    {
+      "name": "Martessem",
+      "category": "restaurants",
+      "address": "Sitio Mayagay 1, Sampaloc, Tanay, Rizl;",
+      "contact": "0963 384 7205",
+      "email": "martessemresort@gmail.com",
+      "facebook": "https://www.facebook.com/MartessemResort",
+      "website": "https://martessem.com/",
+      "image": "/establishment-images/martessem.jpg"
+    },
+    {
+      "name": "Lanai by Annabel's",
+      "category": "restaurants",
+      "address": "Sitio Bayucan, Sampaloc, Tanay, Rizal",
+      "contact": "0928 458 6917",
+      "email": "lanaibyannabels@gmail.com",
+      "facebook": "https://www.facebook.com/lanaibyannabels",
+      "image": "/establishment-images/lanaibyannabels.jpg"
+    },
+    {
+      "name": "Gaea's",
+      "category": "restaurants",
+      "address": "Sitio Sampiro, Plaza Aldea, Tanay, Rizal",
+      "contact": "0999 994 5750",
+      "email": "gaeaskitchenph@gmail.com",
+      "facebook": "https://www.facebook.com/Gaeas.Official",
+      "image": "/establishment-images/gaeas.jpg"
+    },
+    {
+      "name": "Paseo Rizal",
+      "category": "restaurants",
+      "address": "KM59 Sitio Mayagay, Sampaloc, Tanay, Rizal",
+      "contact": "(02) 8280 1044",
+      "email": "paseorizal2007@gmail.com",
+      "facebook": "https://www.facebook.com/paseorizal",
+      "image": "/establishment-images/paseo-rizal.jpg"
+    },
+    {
+      "name": "Wyndell’s Al Fresco",
+      "category": "restaurants",
+      "address": "Marikina-Infanta Hwy, Tanay, Rizal",
+      "contact": "0960 294 4843",
+      "email": "wyndellsalfresco@gmail.com",
+      "facebook": "https://www.facebook.com/wyndellsalfresco",
+      "image": "/establishment-images/wyndells-al-fresco.jpg"
+    },
+    {
+      "name": "Yeyi's Pizzeria & Café",
+      "category": "restaurants",
+      "address": "KM61 Malapapaya St, Tanay, Rizal",
+      "contact": "0981 476 3388",
+      "facebook": "https://www.facebook.com/yeyis.cafe",
+      "image": "/establishment-images/yeyis-pizzeria-and-cafe.jpg"
     }
   ]
 }
