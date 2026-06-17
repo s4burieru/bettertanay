@@ -165,6 +165,35 @@
       "contact": "(02) 8924 7174",
       "email": "contacts@tanay.gov.ph",
       "image": "/establishment-images/tanay-municipal-hall.jpg"
+    },
+    {
+      "name": "Palaya Natural Farm",
+      "category": "farms",
+      "address": "Cayabu, Tanay, Rizal",
+      "facebook": "https://www.facebook.com/PalayaNaturalFarm/",
+      "website": "https://palayafarm.com",
+      "contact": "0948 865 9125",
+      "email": "palayafarm2014@gmail.com",
+      "image": "/establishment-images/palaya-natural-farm.jpg"
+    },
+    {
+      "name": "The Apiary Mountain Camp and Farm",
+      "category": "farms",
+      "address": "Sitio Maysawa, Cuyambay, Tanay, Rizal",
+      "facebook": "https://www.facebook.com/theapiary.ph",
+      "website": "https://www.theapiarytanay.com/",
+      "contact": "0961 442 3766",
+      "email": "theapiary.ph@gmail.com",
+      "image": "/establishment-images/the-apiary-mountain-camp-and-farm.jpg"
+    },
+    {
+      "name": "Moolk Farm",
+      "category": "farms",
+      "address": "Sitio Kay Barbon, Plaza Aldea, Tanay, Rizal",
+      "facebook": "https://www.facebook.com/MoolkFarm",
+      "contact": "0926 131 4990",
+      "email": "moolk.creamerycorp@gmail.com",
+      "image": "/establishment-images/moolk-farm.jpg"
     }
   ]
 }
