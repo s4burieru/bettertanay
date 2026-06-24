@@ -292,6 +292,16 @@
       "contact": "0981 476 3388",
       "facebook": "https://www.facebook.com/yeyis.cafe",
       "image": "/establishment-images/yeyis-pizzeria-and-cafe.jpg"
+    },
+    {
+      "name": "Viewscape Nature Park",
+      "category": "stay",
+      "address": "Sitio Maysawa, Barangay Cuyambay, Tanay, Rizal",
+      "contact": "0948 242 5899",
+      "email": "viewscapenaturespark@gmail.com",
+      "facebook": "https://www.facebook.com/ViewscapeNaturePark/",
+      "website": "https://viewscapenaturepark.my.canva.site/infos?fbclid=IwY2xjawSozU1leHRuA2FlbQIxMABicmlkETFrelBYYWFiOVZxeUJBemVzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHs7UbwnctaKalJZjQO0BDPq7wnq3x31rnMJjh8vYhVwcIyJS5HXa07_Txx13_aem_NptS10ijThvNDUcSNIEtFQ",
+      "image": "/establishment-images/viewscape-nature-park.jpg"
     }
   ]
 }
