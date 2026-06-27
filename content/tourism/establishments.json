@@ -296,12 +296,51 @@
     {
       "name": "Viewscape Nature Park",
       "category": "stay",
-      "address": "Sitio Maysawa, Barangay Cuyambay, Tanay, Rizal",
+      "address": "Sitio Maysawa, Cuyambay, Tanay, Rizal",
       "contact": "0948 242 5899",
       "email": "viewscapenaturespark@gmail.com",
       "facebook": "https://www.facebook.com/ViewscapeNaturePark/",
-      "website": "https://viewscapenaturepark.my.canva.site/infos?fbclid=IwY2xjawSozU1leHRuA2FlbQIxMABicmlkETFrelBYYWFiOVZxeUJBemVzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHs7UbwnctaKalJZjQO0BDPq7wnq3x31rnMJjh8vYhVwcIyJS5HXa07_Txx13_aem_NptS10ijThvNDUcSNIEtFQ",
+      "website": "https://viewscapenaturepark.my.canva.site",
       "image": "/establishment-images/viewscape-nature-park.jpg"
+    },
+    {
+      "name": "Cielo Alto Place",
+      "category": "stay",
+      "address": "Sitio Mayagay, Sampaloc, Tanay, Rizal",
+      "contact": "0967 788 8817",
+      "email": "cieloaltoplace@gmail.com",
+      "facebook": "https://www.facebook.com/CieloAltoPlace/",
+      "website": "https://cieloaltoplace.com",
+      "image": "/establishment-images/cielo-alto-place.jpg"
+    },
+    {
+      "name": "River Ranch",
+      "category": "stay",
+      "address": "Sta. Ines, Cayabu, Tanay, Rizal",
+      "contact": "0962 133 5025",
+      "email": "riverranchph@gmail.com",
+      "facebook": "https://www.facebook.com/RiverRanchPH/",
+      "image": "/establishment-images/river-ranch.jpg"
+    },
+    {
+      "name": "Tanay EPIC PARC Rainforest Camp",
+      "category": "stay",
+      "address": "Sitio Bayucan, Sampaloc, Tanay, Rizal",
+      "contact": "0909 929 3471",
+      "email": "epicparctanay2014@gmail.com",
+      "facebook": "https://www.facebook.com/EPICPARCTanay/",
+      "website": "tanayepicparcrainforestcampph.com",
+      "image": "/establishment-images/epic-parc-rainforest-camp.jpg"
+    },
+    {
+      "name": "Ten Cents to Heaven Leisure Camp",
+      "category": "stay",
+      "address": "Sitio Mayagay II Marcos Highway, Tanay, Rizal",
+      "contact": "0999 888 6227",
+      "email": "tencentstoheaven@gmail.com",
+      "facebook": "https://www.facebook.com/tencentstoheavenleisurecamp/",
+      "website": "https://tencentstoheaven.com/",
+      "image": "/establishment-images/ten-cents-to-heaven-leisure-camp.jpg"
     }
   ]
 }
