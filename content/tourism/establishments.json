@@ -341,6 +341,24 @@
       "facebook": "https://www.facebook.com/tencentstoheavenleisurecamp/",
       "website": "https://tencentstoheaven.com/",
       "image": "/establishment-images/ten-cents-to-heaven-leisure-camp.jpg"
+    },
+    {
+      "name": "Ridges and Clouds Nature Camp",
+      "category": "stay",
+      "address": "Sitio Maysawa, Cuyambay, Tanay, Rizal",
+      "contact": "0969 253 8255",
+      "email": "racnaturecamp@gmail.com",
+      "facebook": "https://www.facebook.com/profile.php?id=100067091707788",
+      "image": "/establishment-images/ridges-and-clouds-nature-camp.jpg"
+    },
+    {
+      "name": "Dagat-Dagatan Camp Site",
+      "category": "stay",
+      "address": "Narra St. Sitio Dagat-dagatan, Cuyambay, Tanay, Rizal",
+      "contact": "0939 584 9429",
+      "email": "dagatdagatancampsite2020@gmail.com",
+      "facebook": "https://www.facebook.com/p/Dagat-Dagatan-Camp-Site-100054283129765/",
+      "image": "/establishment-images/dagat-dagatan-camp-site.jpg"
     }
   ]
 }
