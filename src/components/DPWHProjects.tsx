@@ -467,7 +467,7 @@ export default function DPWHProjects() {
                                 Description
                               </span>
                               <p className="text-gray-700 mt-1">
-                                {project.description}
+                                {project.description || '\u2014'}
                               </p>
                             </div>
                             <div>
@@ -475,7 +475,7 @@ export default function DPWHProjects() {
                                 Contractor
                               </span>
                               <p className="text-gray-700 mt-1">
-                                {project.contractor}
+                                {project.contractor || '\u2014'}
                               </p>
                             </div>
                             <div>
@@ -483,7 +483,7 @@ export default function DPWHProjects() {
                                 Program
                               </span>
                               <p className="text-gray-700 mt-1">
-                                {project.programName}
+                                {project.programName || '\u2014'}
                               </p>
                             </div>
                             <div>
@@ -491,7 +491,7 @@ export default function DPWHProjects() {
                                 Source of Funds
                               </span>
                               <p className="text-gray-700 mt-1">
-                                {project.sourceOfFunds}
+                                {project.sourceOfFunds || '\u2014'}
                               </p>
                             </div>
                           </div>
