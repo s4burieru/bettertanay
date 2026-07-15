@@ -287,12 +287,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: 'Tanay Water District',
-    phones: [
-      '(02) 8654-4450',
-      '(02) 8654-0033',
-      '0929-171-8099',
-      '0915-173-6017',
-    ],
+    phone: '(02) 8654-0033',
     email: 'ogm.tanwd@gmail.com',
     icon: 'Droplet',
   },

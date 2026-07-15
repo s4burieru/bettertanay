@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import DPWHProjects from '../components/DPWHProjects';
 
 const CATEGORIES = [
   {
@@ -191,6 +192,9 @@ export default function Transparency() {
             </div>
           </div>
         </section>
+
+        {/* DPWH Infrastructure Projects */}
+        <DPWHProjects />
 
         {/* External links */}
         <section className="bg-gray-50 py-12">
