@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, Fragment } from 'react';
 import {
   Search,
   ChevronDown,
@@ -101,6 +101,7 @@ export default function DPWHProjects() {
   const [sortField, setSortField] = useState<keyof DPWHProject>('infraYear');
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
   const [page, setPage] = useState(1);
+  const [expandedRow, setExpandedRow] = useState<string | null>(null);
   const perPage = 10;
 
   // Load data
@@ -389,65 +390,115 @@ export default function DPWHProjects() {
               {paginated.map(project => {
                 const StatusIcon = getStatusIcon(project.status);
                 const CatIcon = getCategoryIcon(project.category);
+                const isExpanded = expandedRow === project.contractId;
                 return (
-                  <tr
-                    key={project.contractId}
-                    className="hover:bg-gray-50 transition-colors"
-                  >
-                    <td className="px-3 py-3 text-sm font-mono text-primary-700 font-medium whitespace-nowrap">
-                      {project.contractId}
-                    </td>
-                    <td className="px-3 py-3 text-sm text-gray-700 max-w-xs">
-                      <div className="line-clamp-2">{project.description}</div>
-                    </td>
-                    <td className="px-3 py-3 text-sm text-gray-600 whitespace-nowrap">
-                      <div className="flex items-center gap-1.5">
-                        <CatIcon className="h-3.5 w-3.5 text-gray-400" />
-                        {project.category}
-                      </div>
-                    </td>
-                    <td className="px-3 py-3 whitespace-nowrap">
-                      <span
-                        className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium border ${
-                          STATUS_COLORS[project.status] ||
-                          'bg-gray-100 text-gray-800'
-                        }`}
-                      >
-                        <StatusIcon className="h-3 w-3" />
-                        {project.status}
-                      </span>
-                    </td>
-                    <td className="px-3 py-3 text-sm text-gray-700 font-medium whitespace-nowrap">
-                      {formatCurrency(project.budget)}
-                    </td>
-                    <td className="px-3 py-3 whitespace-nowrap">
-                      <div className="flex items-center gap-2">
-                        <div className="w-16 bg-gray-200 rounded-full h-2">
-                          <div
-                            className={`h-2 rounded-full ${
-                              project.progress === 100
-                                ? 'bg-green-500'
-                                : project.progress > 50
-                                  ? 'bg-blue-500'
-                                  : 'bg-yellow-500'
-                            }`}
-                            style={{ width: `${project.progress}%` }}
-                          />
+                  <Fragment key={project.contractId}>
+                    <tr
+                      onClick={() =>
+                        setExpandedRow(isExpanded ? null : project.contractId)
+                      }
+                      className="hover:bg-gray-50 transition-colors cursor-pointer"
+                    >
+                      <td className="px-3 py-3 text-sm font-mono text-primary-700 font-medium whitespace-nowrap">
+                        {project.contractId}
+                      </td>
+                      <td className="px-3 py-3 text-sm text-gray-700 max-w-xs">
+                        <div className="line-clamp-2">
+                          {project.description}
                         </div>
-                        <span className="text-xs text-gray-500">
-                          {project.progress}%
+                      </td>
+                      <td className="px-3 py-3 text-sm text-gray-600 whitespace-nowrap">
+                        <div className="flex items-center gap-1.5">
+                          <CatIcon className="h-3.5 w-3.5 text-gray-400" />
+                          {project.category}
+                        </div>
+                      </td>
+                      <td className="px-3 py-3 whitespace-nowrap">
+                        <span
+                          className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium border ${
+                            STATUS_COLORS[project.status] ||
+                            'bg-gray-100 text-gray-800'
+                          }`}
+                        >
+                          <StatusIcon className="h-3 w-3" />
+                          {project.status}
                         </span>
-                      </div>
-                    </td>
-                    <td className="px-3 py-3 text-sm text-gray-600 whitespace-nowrap">
-                      {project.infraYear}
-                    </td>
-                    <td className="px-3 py-3 text-sm text-gray-600 max-w-50">
-                      <div className="line-clamp-1" title={project.contractor}>
-                        {project.contractor}
-                      </div>
-                    </td>
-                  </tr>
+                      </td>
+                      <td className="px-3 py-3 text-sm text-gray-700 font-medium whitespace-nowrap">
+                        {formatCurrency(project.budget)}
+                      </td>
+                      <td className="px-3 py-3 whitespace-nowrap">
+                        <div className="flex items-center gap-2">
+                          <div className="w-16 bg-gray-200 rounded-full h-2">
+                            <div
+                              className={`h-2 rounded-full ${
+                                project.progress === 100
+                                  ? 'bg-green-500'
+                                  : project.progress > 50
+                                    ? 'bg-blue-500'
+                                    : 'bg-yellow-500'
+                              }`}
+                              style={{ width: `${project.progress}%` }}
+                            />
+                          </div>
+                          <span className="text-xs text-gray-500">
+                            {project.progress}%
+                          </span>
+                        </div>
+                      </td>
+                      <td className="px-3 py-3 text-sm text-gray-600 whitespace-nowrap">
+                        {project.infraYear}
+                      </td>
+                      <td className="px-3 py-3 text-sm text-gray-600 max-w-50">
+                        <div
+                          className="line-clamp-1"
+                          title={project.contractor}
+                        >
+                          {project.contractor}
+                        </div>
+                      </td>
+                    </tr>
+                    {isExpanded && (
+                      <tr className="bg-gray-50/50">
+                        <td colSpan={8} className="px-3 py-3">
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+                            <div>
+                              <span className="font-semibold text-gray-500 text-xs uppercase tracking-wider">
+                                Description
+                              </span>
+                              <p className="text-gray-700 mt-1">
+                                {project.description}
+                              </p>
+                            </div>
+                            <div>
+                              <span className="font-semibold text-gray-500 text-xs uppercase tracking-wider">
+                                Contractor
+                              </span>
+                              <p className="text-gray-700 mt-1">
+                                {project.contractor}
+                              </p>
+                            </div>
+                            <div>
+                              <span className="font-semibold text-gray-500 text-xs uppercase tracking-wider">
+                                Program
+                              </span>
+                              <p className="text-gray-700 mt-1">
+                                {project.programName}
+                              </p>
+                            </div>
+                            <div>
+                              <span className="font-semibold text-gray-500 text-xs uppercase tracking-wider">
+                                Source of Funds
+                              </span>
+                              <p className="text-gray-700 mt-1">
+                                {project.sourceOfFunds}
+                              </p>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    )}
+                  </Fragment>
                 );
               })}
               {paginated.length === 0 && (
