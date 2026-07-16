@@ -199,6 +199,7 @@
     "resources": "Resources",
     "cost": "Cost to the People of Tanay = ₱0",
     "costLabel": "Cost to the People of Tanay =",
+    "buildCostLabel": "Cost to Build the Site =",
     "volunteer": "Volunteer with us",
     "contribute": "Contribute code with us",
     "copyright": "© 2026 BetterTanay.org  MIT | CC BY 4.0  All public information sourced from official government portals.",

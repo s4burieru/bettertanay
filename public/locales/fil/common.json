@@ -194,7 +194,17 @@
     "title": "Pinakabagong Balita at Mga Update"
   },
   "footer": {
-    "copyright": "© 2026 BetterTanay.org · CC0 1.0 Universal · v0.2.0"
+    "mission": "Empowering the people of Tanay with transparent access to government services, programs, and public funds.",
+    "quickLinks": "Quick Links",
+    "resources": "Resources",
+    "cost": "Cost to the People of Tanay = ₱0",
+    "costLabel": "Cost to the People of Tanay =",
+    "buildCostLabel": "Cost to Build the Site =",
+    "volunteer": "Volunteer with us",
+    "contribute": "Contribute code with us",
+    "copyright": "© 2026 BetterTanay.org · CC0 1.0 Universal · v0.2.0",
+    "attribution": "All public information sourced from official government portals.",
+    "builtBy": "Built by"
   },
   "navbar": {
     "government": "Pamahalaan",

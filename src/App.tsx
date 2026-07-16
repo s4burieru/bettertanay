@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { NuqsAdapter } from 'nuqs/adapters/react';
 import { HelmetProvider } from 'react-helmet-async';
 import Navbar from './components/layout/Navbar';
@@ -21,6 +22,7 @@ function App() {
           <div className="min-h-screen flex flex-col">
             <Navbar />
             <ScrollToTop />
+            <Analytics />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/services/:category" element={<Services />} />
