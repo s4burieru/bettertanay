@@ -177,7 +177,7 @@ export default function Footer() {
             {t('footer.attribution')}
           </span>
           <a
-            href="https://www.sabrieladriel.tech/"
+            href="https://www.sabrieladriel.dev/"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-1.5 text-gray-600 hover:text-gray-300 transition-colors group"
