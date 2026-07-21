@@ -41,10 +41,10 @@ export default function ServicesSection({
   const gridRef = useScrollReveal<HTMLDivElement>();
 
   return (
-    <Section>
+    <Section className="sm:px-0">
       <div className="max-w-7xl mx-auto">
         <div ref={headingRef} className="reveal">
-          <Heading level={4} className="font-black mb-2">
+          <Heading level={4} className="font-black mb-0">
             {title || t('services.title')}
           </Heading>
           <Text className="text-gray-600 mb-6">
@@ -54,13 +54,13 @@ export default function ServicesSection({
 
         <div
           ref={gridRef}
-          className="reveal-stagger grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+          className="reveal-stagger grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3"
         >
           {displayedCategories.map(category => (
             <Link
               key={category.slug}
               to={`/services/${category.slug}`}
-              className="group block bg-white rounded-xl border border-gray-100 hover:border-primary-200 hover:shadow-md transition-all duration-200 p-5"
+              className="group block bg-white rounded-xl border border-gray-100 hover:border-primary-200 hover:shadow-md transition-all duration-200 p-4"
             >
               <div className="bg-primary-50 text-primary-700 w-10 h-10 rounded-lg flex items-center justify-center mb-3 group-hover:bg-primary-100 transition-colors">
                 {getIcon(category.icon)}
