@@ -11,6 +11,8 @@ import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import DPWHProjects from '../components/DPWHProjects';
 
+const SITE_URL = import.meta.env.VITE_WEBSITE_URL || 'https://bettertanay.org';
+
 const CATEGORIES = [
   {
     title: 'Budget & Finance',
@@ -101,13 +103,34 @@ const EXTERNAL = [
   },
 ];
 
+const transparencyJsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Transparency Page — Municipality of Tanay',
+    description:
+      'Public documents, budget disclosures, FOI releases, and DILG compliance reports for the Municipality of Tanay, Rizal.',
+    url: `${SITE_URL}/transparency`,
+    about: {
+      '@type': 'Thing',
+      name: 'Full Disclosure Policy',
+      description:
+        'The Municipality of Tanay is committed to the DILG Full Disclosure Policy, making all financial and performance data available to the public.',
+    },
+  },
+];
+
 export default function Transparency() {
   return (
     <>
       <SEO
-        title="Transparency"
-        description="Transparency documents, budget reports, and FOI releases for the Municipality of Tanay, Rizal."
-        keywords="Tanay transparency, budget, FOI, public documents, accountability, Cavite"
+        title="Transparency — Open Government"
+        description="Full public disclosure portal for the Municipality of Tanay, Rizal. Access budget reports, financial statements, FOI releases, procurement documents, annual reports, DILG compliance submissions, and DPWH infrastructure projects — all in one place."
+        keywords="Tanay transparency, Tanay budget, FOI Tanay, public documents Tanay, DILG compliance Tanay Rizal, full disclosure policy, Tanay financial reports, COA audit Tanay, Tanay procurement, DPWH Tanay projects, accountability, open government, Tanay expenditures"
+        url={`${SITE_URL}/transparency`}
+        image={`${SITE_URL}/bettertanay-logo-icon.png`}
+        jsonLd={transparencyJsonLd}
+        section="Transparency"
       />
       <main className="grow">
         {/* Page Header */}

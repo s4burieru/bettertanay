@@ -1,0 +1,15 @@
+# robots.txt for BetterTanay.org
+# Community portal for the Municipality of Tanay, Rizal
+
+# Allow all crawlers full access
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://bettertanay.org/sitemap.xml
+
+# Crawl delay to be gentle on the server
+Crawl-delay: 10
+
+# Disallow admin-only or private paths (if any)
+# Disallow: /admin/

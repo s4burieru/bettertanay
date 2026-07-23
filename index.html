@@ -1,22 +1,136 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
 
 <head>
+    <!-- ── Primary Meta ─────────────────────────────────────────── -->
     <meta charset="UTF-8" />
+    <meta name="google-site-verification" content="R3DWQiVVo8dffN0NPPIjRb01uB8esPAZEH18hq6AJMw" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- ── Title & Description (managed by react-helmet but fallback) ── -->
+    <title>BetterTanay.org | Transparency Portal</title>
+    <meta name="description" content="Community-powered portal for Tanay, Rizal. Access government services, officials, budgets, and public information about the Municipality of Tanay." />
+    <meta name="keywords" content="Tanay, Rizal, Tanay Rizal, local government, LGU Tanay, municipal services, Tanay tourism, Rizal province, public information, BetterTanay, transparency portal, barangay Tanay, Daranak Falls, Sierra Madre, Masungi, Regina Rica, Hane Festival" />
+    <meta name="author" content="BetterTanay.org Community" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta name="referrer" content="origin-when-cross-origin" />
+    <meta name="rating" content="general" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="language" content="English" />
+
+    <!-- ── Open Graph ────────────────────────────────────────────── -->
+    <meta property="og:title" content="BetterTanay.org | Transparency Portal" />
+    <meta property="og:description" content="Community-powered portal for Tanay, Rizal. Access government services, officials, budgets, and public information about the Municipality of Tanay." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bettertanay.org" />
+    <meta property="og:image" content="https://bettertanay.org/bettertanay-logo-icon.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="BetterTanay.org — Community Portal for Tanay, Rizal" />
+    <meta property="og:site_name" content="BetterTanay.org" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- ── Twitter Card ──────────────────────────────────────────── -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="BetterTanay.org | Transparency Portal" />
+    <meta name="twitter:description" content="Community-powered portal for Tanay, Rizal. Access government services, officials, budgets, and public information." />
+    <meta name="twitter:image" content="https://bettertanay.org/bettertanay-logo-icon.png" />
+    <meta name="twitter:image:alt" content="BetterTanay.org — Community Portal for Tanay, Rizal" />
+
+    <!-- ── Theme & Mobile ────────────────────────────────────────── -->
+    <meta name="theme-color" content="#003087" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="BetterTanay" />
+    <meta name="application-name" content="BetterTanay.org" />
+    <meta name="format-detection" content="telephone=yes" />
+
+    <!-- ── Canonical ─────────────────────────────────────────────── -->
+    <link rel="canonical" href="https://bettertanay.org" />
+
+    <!-- ── hreflang ──────────────────────────────────────────────── -->
+    <link rel="alternate" hreflang="en" href="https://bettertanay.org" />
+    <link rel="alternate" hreflang="fil" href="https://bettertanay.org?lang=fil" />
+    <link rel="alternate" hreflang="x-default" href="https://bettertanay.org" />
+
+    <!-- ── Favicon ───────────────────────────────────────────────── -->
     <link rel="icon" type="image/svg+xml" href="/bettertanay-logo-icon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-       BetterTanay.org | Transparency Portal
-    </title>
-    <meta name="description" content="Community-powered portal for Tanay, Rizal. Access government services, officials, budgets, and public information." />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="mask-icon" href="/bettertanay-logo-icon.png" color="#003087" />
+
+    <!-- ── Preconnect to external domains ────────────────────────── -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+
+    <!-- ── Google Fonts ──────────────────────────────────────────── -->
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- ── JSON-LD Structured Data (fallback) ────────────────────── -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "GovernmentOrganization",
+        "name": "Municipality of Tanay",
+        "alternateName": "BetterTanay.org",
+        "url": "https://bettertanay.org",
+        "description": "Community-powered portal for Tanay, Rizal. Access government services, officials, budgets, and public information about the Municipality of Tanay.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tanay",
+            "addressRegion": "Rizal",
+            "addressCountry": "PH"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "(02) 8924-7174",
+            "contactType": "general"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "BetterTanay.org",
+        "url": "https://bettertanay.org",
+        "description": "Community-powered portal for Tanay, Rizal. Access government services, officials, budgets, and public information about the Municipality of Tanay.",
+        "inLanguage": "en",
+        "publisher": {
+            "@type": "GovernmentOrganization",
+            "name": "Municipality of Tanay"
+        }
+    }
+    </script>
 </head>
 
 <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- ── Noscript fallback ──────────────────────────────────────── -->
+    <noscript>
+        <div style="padding: 2rem; text-align: center; font-family: sans-serif;">
+            <h1>BetterTanay.org</h1>
+            <p>Community portal for the Municipality of Tanay, Rizal.</p>
+            <p>Please enable JavaScript to view the full site.</p>
+            <hr />
+            <p style="font-size: 0.875rem; color: #555;">
+                Access government services, tourism information, public documents,
+                and community resources for Tanay, Rizal.
+            </p>
+            <p style="font-size: 0.875rem; color: #555;">
+                📍 M.H. Del Pilar Street, Plaza Aldea, Tanay, Rizal 1980<br />
+                📞 (02) 8924-7174
+            </p>
+        </div>
+    </noscript>
 </body>
 
 </html>

@@ -15,6 +15,8 @@ import {
 } from 'lucide-react';
 import SEO from '../components/SEO';
 
+const SITE_URL = import.meta.env.VITE_WEBSITE_URL || 'https://bettertanay.org';
+
 const STATS = [
   {
     icon: Users,
@@ -170,9 +172,29 @@ export default function Statistics() {
   return (
     <>
       <SEO
-        title="Statistics"
-        description="Key statistics and demographic data for the Municipality of Tanay, Rizal."
-        keywords="Tanay statistics, Rizal demographics, population data, municipality profile, CMCI"
+        title="Statistics & Municipal Profile"
+        description="Key statistics, demographic data, and DTI competitiveness rankings for the Municipality of Tanay, Rizal. View population figures, land area, income classification, and CMCI 2024 pillar scores."
+        keywords="Tanay statistics, Tanay population 2020, Tanay demographics, Rizal CMCI, Tanay competitiveness, Tanay land area, Tanay barangay population, 1st class municipality Tanay, PSA census Tanay, DTI Tanay profile"
+        url={`${SITE_URL}/statistics`}
+        image={`${SITE_URL}/bettertanay-logo-icon.png`}
+        jsonLd={[
+          {
+            '@context': 'https://schema.org',
+            '@type': 'StatisticalPopulation',
+            name: 'Tanay, Rizal Population Statistics',
+            description:
+              'Population data and demographic statistics for the Municipality of Tanay, Rizal based on PSA 2020 census data.',
+            populationType: 'Municipality',
+            numConstraints: [
+              {
+                '@type': 'Constraint',
+                property: 'location',
+                value: 'Tanay, Rizal, Philippines',
+              },
+            ],
+          },
+        ]}
+        section="Statistics"
       />
       <main className="grow">
         {/* Page Header */}
