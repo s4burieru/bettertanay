@@ -23,8 +23,6 @@ import SEO from '../components/SEO';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 import establishmentsData from '../../content/tourism/establishments.json';
 
-const SITE_URL = import.meta.env.VITE_WEBSITE_URL || 'https://bettertanay.org';
-
 interface Establishment {
   name: string;
   category: string;
@@ -109,7 +107,7 @@ const CULTURE_HIGHLIGHTS = [
     iconColor: 'bg-stone-100 text-stone-700',
     title: 'Churches & Pilgrimage',
     subtitle: 'Churches · Monasteries · Spiritual Destinations',
-    body: "The historic San Ildefonso de Toledo Parish Church stands as one of Rizal's oldest churches, showcasing remarkable Baroque architecture and religious heritage. Tanay is also home to pilgrimage destinations such as Regina RICA, attracting visitors seeking peace, reflection, and scenic mountain views.",
+    body: 'The historic San Ildefonso de Toledo Parish Church stands as one of Rizal’s oldest churches, showcasing remarkable Baroque architecture and religious heritage. Tanay is also home to pilgrimage destinations such as Regina RICA, attracting visitors seeking peace, reflection, and scenic mountain views.',
   },
   {
     icon: Tent,
@@ -117,7 +115,7 @@ const CULTURE_HIGHLIGHTS = [
     iconColor: 'bg-green-100 text-green-700',
     title: 'Festivals & Local Culture',
     subtitle: 'Hane Festival · Arts · Traditions',
-    body: 'The vibrant Hane Festival celebrates the unity, resilience, and culture of the people of Tanay. Inspired by the local expression "Hane," meaning agreement or togetherness, the festival features street dancing, cultural performances, local crafts, music, and community celebrations every November.',
+    body: 'The vibrant Hane Festival celebrates the unity, resilience, and culture of the people of Tanay. Inspired by the local expression “Hane,” meaning agreement or togetherness, the festival features street dancing, cultural performances, local crafts, music, and community celebrations every November.',
   },
   {
     icon: Wheat,
@@ -125,7 +123,7 @@ const CULTURE_HIGHLIGHTS = [
     iconColor: 'bg-orange-100 text-orange-700',
     title: 'Nature & Adventure Tourism',
     subtitle: 'Mountains · Rivers · Waterfalls · Trails',
-    body: "Known as one of Rizal's top eco-tourism destinations, Tanay offers breathtaking landscapes and outdoor adventures. Visitors explore destinations such as Daranak Falls, Masungi Georeserve, and the scenic Sierra Madre mountain ranges, famous for hiking, camping, biking, and nature escapes.",
+    body: 'Known as one of Rizal’s top eco-tourism destinations, Tanay offers breathtaking landscapes and outdoor adventures. Visitors explore destinations such as Daranak Falls, Masungi Georeserve, and the scenic Sierra Madre mountain ranges, famous for hiking, camping, biking, and nature escapes.',
   },
   {
     icon: Droplets,
@@ -134,23 +132,6 @@ const CULTURE_HIGHLIGHTS = [
     title: 'Scenic Highlands & Eco Destinations',
     subtitle: 'Sea of Clouds · Sierra Madre Views · Nature Escapes',
     body: 'From mountain viewpoints and riverside retreats to cool highland resorts, Tanay has become a favorite destination for travelers seeking nature, adventure, and relaxation just outside Metro Manila.',
-  },
-];
-
-const tourismIndexJsonLd = [
-  {
-    '@context': 'https://schema.org',
-    '@type': 'WebPage',
-    name: 'Tourism — Municipality of Tanay',
-    description:
-      'Discover Tanay, Rizal — the Adventure Capital of Rizal. Explore Daranak Falls, Masungi Georeserve, Regina Rica, Tinipak River, heritage churches, and more eco-tourism destinations.',
-    url: `${SITE_URL}/tourism`,
-    about: {
-      '@type': 'Thing',
-      name: 'Tanay Tourism',
-      description:
-        'Tanay, Rizal is known for breathtaking mountain views, historic churches, eco-tourism destinations, waterfalls, adventure trails, and the vibrant Hane Festival.',
-    },
   },
 ];
 
@@ -181,13 +162,9 @@ function TourismIndex() {
   return (
     <>
       <SEO
-        title="Tourism — Adventure & Nature"
-        description="Discover Tanay, Rizal — the Adventure Capital of Rizal. Explore breathtaking destinations: Daranak Falls, Masungi Georeserve, Regina Rica Monastery, Batlag Falls, Calinawan Cave, Tinipak River, and the Sierra Madre mountain range. Find resorts, heritage sites, farms, restaurants, and adventure parks."
-        keywords="Tanay tourism, Tanay Rizal tourist spots, Daranak Falls, Masungi Georeserve, Regina Rica, Batlag Falls, Calinawan Cave, Tinipak River, Tanay resorts, Sierra Madre Tanay, Tanay waterfalls, Rizal eco tourism, adventure capital Rizal, Hane Festival, Tanay heritage, Tanay camping, Tanay hiking, Tanay mountain views"
-        url={`${SITE_URL}/tourism`}
-        image={`${SITE_URL}/bettertanay-logo-icon.png`}
-        jsonLd={tourismIndexJsonLd}
-        section="Tourism"
+        title="Tourism"
+        description="Discover Tanay, Rizal — a gateway to the Sierra Madre featuring breathtaking nature destinations, waterfalls, mountain views, pilgrimage sites, and vibrant eco-cultural tourism experiences."
+        keywords="Tanay Rizal tourism, Tanay waterfalls, Daraitan River, Sierra Madre hiking, Tanay mountains, Rizal eco tourism, Regina Rica, Batlag Falls, Calinawan Cave, Tinipak River, Tanay adventure"
       />
 
       {/* Hero */}
@@ -214,7 +191,7 @@ function TourismIndex() {
             Tourism
           </h1>
           <p className="text-2xl font-bold text-blue-200 mb-2">
-            &ldquo;Home of Adventure and Nature Experience&rdquo;
+            "Home of Adventure and Nature Experience"
           </p>
           <p className="text-blue-100 text-lg max-w-xl mb-4">
             Discover Tanay — known for breathtaking mountain views, historic
@@ -224,10 +201,10 @@ function TourismIndex() {
           </p>
           <div className="flex flex-wrap items-center gap-2 mb-6">
             <span className="bg-white/10 border border-white/20 text-white text-xs font-bold px-3 py-1 rounded-full">
-              &ldquo;Hane&rdquo; — A Symbol of Unity
+              "Hane" — A Symbol of Unity
             </span>
             <span className="bg-white/10 border border-white/20 text-white text-xs font-bold px-3 py-1 rounded-full">
-              Gateway to Rizal&rsquo;s Nature Escapes
+              Gateway to Rizal&#8217;s Nature Escapes
             </span>
             <span className="bg-white/10 border border-white/20 text-white text-xs font-bold px-3 py-1 rounded-full">
               {establishments.length} Establishments
@@ -382,11 +359,8 @@ function TourismCategory() {
     <>
       <SEO
         title={`${cat.label} — Tourism`}
-        description={`Browse ${cat.label.toLowerCase()} establishments and listings in Tanay, Rizal. Official tourism directory for ${cat.label.toLowerCase()} in Tanay.`}
-        keywords={`Tanay ${cat.label.toLowerCase()}, ${cat.label} Tanay Rizal, ${cat.id}, tourism ${cat.label}, Tanay travel, Rizal tourism destinations`}
-        url={`${SITE_URL}/tourism/${cat.id}`}
-        image={`${SITE_URL}/bettertanay-logo-icon.png`}
-        section="Tourism"
+        description={`${cat.label} listings in Tanay, Rizal. Official 2026 tourism establishments.`}
+        keywords={`Tanay ${cat.label.toLowerCase()}, Rizal tourism, ${cat.id}`}
       />
       <main className="grow">
         {/* Breadcrumb + Header */}
@@ -511,7 +485,6 @@ function EstablishmentCard({
             src={item.image}
             alt={item.name}
             className="w-full h-full object-cover"
-            loading="lazy"
           />
         </div>
       ) : (

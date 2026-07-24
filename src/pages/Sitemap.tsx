@@ -13,8 +13,6 @@ import {
 import SEO from '../components/SEO';
 import { serviceCategories as servicesData } from '../data/yamlLoader';
 
-const SITE_URL = import.meta.env.VITE_WEBSITE_URL || 'https://bettertanay.org';
-
 interface Category {
   category: string;
   slug: string;
@@ -120,10 +118,8 @@ export default function Sitemap() {
     <>
       <SEO
         title="Sitemap"
-        description="Full sitemap of BetterTanay.org — the community portal for Tanay, Rizal. Browse all pages including government services, tourism, transparency documents, statistics, and local information."
-        keywords="sitemap, Tanay Rizal sitemap, BetterTanay navigation, Tanay portal all pages, LGU Tanay site map, Tanay Rizal website"
-        url={`${SITE_URL}/sitemap`}
-        section="Sitemap"
+        description="Full sitemap of the Tanay, Rizal community portal — browse all pages, sections, and local information including tourism, governance, barangays, and services."
+        keywords="sitemap, Tanay Rizal, Tanay portal, navigation, LGU Tanay, Rizal municipality, local government"
       />
 
       {/* Header */}

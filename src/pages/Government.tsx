@@ -24,8 +24,6 @@ import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Banner } from '@bettergov/kapwa/banner';
 import { useState, useEffect } from 'react';
 
-const SITE_URL = import.meta.env.VITE_WEBSITE_URL || 'https://bettertanay.org';
-
 interface Official {
   name: string;
   title: string;
@@ -558,22 +556,9 @@ const Government: React.FC = () => {
   return (
     <>
       <SEO
-        title="Government — Officials & Departments"
-        description={`Meet the elected officials, municipal departments, and Sangguniang Bayan members serving the Municipality of Tanay, Rizal. Browse executive offices, contact information, and the 20 barangays of Tanay.`}
-        keywords="Tanay government, Tanay officials, Mayor Tanjuatco, Sangguniang Bayan Tanay, municipal departments, Tanay Rizal government, LGU Tanay, barangays Tanay, Tanay executive branch, Tanay municipal hall, Tanay contact information"
-        url={`${SITE_URL}/government`}
-        image={`${SITE_URL}/bettertanay-logo-icon.png`}
-        jsonLd={[
-          {
-            '@context': 'https://schema.org',
-            '@type': 'WebPage',
-            name: 'Government — Municipality of Tanay',
-            description:
-              'Government departments, elected officials, Sangguniang Bayan members, and 20 barangays of the Municipality of Tanay, Rizal.',
-            url: `${SITE_URL}/government`,
-          },
-        ]}
-        section="Government"
+        title="Government"
+        description={`Government departments and offices of the ${import.meta.env.VITE_GOVERNMENT_NAME} government. Find information about local government structure and services.`}
+        keywords="government, departments, offices, local government, civic services, executive, sangguniang bayan"
       />
       <main className="grow">
         {/* Page Header */}

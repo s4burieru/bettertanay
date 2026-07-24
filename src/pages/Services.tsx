@@ -16,8 +16,6 @@ import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Banner } from '@bettergov/kapwa/banner';
 import { useState, useEffect } from 'react';
 
-const SITE_URL = import.meta.env.VITE_WEBSITE_URL || 'https://bettertanay.org';
-
 const Services: React.FC = () => {
   const { category } = useParams();
   const [categoryIndex, setCategoryIndex] = useState<CategoryIndex>({
@@ -51,14 +49,12 @@ const Services: React.FC = () => {
       <>
         <SEO
           title="Services"
-          description={`All services provided by the ${import.meta.env.VITE_GOVERNMENT_NAME || 'Municipality of Tanay'} government. Browse public services for citizenship, business permits, education, health, social welfare, and more.`}
-          keywords="Tanay government services, municipal services Tanay Rizal, LGU services, public services, business permits, barangay clearance, social welfare, health services, education, Tanay help"
-          url={`${SITE_URL}/services`}
-          section="Services"
+          description={`All services provided by the ${import.meta.env.VITE_GOVERNMENT_NAME} government. Find what you need for citizenship, business, education, and more.`}
+          keywords="government services, public services, local government, civic services"
         />
         <ServicesSection
           title={`All local government services`}
-          description={`All services provided by the Municipality of Tanay government. Find what you need for citizenship, business, education, and more.`}
+          description={`All services provided by the ${import.meta.env.VITE_GOVERNMENT_NAME} government. Find what you need for citizenship, business, education, and more.`}
         />
       </>
     );
@@ -82,9 +78,7 @@ const Services: React.FC = () => {
       <SEO
         title={categoryData.category || category}
         description={categoryData.description}
-        keywords={`${categoryData.category}, Tanay Rizal, government services, public services, local government, municipality of Tanay`}
-        url={`${SITE_URL}/services/${category}`}
-        section="Services"
+        keywords={`${categoryData.category}, government services, public services, local government`}
       />
       <Section className="p-3 mb-12">
         <Breadcrumbs className="mb-8" />

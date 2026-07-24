@@ -24,8 +24,6 @@ import {
 } from '../data/yamlLoader';
 import SEO from '../components/SEO';
 
-const SITE_URL = import.meta.env.VITE_WEBSITE_URL || 'https://bettertanay.org';
-
 interface DocumentProps {
   theme?: string;
   categoryType?: 'service' | 'government';
@@ -147,14 +145,8 @@ export default function Document({
     return (
       <>
         <SEO
-          title={nestedIndex.title || documentSlug}
-          description={
-            nestedIndex.description ||
-            `Information about ${documentSlug} in Tanay, Rizal`
-          }
-          keywords={`${documentSlug}, Tanay Rizal, government services, local government, municipality of Tanay`}
-          url={`${SITE_URL}/${categoryType === 'government' ? 'government' : 'services'}/${category}/${documentSlug}`}
-          section={categoryType === 'government' ? 'Government' : 'Services'}
+          title={documentSlug}
+          keywords={`${documentSlug}, government services, local government`}
         />
         <Section className="p-3 mb-12">
           <Breadcrumbs className="mb-8" items={breadcrumbs} />
@@ -216,12 +208,9 @@ export default function Document({
         title={markdownContent.title || documentSlug}
         description={
           markdownContent.description ||
-          `Step-by-step guide for ${markdownContent.title || documentSlug} in Tanay, Rizal. Learn how to access this municipal service from the LGU.`
+          `Government service information for ${documentSlug}`
         }
-        keywords={`${documentSlug}, Tanay Rizal, ${categoryType === 'government' ? 'government' : 'public service'}, municipality of Tanay, LGU Tanay, how to, guide, application process, requirements`}
-        url={`${SITE_URL}/${categoryType === 'government' ? 'government' : 'services'}/${category}/${documentSlug}`}
-        type="article"
-        section={categoryType === 'government' ? 'Government' : 'Services'}
+        keywords={`${documentSlug}, government services, public services, local government`}
       />
       <Section className="p-3 mb-12">
         <Breadcrumbs className="mb-8" items={breadcrumbs} />
