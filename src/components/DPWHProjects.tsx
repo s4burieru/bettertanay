@@ -268,48 +268,60 @@ export default function DPWHProjects() {
         </p>
 
         {/* Summary Cards */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
-          <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
-            <div className="text-2xl font-black text-gray-900">
+        <div className="grid grid-cols-2 xs:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3 mb-8">
+          <div className="bg-gray-50 rounded-xl p-3 sm:p-4 border border-gray-100">
+            <div className="text-xl sm:text-2xl font-black text-gray-900">
               {summary.totalProjects}
             </div>
-            <div className="text-xs text-gray-500 mt-1">Total Projects</div>
+            <div className="text-[10px] sm:text-xs text-gray-500 mt-0.5 sm:mt-1">
+              Total Projects
+            </div>
           </div>
-          <div className="bg-green-50 rounded-xl p-4 border border-green-100">
-            <div className="text-2xl font-black text-green-700">
+          <div className="bg-green-50 rounded-xl p-3 sm:p-4 border border-green-100">
+            <div className="text-xl sm:text-2xl font-black text-green-700">
               {summary.completed}
             </div>
-            <div className="text-xs text-green-600 mt-1">Completed</div>
+            <div className="text-[10px] sm:text-xs text-green-600 mt-0.5 sm:mt-1">
+              Completed
+            </div>
           </div>
-          <div className="bg-blue-50 rounded-xl p-4 border border-blue-100">
-            <div className="text-2xl font-black text-blue-700">
+          <div className="bg-blue-50 rounded-xl p-3 sm:p-4 border border-blue-100">
+            <div className="text-xl sm:text-2xl font-black text-blue-700">
               {summary.ongoing}
             </div>
-            <div className="text-xs text-blue-600 mt-1">On-Going</div>
+            <div className="text-[10px] sm:text-xs text-blue-600 mt-0.5 sm:mt-1">
+              On-Going
+            </div>
           </div>
-          <div className="bg-purple-50 rounded-xl p-4 border border-purple-100">
-            <div className="text-2xl font-black text-purple-700">
+          <div className="bg-purple-50 rounded-xl p-3 sm:p-4 border border-purple-100">
+            <div className="text-xl sm:text-2xl font-black text-purple-700">
               {summary.forProcurement}
             </div>
-            <div className="text-xs text-purple-600 mt-1">For Procurement</div>
+            <div className="text-[10px] sm:text-xs text-purple-600 mt-0.5 sm:mt-1">
+              For Procurement
+            </div>
           </div>
-          <div className="bg-yellow-50 rounded-xl p-4 border border-yellow-100">
-            <div className="text-2xl font-black text-yellow-700">
+          <div className="bg-yellow-50 rounded-xl p-3 sm:p-4 border border-yellow-100">
+            <div className="text-xl sm:text-2xl font-black text-yellow-700">
               {summary.notStarted}
             </div>
-            <div className="text-xs text-yellow-600 mt-1">Not Started</div>
+            <div className="text-[10px] sm:text-xs text-yellow-600 mt-0.5 sm:mt-1">
+              Not Started
+            </div>
           </div>
-          <div className="bg-indigo-50 rounded-xl p-4 border border-indigo-100">
-            <div className="text-2xl font-black text-indigo-700">
+          <div className="bg-indigo-50 rounded-xl p-3 sm:p-4 border border-indigo-100">
+            <div className="text-xl sm:text-2xl font-black text-indigo-700">
               {formatCurrency(summary.totalBudget)}
             </div>
-            <div className="text-xs text-indigo-600 mt-1">Total Budget</div>
+            <div className="text-[10px] sm:text-xs text-indigo-600 mt-0.5 sm:mt-1">
+              Total Budget
+            </div>
           </div>
         </div>
 
         {/* Filters */}
-        <div className="flex flex-wrap gap-3 mb-6">
-          <div className="relative flex-1 min-w-50 max-w-md">
+        <div className="flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-3 mb-6">
+          <div className="relative w-full sm:flex-1 sm:min-w-50 sm:max-w-md">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
             <input
               type="text"
@@ -322,52 +334,56 @@ export default function DPWHProjects() {
               className="w-full pl-9 pr-4 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none"
             />
           </div>
-          <select
-            value={statusFilter}
-            onChange={e => {
-              setStatusFilter(e.target.value);
-              setPage(1);
-            }}
-            className="text-sm border border-gray-200 rounded-lg px-3 py-2 focus:ring-2 focus:ring-primary-500 outline-none"
-          >
-            <option value="All">All Statuses</option>
-            <option value="Completed">Completed</option>
-            <option value="On-Going">On-Going</option>
-            <option value="For Procurement">For Procurement</option>
-            <option value="Not Started">Not Started</option>
-            <option value="Terminated">Terminated</option>
-          </select>
-          <select
-            value={categoryFilter}
-            onChange={e => {
-              setCategoryFilter(e.target.value);
-              setPage(1);
-            }}
-            className="text-sm border border-gray-200 rounded-lg px-3 py-2 focus:ring-2 focus:ring-primary-500 outline-none"
-          >
-            {categories.map(c => (
-              <option key={c} value={c}>
-                {c === 'All' ? 'All Categories' : c}
-              </option>
-            ))}
-          </select>
-          <select
-            value={yearFilter}
-            onChange={e => {
-              setYearFilter(e.target.value);
-              setPage(1);
-            }}
-            className="text-sm border border-gray-200 rounded-lg px-3 py-2 focus:ring-2 focus:ring-primary-500 outline-none"
-          >
-            {years.map(y => (
-              <option key={y} value={y}>
-                {y === 'All' ? 'All Years' : y}
-              </option>
-            ))}
-          </select>
-          <div className="flex items-center text-sm text-gray-500">
-            <Filter className="h-4 w-4 mr-1" />
-            {filtered.length} of {summary.totalProjects}
+          <div className="flex flex-wrap gap-2 sm:gap-3 w-full sm:w-auto">
+            <select
+              value={statusFilter}
+              onChange={e => {
+                setStatusFilter(e.target.value);
+                setPage(1);
+              }}
+              className="flex-1 sm:flex-none text-sm border border-gray-200 rounded-lg pl-3 pr-10 py-2 focus:ring-2 focus:ring-primary-500 outline-none max-w-35 sm:max-w-none"
+            >
+              <option value="All">All Statuses</option>
+              <option value="Completed">Completed</option>
+              <option value="On-Going">On-Going</option>
+              <option value="For Procurement">For Procurement</option>
+              <option value="Not Started">Not Started</option>
+              <option value="Terminated">Terminated</option>
+            </select>
+            <select
+              value={categoryFilter}
+              onChange={e => {
+                setCategoryFilter(e.target.value);
+                setPage(1);
+              }}
+              className="flex-1 sm:flex-none text-sm border border-gray-200 rounded-lg pl-3 pr-10 py-2 focus:ring-2 focus:ring-primary-500 outline-none max-w-38.75 sm:max-w-none"
+            >
+              {categories.map(c => (
+                <option key={c} value={c}>
+                  {c === 'All' ? 'All Categories' : c}
+                </option>
+              ))}
+            </select>
+            <select
+              value={yearFilter}
+              onChange={e => {
+                setYearFilter(e.target.value);
+                setPage(1);
+              }}
+              className="flex-1 sm:flex-none text-sm border border-gray-200 rounded-lg pl-3 pr-10 py-2 focus:ring-2 focus:ring-primary-500 outline-none max-w-30 sm:max-w-none"
+            >
+              {years.map(y => (
+                <option key={y} value={y}>
+                  {y === 'All' ? 'All Years' : y}
+                </option>
+              ))}
+            </select>
+            <div className="flex items-center text-sm text-gray-500 px-1">
+              <Filter className="h-4 w-4 mr-1 shrink-0" />
+              <span className="whitespace-nowrap">
+                {filtered.length} of {summary.totalProjects}
+              </span>
+            </div>
           </div>
         </div>
 
