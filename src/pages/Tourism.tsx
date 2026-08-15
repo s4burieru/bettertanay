@@ -222,44 +222,6 @@ function TourismIndex() {
         </div>
       </div>
 
-      {/* Culture Highlights */}
-      <section className="bg-white py-12 border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div ref={heroRef} className="reveal mb-8">
-            <div className="flex items-center gap-2 mb-1">
-              <Star className="h-4 w-4 text-amber-500" />
-              <span className="text-xs font-bold text-amber-600 uppercase tracking-widest">
-                Culture & Identity
-              </span>
-            </div>
-            <h2 className="text-2xl font-black text-gray-900">
-              What Makes Tanay Unique
-            </h2>
-          </div>
-          <div
-            ref={cultureRef}
-            className="reveal-stagger grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4"
-          >
-            {CULTURE_HIGHLIGHTS.map(
-              ({ icon: Icon, color, iconColor, title, subtitle, body }) => (
-                <div key={title} className={`rounded-xl border p-5 ${color}`}>
-                  <div
-                    className={`w-9 h-9 rounded-lg flex items-center justify-center mb-3 ${iconColor}`}
-                  >
-                    <Icon className="h-4 w-4" />
-                  </div>
-                  <h3 className="font-black text-sm mb-0.5">{title}</h3>
-                  <p className="text-xs font-semibold opacity-70 mb-2 leading-relaxed">
-                    {subtitle}
-                  </p>
-                  <p className="text-xs leading-relaxed opacity-80">{body}</p>
-                </div>
-              )
-            )}
-          </div>
-        </div>
-      </section>
-
       {/* Category Cards */}
       <section className="bg-gray-50 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -306,6 +268,44 @@ function TourismIndex() {
                 </Link>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Culture Highlights */}
+      <section className="bg-white py-12 border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div ref={heroRef} className="reveal mb-8">
+            <div className="flex items-center gap-2 mb-1">
+              <Star className="h-4 w-4 text-amber-500" />
+              <span className="text-xs font-bold text-amber-600 uppercase tracking-widest">
+                Culture & Identity
+              </span>
+            </div>
+            <h2 className="text-2xl font-black text-gray-900">
+              What Makes Tanay Unique
+            </h2>
+          </div>
+          <div
+            ref={cultureRef}
+            className="reveal-stagger grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4"
+          >
+            {CULTURE_HIGHLIGHTS.map(
+              ({ icon: Icon, color, iconColor, title, subtitle, body }) => (
+                <div key={title} className={`rounded-xl border p-5 ${color}`}>
+                  <div
+                    className={`w-9 h-9 rounded-lg flex items-center justify-center mb-3 ${iconColor}`}
+                  >
+                    <Icon className="h-4 w-4" />
+                  </div>
+                  <h3 className="font-black text-sm mb-0.5">{title}</h3>
+                  <p className="text-xs font-semibold opacity-70 mb-2 leading-relaxed">
+                    {subtitle}
+                  </p>
+                  <p className="text-xs leading-relaxed opacity-80">{body}</p>
+                </div>
+              )
+            )}
           </div>
         </div>
       </section>
