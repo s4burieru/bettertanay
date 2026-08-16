@@ -2,6 +2,7 @@ import { Users, MapPin, Building2, Map } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useScrollReveal } from '../../hooks/useScrollReveal';
+import { AnimatedNumber } from '../ui/AnimatedNumber';
 import { Heading } from '../ui/Heading';
 
 export default function StatsSection() {
@@ -62,9 +63,11 @@ export default function StatsSection() {
                 <div className="bg-primary-100 text-primary-700 w-9 h-9 rounded-lg flex items-center justify-center mb-3">
                   <Icon className="h-4 w-4" />
                 </div>
-                <div className="text-2xl font-black text-gray-900 leading-none mb-1">
-                  {value}
-                </div>
+                <AnimatedNumber
+                  value={value}
+                  startFromPercent={50}
+                  className="text-2xl font-black text-gray-900 leading-none mb-1"
+                />
                 {label && (
                   <div className="text-sm font-semibold text-gray-800">
                     {label}
