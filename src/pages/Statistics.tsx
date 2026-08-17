@@ -14,6 +14,7 @@ import {
   Globe,
 } from 'lucide-react';
 import SEO from '../components/SEO';
+import { AnimatedNumber } from '../components/ui/AnimatedNumber';
 
 const STATS = [
   {
@@ -30,19 +31,22 @@ const STATS = [
   },
   {
     icon: Map,
-    value: '200.00 km²',
+    value: '200.00',
+    suffix: ' km²',
     label: 'Total Land Area',
     desc: 'Municipal land area',
   },
   {
     icon: Building2,
-    value: '1st Class',
+    value: '1',
+    suffix: 'st Class',
     label: 'Income Classification',
     desc: 'Municipal income class',
   },
   {
     icon: TrendingUp,
-    value: '3.60%',
+    value: '3.60',
+    suffix: '%',
     label: 'Annual Growth Rate',
     desc: '2015–2020 census period',
   },
@@ -54,13 +58,15 @@ const STATS = [
   },
   {
     icon: Map,
-    value: '10.5 m',
+    value: '10.5',
+    suffix: ' m',
     label: 'Elevation',
     desc: 'Above sea level',
   },
   {
     icon: Trophy,
-    value: '76th',
+    value: '76',
+    suffix: 'th',
     label: 'CMCI Overall Rank',
     desc: '2024 CMCI municipal ranking',
   },
@@ -227,7 +233,7 @@ export default function Statistics() {
               </a>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {STATS.map(({ icon: Icon, value, label, desc }) => (
+              {STATS.map(({ icon: Icon, value, suffix, label, desc }) => (
                 <div
                   key={label}
                   className="bg-gray-50 rounded-xl p-5 border border-gray-100 border-t-5 border-t-primary-700 hover:shadow-md transition-shadow"
@@ -236,7 +242,12 @@ export default function Statistics() {
                     <Icon className="h-4 w-4" />
                   </div>
                   <div className="text-xl font-black text-gray-900 leading-tight mb-1">
-                    {value}
+                    <AnimatedNumber
+                      value={value}
+                      startFromPercent={50}
+                      className="inline-block"
+                    />
+                    {suffix}
                   </div>
                   <div className="text-sm font-semibold text-gray-800 mb-0.5">
                     {label}
@@ -383,7 +394,11 @@ export default function Statistics() {
                   </div>
 
                   <div className="text-sm text-primary-600 font-bold mt-1">
-                    {pop}
+                    <AnimatedNumber
+                      value={pop}
+                      startFromPercent={50}
+                      className="inline-block"
+                    />
                   </div>
                 </div>
               ))}
