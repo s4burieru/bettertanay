@@ -66,6 +66,7 @@ const HIGHLIGHTS = [
     tag: 'Heritage',
     tagColor: 'bg-amber-100 text-amber-700',
     href: '/tourism/heritage',
+    image: '/establishment-images/san-ildefonso.jpg',
   },
   {
     icon: Building,
@@ -74,6 +75,7 @@ const HIGHLIGHTS = [
     tag: 'Heritage',
     tagColor: 'bg-amber-100 text-amber-700',
     href: '/tourism/heritage',
+    image: '/establishment-images/regina-rica.jpg',
   },
   {
     icon: Droplets,
@@ -82,6 +84,7 @@ const HIGHLIGHTS = [
     tag: 'Nature',
     tagColor: 'bg-blue-100 text-blue-700',
     href: '/tourism/nature',
+    image: '/establishment-images/daranak-falls.jpg',
   },
   {
     icon: Leaf,
@@ -90,6 +93,7 @@ const HIGHLIGHTS = [
     tag: 'Adventure',
     tagColor: 'bg-green-100 text-green-700',
     href: '/tourism/adventure',
+    image: '/establishment-images/calinawan-cave.jpg',
   },
 ];
 
@@ -125,7 +129,7 @@ export default function TourismSection() {
           </Link>
         </div>
 
-        {/* Highlight cards */}
+        {/* Highlight cards with images */}
         <div
           ref={highlightRef}
           className="reveal-stagger grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8"
@@ -134,26 +138,36 @@ export default function TourismSection() {
             <Link
               key={h.title}
               to={h.href}
-              className="group bg-white rounded-xl border border-gray-100 border-t-5 border-t-primary-700 shadow-sm hover:border-primary-600 hover:shadow-md transition-all duration-200 overflow-hidden flex flex-col"
+              className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:border-primary-600 hover:shadow-md transition-all duration-200 overflow-hidden flex flex-col"
             >
-              <div className="p-5 flex flex-col gap-3">
-                <div className="bg-primary-50 text-primary-700 w-10 h-10 rounded-lg flex items-center justify-center">
-                  <h.icon className="h-5 w-5" />
+              {/* Image */}
+              <div className="relative h-40 overflow-hidden">
+                <img
+                  src={h.image}
+                  alt={h.title}
+                  loading="lazy"
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-linear-to-t from-black/50 via-black/10 to-transparent" />
+                <span
+                  className={`absolute top-3 left-3 inline-block text-xs font-semibold px-2 py-0.5 rounded-full shadow-sm ${h.tagColor}`}
+                >
+                  {h.tag}
+                </span>
+                <div className="absolute bottom-3 left-3 bg-white/90 backdrop-blur-sm text-primary-700 w-8 h-8 rounded-lg flex items-center justify-center shadow-sm">
+                  <h.icon className="h-4 w-4" />
                 </div>
-                <div>
-                  <span
-                    className={`inline-block text-xs font-semibold px-2 py-0.5 rounded-full mb-2 ${h.tagColor}`}
-                  >
-                    {h.tag}
-                  </span>
-                  <h3 className="font-black text-sm text-gray-900 leading-snug">
-                    {h.title}
-                  </h3>
-                </div>
-                <p className="text-xs text-gray-500 leading-relaxed flex-1">
+              </div>
+
+              {/* Content */}
+              <div className="p-4 flex flex-col gap-2 flex-1">
+                <h3 className="font-black text-sm text-gray-900 leading-snug line-clamp-2">
+                  {h.title}
+                </h3>
+                <p className="text-xs text-gray-500 leading-relaxed flex-1 line-clamp-3">
                   {h.desc}
                 </p>
-                <span className="inline-flex items-center gap-1 text-xs font-bold text-primary-600 group-hover:text-primary-800 transition-colors">
+                <span className="inline-flex items-center gap-1 text-xs font-bold text-primary-600 group-hover:text-primary-800 transition-colors mt-1">
                   Explore <ChevronRight className="h-3.5 w-3.5" />
                 </span>
               </div>
