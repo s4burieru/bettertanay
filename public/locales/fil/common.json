@@ -191,7 +191,17 @@
     "title": "Mga Palitan ng Pera"
   },
   "news": {
-    "title": "Pinakabagong Balita at Mga Update"
+    "title": "Pinakabagong Balita at Mga Update",
+    "eyebrow": "Mga opisyal na update ng munisipyo",
+    "heading": "Pinakabago mula sa Tanay",
+    "description": "Basahin ang mga anunsyo at update ng komunidad mula sa opisyal na Facebook Page ng Munisipyo ng Tanay.",
+    "viewOnFacebook": "Tingnan sa Facebook",
+    "loading": "Naglo-load ng mga opisyal na update…",
+    "iframeTitle": "Mga opisyal na update ng Facebook Page ng Tanay",
+    "fallbackText": "Kung hindi lumabas ang feed,",
+    "openDirectly": "buksan ito nang direkta sa Facebook",
+    "placeholderTitle": "Maglo-load dito ang mga opisyal na update",
+    "placeholderDesc": "Awtomatikong maglo-load ang timeline ng Facebook kapag malapit na ang seksyong ito sa iyong screen."
   },
   "footer": {
     "mission": "Empowering the people of Tanay with transparent access to government services, programs, and public funds.",

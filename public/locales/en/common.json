@@ -191,7 +191,17 @@
     "title": "Foreign Exchange Rates"
   },
   "news": {
-    "title": "Latest News & Updates"
+    "title": "Latest News & Updates",
+    "eyebrow": "Official city updates",
+    "heading": "Latest from Tanay",
+    "description": "Read announcements and community updates from the Municipality of Tanay's official Facebook Page.",
+    "viewOnFacebook": "View on Facebook",
+    "loading": "Loading official updates…",
+    "iframeTitle": "Official Tanay Facebook Page updates",
+    "fallbackText": "If the feed does not appear,",
+    "openDirectly": "open it directly on Facebook",
+    "placeholderTitle": "Official updates will load here",
+    "placeholderDesc": "The Facebook timeline will load automatically when this section is near your screen."
   },
   "footer": {
     "mission": "Empowering the people of Tanay with transparent access to government services, programs, and public funds.",
