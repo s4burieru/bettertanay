@@ -1,6 +1,6 @@
 import { Eye, ExternalLink, ShieldCheck } from 'lucide-react';
-import SEO from '../components/SEO';
-import DPWHProjects from '../components/DPWHProjects';
+import SEO from '../components/seo/SEO';
+import DPWHProjects from '../components/transparency/DPWHProjects';
 
 const EXTERNAL = [
   {

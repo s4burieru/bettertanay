@@ -15,7 +15,7 @@ import {
   MapPin,
   ExternalLink,
 } from 'lucide-react';
-import SEO from '../components/SEO';
+import SEO from '../components/seo/SEO';
 import Section from '../components/ui/Section';
 import { Heading } from '../components/ui/Heading';
 import { Text } from '../components/ui/Text';

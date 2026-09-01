@@ -40,15 +40,19 @@ bettertanay/
 │   │   ├── en/
 │   │   └── fil/
 │   ├── bettertanay-logo-icon.png
-│   ├── og-image-template.html
+│   ├── templates/               # HTML templates
+│   │   └── og-image-template.html
 │   └── vite.svg
 │
 ├── src/                         # Main React + TypeScript application
 │   ├── assets/                  # Images and logos
 │   ├── components/              # Reusable UI components
 │   │   ├── home/                # Homepage sections
-│   │   ├── layout/              # Navbar and Footer
+│   │   ├── layout/              # Navbar, Footer, language switcher
 │   │   ├── sections/            # Shared page sections
+│   │   ├── seo/                 # SEO/head management
+│   │   ├── transparency/        # Transparency page sections
+│   │   ├── dev/                 # Development/test components
 │   │   └── ui/                  # Generic UI components
 │   ├── data/                    # YAML data loaders and navigation
 │   ├── hooks/                   # Custom React hooks
@@ -58,11 +62,12 @@ bettertanay/
 │   ├── types/                   # Shared TypeScript types
 │   ├── App.tsx                  # Root app component
 │   ├── main.tsx                 # App entry point
-│   └── index.css                # Global styles
+│   └── styles/                  # Global styles
 │
 ├── scripts/                     # Utility and setup scripts
 │   ├── setup-starter-kit.js
-│   └── yaml-to-json.js
+│   ├── yaml-to-json.js
+│   └── format-files.sh
 │
 ├── terraform/                   # Infrastructure as Code configuration
 │   ├── main.tf
@@ -71,6 +76,7 @@ bettertanay/
 │   └── terraform.tfvars.example
 │
 ├── .husky/                      # Git hooks
+├── docs/                        # Project docs
 ├── package.json                 # Project dependencies and scripts
 ├── tailwind.config.js           # TailwindCSS configuration
 ├── vite.config.ts               # Vite configuration
@@ -80,8 +86,6 @@ bettertanay/
 ├── tsconfig*.json               # TypeScript configurations
 │
 ├── README.md                    # Main project documentation
-├── CHANGELOG.md                 # Project changelog
-├── INSPIRATION.md               # Design/content inspirations
 ├── LICENSE                      # Open-source license
 └── CLAUDE.md                    # AI assistant/project instructions
 ```

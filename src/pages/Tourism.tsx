@@ -19,7 +19,7 @@ import {
   Star,
   ChevronRight,
 } from 'lucide-react';
-import SEO from '../components/SEO';
+import SEO from '../components/seo/SEO';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 import establishmentsData from '../../content/tourism/establishments.json';
 

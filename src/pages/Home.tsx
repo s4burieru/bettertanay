@@ -7,7 +7,7 @@ import HistorySection from '../components/home/HistorySection';
 import LeadershipSection from '../components/home/LeadershipSection';
 import ContactSection from '../components/home/ContactSection';
 import TourismSection from '../components/home/TourismSection';
-import SEO from '../components/SEO';
+import SEO from '../components/seo/SEO';
 
 const Home: React.FC = () => {
   return (

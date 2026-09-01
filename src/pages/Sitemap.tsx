@@ -10,7 +10,7 @@ import {
   Map,
   ChevronRight,
 } from 'lucide-react';
-import SEO from '../components/SEO';
+import SEO from '../components/seo/SEO';
 import { serviceCategories as servicesData } from '../data/yamlLoader';
 
 interface Category {

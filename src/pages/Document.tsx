@@ -22,7 +22,7 @@ import {
   type Subcategory,
   type CategoryIndex,
 } from '../data/yamlLoader';
-import SEO from '../components/SEO';
+import SEO from '../components/seo/SEO';
 
 interface DocumentProps {
   theme?: string;

@@ -13,7 +13,7 @@ import {
   Zap,
   Globe,
 } from 'lucide-react';
-import SEO from '../components/SEO';
+import SEO from '../components/seo/SEO';
 import { AnimatedNumber } from '../components/ui/AnimatedNumber';
 
 const STATS = [
