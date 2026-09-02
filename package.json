@@ -15,7 +15,7 @@
     "convert-yaml": "node scripts/yaml-to-json.js",
     "dev:yaml": "npm run convert-yaml && npm run dev",
     "setup": "node scripts/setup-starter-kit.js",
-    "fetch-dpwh": "scripts\\fetch-dpwh-curl.bat"
+    "fetch-dpwh": "node scripts/fetch-dpwh-projects.js"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
