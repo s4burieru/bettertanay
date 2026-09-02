@@ -218,19 +218,23 @@ export default function DPWHProjects() {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center py-16">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary-600" />
-        <span className="ml-3 text-gray-500">Loading DPWH projects...</span>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
+        <div className="flex items-center justify-center">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary-600" />
+          <span className="ml-3 text-gray-500">Loading DPWH projects...</span>
+        </div>
       </div>
     );
   }
 
   if (error) {
     return (
-      <div className="bg-red-50 border border-red-200 rounded-xl p-6 text-center">
-        <AlertTriangle className="h-8 w-8 text-red-500 mx-auto mb-2" />
-        <p className="text-red-700 font-medium">Failed to load DPWH data</p>
-        <p className="text-red-500 text-sm mt-1">{error}</p>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
+        <div className="bg-red-50 border border-red-200 rounded-xl p-6 text-center">
+          <AlertTriangle className="h-8 w-8 text-red-500 mx-auto mb-2" />
+          <p className="text-red-700 font-medium">Failed to load DPWH data</p>
+          <p className="text-red-500 text-sm mt-1">{error}</p>
+        </div>
       </div>
     );
   }
@@ -243,9 +247,9 @@ export default function DPWHProjects() {
     <section className="bg-white py-12 border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section Header */}
-        <div className="flex items-center gap-3 mb-2">
-          <Building2 className="h-6 w-6 text-primary-600" />
-          <h2 className="text-xl font-black text-gray-900">
+        <div className="flex items-start sm:items-center gap-3 mb-2">
+          <Building2 className="h-6 w-6 text-primary-600 shrink-0" />
+          <h2 className="text-xl font-black text-gray-900 min-w-0">
             DPWH Infrastructure Projects — Tanay, Rizal
           </h2>
         </div>
@@ -268,12 +272,12 @@ export default function DPWHProjects() {
         </p>
 
         {/* Summary Cards */}
-        <div className="grid grid-cols-2 xs:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3 mb-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3 mb-8">
           <div className="bg-gray-50 rounded-xl p-3 sm:p-4 border border-gray-100">
             <div className="text-xl sm:text-2xl font-black text-gray-900">
               {summary.totalProjects}
             </div>
-            <div className="text-[10px] sm:text-xs text-gray-500 mt-0.5 sm:mt-1">
+            <div className="text-[10px] sm:text-xs text-gray-500 mt-0.5 sm:mt-1 leading-tight">
               Total Projects
             </div>
           </div>
@@ -281,7 +285,7 @@ export default function DPWHProjects() {
             <div className="text-xl sm:text-2xl font-black text-green-700">
               {summary.completed}
             </div>
-            <div className="text-[10px] sm:text-xs text-green-600 mt-0.5 sm:mt-1">
+            <div className="text-[10px] sm:text-xs text-green-600 mt-0.5 sm:mt-1 leading-tight">
               Completed
             </div>
           </div>
@@ -289,7 +293,7 @@ export default function DPWHProjects() {
             <div className="text-xl sm:text-2xl font-black text-blue-700">
               {summary.ongoing}
             </div>
-            <div className="text-[10px] sm:text-xs text-blue-600 mt-0.5 sm:mt-1">
+            <div className="text-[10px] sm:text-xs text-blue-600 mt-0.5 sm:mt-1 leading-tight">
               On-Going
             </div>
           </div>
@@ -297,7 +301,7 @@ export default function DPWHProjects() {
             <div className="text-xl sm:text-2xl font-black text-purple-700">
               {summary.forProcurement}
             </div>
-            <div className="text-[10px] sm:text-xs text-purple-600 mt-0.5 sm:mt-1">
+            <div className="text-[10px] sm:text-xs text-purple-600 mt-0.5 sm:mt-1 leading-tight">
               For Procurement
             </div>
           </div>
@@ -305,7 +309,7 @@ export default function DPWHProjects() {
             <div className="text-xl sm:text-2xl font-black text-yellow-700">
               {summary.notStarted}
             </div>
-            <div className="text-[10px] sm:text-xs text-yellow-600 mt-0.5 sm:mt-1">
+            <div className="text-[10px] sm:text-xs text-yellow-600 mt-0.5 sm:mt-1 leading-tight">
               Not Started
             </div>
           </div>
@@ -313,15 +317,15 @@ export default function DPWHProjects() {
             <div className="text-xl sm:text-2xl font-black text-indigo-700">
               {formatCurrency(summary.totalBudget)}
             </div>
-            <div className="text-[10px] sm:text-xs text-indigo-600 mt-0.5 sm:mt-1">
+            <div className="text-[10px] sm:text-xs text-indigo-600 mt-0.5 sm:mt-1 leading-tight">
               Total Budget
             </div>
           </div>
         </div>
 
         {/* Filters */}
-        <div className="flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-3 mb-6">
-          <div className="relative w-full sm:flex-1 sm:min-w-50 sm:max-w-md">
+        <div className="flex flex-col lg:flex-row lg:flex-wrap lg:items-center gap-2 sm:gap-3 mb-6">
+          <div className="relative w-full lg:w-auto lg:flex-1 lg:min-w-56 lg:max-w-md">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
             <input
               type="text"
@@ -334,14 +338,14 @@ export default function DPWHProjects() {
               className="w-full pl-9 pr-4 py-2 text-sm border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none"
             />
           </div>
-          <div className="flex flex-wrap gap-2 sm:gap-3 w-full sm:w-auto">
+          <div className="grid grid-cols-2 gap-2 sm:gap-3 w-full lg:flex lg:flex-wrap lg:w-auto">
             <select
               value={statusFilter}
               onChange={e => {
                 setStatusFilter(e.target.value);
                 setPage(1);
               }}
-              className="flex-1 sm:flex-none text-sm border border-gray-200 rounded-lg pl-3 pr-10 py-2 focus:ring-2 focus:ring-primary-500 outline-none max-w-35 sm:max-w-none"
+              className="w-full lg:w-auto text-sm border border-gray-200 rounded-lg pl-3 pr-8 lg:pr-10 py-2 focus:ring-2 focus:ring-primary-500 outline-none"
             >
               <option value="All">All Statuses</option>
               <option value="Completed">Completed</option>
@@ -356,7 +360,7 @@ export default function DPWHProjects() {
                 setCategoryFilter(e.target.value);
                 setPage(1);
               }}
-              className="flex-1 sm:flex-none text-sm border border-gray-200 rounded-lg pl-3 pr-10 py-2 focus:ring-2 focus:ring-primary-500 outline-none max-w-38.75 sm:max-w-none"
+              className="w-full lg:w-auto text-sm border border-gray-200 rounded-lg pl-3 pr-8 lg:pr-10 py-2 focus:ring-2 focus:ring-primary-500 outline-none"
             >
               {categories.map(c => (
                 <option key={c} value={c}>
@@ -370,7 +374,7 @@ export default function DPWHProjects() {
                 setYearFilter(e.target.value);
                 setPage(1);
               }}
-              className="flex-1 sm:flex-none text-sm border border-gray-200 rounded-lg pl-3 pr-10 py-2 focus:ring-2 focus:ring-primary-500 outline-none max-w-30 sm:max-w-none"
+              className="w-full lg:w-auto text-sm border border-gray-200 rounded-lg pl-3 pr-8 lg:pr-10 py-2 focus:ring-2 focus:ring-primary-500 outline-none"
             >
               {years.map(y => (
                 <option key={y} value={y}>
@@ -387,8 +391,182 @@ export default function DPWHProjects() {
           </div>
         </div>
 
-        {/* Table */}
-        <div className="overflow-x-auto rounded-xl border border-gray-200">
+        {/* Mobile sort control */}
+        <div className="lg:hidden flex items-center gap-2 mb-3">
+          <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider shrink-0">
+            Sort
+          </span>
+          <select
+            value={sortField}
+            onChange={e => {
+              setSortField(e.target.value as keyof DPWHProject);
+              setPage(1);
+            }}
+            className="flex-1 min-w-0 text-sm border border-gray-200 rounded-lg pl-3 pr-8 py-2 focus:ring-2 focus:ring-primary-500 outline-none"
+          >
+            <option value="infraYear">Year</option>
+            <option value="contractId">Contract ID</option>
+            <option value="description">Description</option>
+            <option value="status">Status</option>
+            <option value="budget">Budget</option>
+            <option value="progress">Progress</option>
+            <option value="contractor">Contractor</option>
+          </select>
+          <button
+            onClick={() => setSortDir(d => (d === 'asc' ? 'desc' : 'asc'))}
+            className="flex items-center gap-1 px-3 py-2 text-xs font-medium border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors shrink-0"
+            aria-label="Toggle sort direction"
+          >
+            {sortDir === 'asc' ? (
+              <ChevronUp className="h-4 w-4" />
+            ) : (
+              <ChevronDown className="h-4 w-4" />
+            )}
+            <span>{sortDir === 'asc' ? 'Asc' : 'Desc'}</span>
+          </button>
+        </div>
+
+        {/* Mobile project cards */}
+        <div className="lg:hidden flex flex-col gap-3">
+          {paginated.map(project => {
+            const StatusIcon = getStatusIcon(project.status);
+            const CatIcon = getCategoryIcon(project.category);
+            const isExpanded = expandedRow === project.contractId;
+            return (
+              <article
+                key={project.contractId}
+                onClick={() =>
+                  setExpandedRow(isExpanded ? null : project.contractId)
+                }
+                className="bg-white rounded-xl border border-gray-200 p-4 hover:border-primary-200 transition-colors cursor-pointer"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div className="min-w-0">
+                    <div className="text-xs font-mono text-primary-700 font-medium">
+                      {project.contractId}
+                    </div>
+                    <h3 className="text-sm font-semibold text-gray-900 mt-0.5 leading-snug line-clamp-2">
+                      {project.description}
+                    </h3>
+                  </div>
+                  <span
+                    className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium border shrink-0 ${
+                      STATUS_COLORS[project.status] ||
+                      'bg-gray-100 text-gray-800'
+                    }`}
+                  >
+                    <StatusIcon className="h-3 w-3" />
+                    {project.status}
+                  </span>
+                </div>
+
+                <dl className="mt-3 grid grid-cols-2 gap-x-3 gap-y-2 text-xs">
+                  <div className="min-w-0">
+                    <dt className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider">
+                      Category
+                    </dt>
+                    <dd className="text-gray-700 mt-0.5 flex items-center gap-1">
+                      <CatIcon className="h-3.5 w-3.5 text-gray-400 shrink-0" />
+                      <span className="line-clamp-1">{project.category}</span>
+                    </dd>
+                  </div>
+                  <div className="min-w-0">
+                    <dt className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider">
+                      Budget
+                    </dt>
+                    <dd className="text-gray-700 mt-0.5 font-medium">
+                      {formatCurrency(project.budget)}
+                    </dd>
+                  </div>
+                  <div className="min-w-0">
+                    <dt className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider">
+                      Progress
+                    </dt>
+                    <dd className="mt-0.5">
+                      <div className="flex items-center gap-2">
+                        <div className="w-16 bg-gray-200 rounded-full h-2">
+                          <div
+                            className={`h-2 rounded-full ${
+                              project.progress === 100
+                                ? 'bg-green-500'
+                                : project.progress > 50
+                                  ? 'bg-blue-500'
+                                  : 'bg-yellow-500'
+                            }`}
+                            style={{ width: `${project.progress}%` }}
+                          />
+                        </div>
+                        <span className="text-xs text-gray-500">
+                          {project.progress}%
+                        </span>
+                      </div>
+                    </dd>
+                  </div>
+                  <div className="min-w-0">
+                    <dt className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider">
+                      Year
+                    </dt>
+                    <dd className="text-gray-700 mt-0.5">
+                      {project.infraYear}
+                    </dd>
+                  </div>
+                  <div className="col-span-2 min-w-0">
+                    <dt className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider">
+                      Contractor
+                    </dt>
+                    <dd
+                      className="text-gray-700 mt-0.5 line-clamp-1"
+                      title={project.contractor}
+                    >
+                      {project.contractor}
+                    </dd>
+                  </div>
+                </dl>
+
+                {isExpanded && (
+                  <div className="mt-3 pt-3 border-t border-gray-100 space-y-2">
+                    <div>
+                      <span className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider">
+                        Program
+                      </span>
+                      <p className="text-gray-700 mt-0.5 text-xs">
+                        {project.programName || '\u2014'}
+                      </p>
+                    </div>
+                    <div>
+                      <span className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider">
+                        Source of Funds
+                      </span>
+                      <p className="text-gray-700 mt-0.5 text-xs">
+                        {project.sourceOfFunds || '\u2014'}
+                      </p>
+                    </div>
+                  </div>
+                )}
+
+                <div className="mt-3 flex items-center justify-center gap-1 text-xs font-semibold text-primary-600">
+                  {isExpanded ? (
+                    <ChevronUp className="h-3.5 w-3.5" />
+                  ) : (
+                    <ChevronDown className="h-3.5 w-3.5" />
+                  )}
+                  <span className="uppercase tracking-wider text-[10px]">
+                    {isExpanded ? 'Hide details' : 'View details'}
+                  </span>
+                </div>
+              </article>
+            );
+          })}
+          {paginated.length === 0 && (
+            <div className="bg-white rounded-xl border border-gray-200 py-12 text-center text-gray-500">
+              <BarChart3 className="h-8 w-8 mx-auto mb-2 text-gray-300" />
+              No projects match your filters.
+            </div>
+          )}
+        </div>
+
+        {/* Table (lg and up) */}
+        <div className="hidden lg:block overflow-x-auto rounded-xl border border-gray-200">
           <table className="min-w-full divide-y divide-gray-200">
             <thead className="bg-gray-50">
               <tr>
@@ -534,13 +712,13 @@ export default function DPWHProjects() {
 
         {/* Pagination */}
         {totalPages > 1 && (
-          <div className="flex items-center justify-between mt-4">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 mt-4">
             <p className="text-sm text-gray-500">
               Showing {(page - 1) * perPage + 1}–
               {Math.min(page * perPage, filtered.length)} of {filtered.length}{' '}
               projects
             </p>
-            <div className="flex gap-1">
+            <div className="flex flex-wrap gap-1">
               <button
                 onClick={() => setPage(p => Math.max(1, p - 1))}
                 disabled={page === 1}

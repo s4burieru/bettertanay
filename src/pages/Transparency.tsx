@@ -46,7 +46,7 @@ export default function Transparency() {
       <main className="grow">
         {/* Page Header */}
         <div
-          className="relative text-white py-16 overflow-hidden"
+          className="relative text-white py-12 sm:py-16 overflow-hidden"
           style={{
             backgroundColor: '#003087',
             backgroundImage:
@@ -60,7 +60,7 @@ export default function Transparency() {
               style={{ backgroundColor: 'rgba(255, 255, 255, 0.12)' }}
             >
               <Eye className="h-5 w-5 text-blue-100" />
-              <span className="text-blue-100 text-xs font-medium uppercase tracking-widest">
+              <span className="text-blue-100 text-xs font-medium uppercase tracking-widest whitespace-nowrap">
                 Open Government
               </span>
             </div>
@@ -111,7 +111,7 @@ export default function Transparency() {
                   className="flex items-start gap-3 bg-white rounded-xl border border-gray-100 p-5 hover:shadow-md hover:border-primary-200 transition-all group"
                 >
                   <ExternalLink className="h-4 w-4 text-primary-500 shrink-0 mt-0.5" />
-                  <div>
+                  <div className="min-w-0">
                     <div className="text-sm font-bold text-gray-900 group-hover:text-primary-700 transition-colors">
                       {r.label}
                     </div>
